@@ -1,0 +1,663 @@
+match_id,season,date,team1,team2,winner,margin,venue,city
+1023581,2016/17,2016/12/20,Sydney Thunder,Sydney Sixers,Sydney Sixers,9 wickets,Sydney Showground Stadium,
+1023583,2016/17,2016/12/21,Adelaide Strikers,Brisbane Heat,Brisbane Heat,10 runs,Adelaide Oval,
+1023585,2016/17,2016/12/22,Melbourne Renegades,Sydney Thunder,Melbourne Renegades,49 runs,Docklands Stadium,Melbourne
+1023587,2016/17,2016/12/23,Sydney Sixers,Hobart Hurricanes,Hobart Hurricanes,60 runs,Sydney Cricket Ground,
+1023589,2016/17,2016/12/23,Perth Scorchers,Adelaide Strikers,Perth Scorchers,48 runs,Western Australia Cricket Association Ground,Perth
+1023591,2016/17,2016/12/26,Hobart Hurricanes,Melbourne Stars,Melbourne Stars,7 wickets,Bellerive Oval,Hobart
+1023593,2016/17,2016/12/27,Sydney Sixers,Perth Scorchers,Sydney Sixers,6 wickets,Sydney Cricket Ground,
+1023595,2016/17,2016/12/28,Sydney Thunder,Brisbane Heat,Brisbane Heat,3 wickets,Sydney Showground Stadium,
+1023597,2016/17,2016/12/29,Melbourne Renegades,Perth Scorchers,Perth Scorchers,4 wickets,Docklands Stadium,Melbourne
+1023599,2016/17,2016/12/30,Brisbane Heat,Hobart Hurricanes,Brisbane Heat,7 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1023601,2016/17,2016/12/31,Adelaide Strikers,Sydney Sixers,Adelaide Strikers,48 runs,Adelaide Oval,
+1023603,2016/17,2017/01/01,Melbourne Stars,Melbourne Renegades,Melbourne Renegades,7 runs,Melbourne Cricket Ground,
+1023605,2016/17,2017/01/01,Perth Scorchers,Sydney Thunder,Perth Scorchers,50 runs,Western Australia Cricket Association Ground,Perth
+1023607,2016/17,2017/01/02,Hobart Hurricanes,Adelaide Strikers,Hobart Hurricanes,8 wickets,Bellerive Oval,Hobart
+1023609,2016/17,2017/01/03,Brisbane Heat,Sydney Sixers,Sydney Sixers,3 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1023611,2016/17,2017/01/04,Sydney Thunder,Melbourne Stars,Sydney Thunder,6 wickets,Sydney Showground Stadium,
+1023613,2016/17,2017/01/05,Perth Scorchers,Brisbane Heat,Brisbane Heat,9 wickets,Western Australia Cricket Association Ground,Perth
+1023615,2016/17,2017/01/06,Adelaide Strikers,Hobart Hurricanes,Adelaide Strikers,5 wickets,Adelaide Oval,
+1023617,2016/17,2017/01/07,Melbourne Renegades,Melbourne Stars,Melbourne Stars,46 runs,Docklands Stadium,Melbourne
+1023619,2016/17,2017/01/08,Hobart Hurricanes,Sydney Thunder,Sydney Thunder,6 wickets,Bellerive Oval,Hobart
+1023621,2016/17,2017/01/09,Sydney Sixers,Melbourne Renegades,Sydney Sixers,6 wickets,Sydney Cricket Ground,
+1023623,2016/17,2017/01/10,Melbourne Stars,Adelaide Strikers,Melbourne Stars,2 wickets,Melbourne Cricket Ground,
+1023625,2016/17,2017/01/11,Brisbane Heat,Perth Scorchers,Perth Scorchers,27 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1023627,2016/17,2017/01/12,Melbourne Renegades,Hobart Hurricanes,Hobart Hurricanes,2 wickets,Docklands Stadium,Melbourne
+1023629,2016/17,2017/01/14,Sydney Sixers,Sydney Thunder,Sydney Thunder,8 wickets,Sydney Cricket Ground,
+1023631,2016/17,2017/01/14,Perth Scorchers,Melbourne Stars,Melbourne Stars,7 wickets,Western Australia Cricket Association Ground,Perth
+1023633,2016/17,2017/01/16,Adelaide Strikers,Melbourne Renegades,Melbourne Renegades,6 runs,Adelaide Oval,
+1023635,2016/17,2017/01/17,Melbourne Stars,Brisbane Heat,Brisbane Heat,7 wickets,Melbourne Cricket Ground,
+1023637,2016/17,2017/01/18,Sydney Thunder,Adelaide Strikers,Adelaide Strikers,77 runs,Sydney Showground Stadium,
+1023639,2016/17,2017/01/20,Brisbane Heat,Melbourne Renegades,Melbourne Renegades,1 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1023641,2016/17,2017/01/21,Hobart Hurricanes,Perth Scorchers,Perth Scorchers,7 wickets,Bellerive Oval,Hobart
+1023643,2016/17,2017/01/21,Melbourne Stars,Sydney Sixers,Sydney Sixers,3 wickets,Melbourne Cricket Ground,
+1023645,2016/17,2017/01/24,Perth Scorchers,Melbourne Stars,Perth Scorchers,7 wickets,Western Australia Cricket Association Ground,Perth
+1023647,2016/17,2017/01/25,Brisbane Heat,Sydney Sixers,,,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1023649,2016/17,2017/01/28,Perth Scorchers,Sydney Sixers,Perth Scorchers,9 wickets,Western Australia Cricket Association Ground,Perth
+1114856,2017/18,2017/12/19,Sydney Thunder,Sydney Sixers,Sydney Thunder,5 wickets,Sydney Showground Stadium,Sydney
+1114857,2017/18,2017/12/20,Brisbane Heat,Melbourne Stars,Brisbane Heat,15 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1114858,2017/18,2017/12/21,Hobart Hurricanes,Melbourne Renegades,Melbourne Renegades,7 wickets,Bellerive Oval,Hobart
+1114859,2017/18,2017/12/22,Adelaide Strikers,Sydney Thunder,Adelaide Strikers,53 runs,Adelaide Oval,Adelaide
+1114860,2017/18,2017/12/23,Sydney Sixers,Perth Scorchers,Perth Scorchers,6 wickets,Sydney Cricket Ground,Sydney
+1114861,2017/18,2017/12/23,Melbourne Renegades,Brisbane Heat,Melbourne Renegades,7 wickets,Docklands Stadium,Melbourne
+1114862,2017/18,2017/12/26,Perth Scorchers,Melbourne Stars,Perth Scorchers,13 runs,W.A.C.A. Ground,Perth
+1114863,2017/18,2017/12/27,Brisbane Heat,Sydney Thunder,Brisbane Heat,6 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1114864,2017/18,2017/12/28,Sydney Sixers,Adelaide Strikers,Adelaide Strikers,6 runs,Sydney Cricket Ground,Sydney
+1114865,2017/18,2017/12/29,Melbourne Renegades,Perth Scorchers,Perth Scorchers,3 wickets,Docklands Stadium,Melbourne
+1114866,2017/18,2017/12/30,Hobart Hurricanes,Sydney Thunder,Sydney Thunder,57 runs,Aurora Stadium,Launceston
+1114867,2017/18,2017/12/31,Adelaide Strikers,Brisbane Heat,Adelaide Strikers,56 runs,Adelaide Oval,Adelaide
+1114868,2017/18,2018/01/01,Sydney Thunder,Hobart Hurricanes,Hobart Hurricanes,9 runs,Sydney Showground Stadium,Sydney
+1114869,2017/18,2018/01/01,Perth Scorchers,Sydney Sixers,Perth Scorchers,6 wickets,W.A.C.A. Ground,Perth
+1114870,2017/18,2018/01/02,Melbourne Stars,Brisbane Heat,Brisbane Heat,9 wickets,Melbourne Cricket Ground,Melbourne
+1114871,2017/18,2018/01/03,Melbourne Renegades,Sydney Sixers,Melbourne Renegades,8 wickets,"Simonds Stadium, South Geelong, Victoria",Geelong
+1114872,2017/18,2018/01/04,Hobart Hurricanes,Adelaide Strikers,Hobart Hurricanes,7 runs,Bellerive Oval,Hobart
+1114873,2017/18,2018/01/05,Brisbane Heat,Perth Scorchers,Brisbane Heat,49 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1114874,2017/18,2018/01/06,Melbourne Stars,Melbourne Renegades,Melbourne Renegades,6 wickets,Melbourne Cricket Ground,Melbourne
+1114875,2017/18,2018/01/07,Sydney Thunder,Adelaide Strikers,Adelaide Strikers,25 runs,Sydney Showground Stadium,Sydney
+1114876,2017/18,2018/01/08,Hobart Hurricanes,Sydney Sixers,Hobart Hurricanes,5 runs,Bellerive Oval,Hobart
+1114877,2017/18,2018/01/08,Perth Scorchers,Melbourne Renegades,Perth Scorchers,5 wickets,W.A.C.A. Ground,Perth
+1114878,2017/18,2018/01/09,Adelaide Strikers,Melbourne Stars,Adelaide Strikers,8 wickets,Adelaide Oval,Adelaide
+1114879,2017/18,2018/01/10,Brisbane Heat,Hobart Hurricanes,Hobart Hurricanes,3 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1114880,2017/18,2018/01/11,Sydney Thunder,Perth Scorchers,Sydney Thunder,3 runs,Sydney Showground Stadium,Sydney
+1114881,2017/18,2018/01/12,Melbourne Renegades,Melbourne Stars,Melbourne Stars,23 runs,Docklands Stadium,Melbourne
+1114882,2017/18,2018/01/13,Adelaide Strikers,Perth Scorchers,Perth Scorchers,6 wickets,Traeger Park,Alice Springs
+1114883,2017/18,2018/01/13,Sydney Sixers,Sydney Thunder,Sydney Sixers,8 wickets,Sydney Cricket Ground,Sydney
+1114884,2017/18,2018/01/15,Hobart Hurricanes,Brisbane Heat,Hobart Hurricanes,6 wickets,Bellerive Oval,Hobart
+1114885,2017/18,2018/01/16,Melbourne Stars,Sydney Sixers,Sydney Sixers,8 wickets,Melbourne Cricket Ground,Melbourne
+1114886,2017/18,2018/01/17,Adelaide Strikers,Hobart Hurricanes,Adelaide Strikers,11 runs,Adelaide Oval,Adelaide
+1114887,2017/18,2018/01/18,Sydney Sixers,Brisbane Heat,Sydney Sixers,9 wickets,Sydney Cricket Ground,Sydney
+1114888,2017/18,2018/01/20,Melbourne Stars,Sydney Thunder,Sydney Thunder,7 wickets,Melbourne Cricket Ground,Melbourne
+1114889,2017/18,2018/01/20,Perth Scorchers,Hobart Hurricanes,Perth Scorchers,5 wickets,W.A.C.A. Ground,Perth
+1114890,2017/18,2018/01/22,Melbourne Renegades,Adelaide Strikers,Adelaide Strikers,26 runs,Docklands Stadium,Melbourne
+1114891,2017/18,2018/01/23,Sydney Sixers,Melbourne Stars,Sydney Sixers,5 wickets,Sydney Cricket Ground,Sydney
+1114892,2017/18,2018/01/24,Sydney Thunder,Melbourne Renegades,Melbourne Renegades,9 runs,Manuka Oval,Canberra
+1114893,2017/18,2018/01/25,Perth Scorchers,Adelaide Strikers,Perth Scorchers,4 wickets,W.A.C.A. Ground,Perth
+1114894,2017/18,2018/01/27,Melbourne Stars,Hobart Hurricanes,Melbourne Stars,3 wickets,Melbourne Cricket Ground,Melbourne
+1114895,2017/18,2018/01/27,Brisbane Heat,Melbourne Renegades,Melbourne Renegades,26 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1114896,2017/18,2018/02/01,Perth Scorchers,Hobart Hurricanes,Hobart Hurricanes,71 runs,Perth Stadium,Perth
+1114897,2017/18,2018/02/02,Adelaide Strikers,Melbourne Renegades,Adelaide Strikers,1 runs,Adelaide Oval,Adelaide
+1114898,2017/18,2018/02/04,Adelaide Strikers,Hobart Hurricanes,Adelaide Strikers,25 runs,Adelaide Oval,Adelaide
+1152511,2018/19,2018/12/19,Brisbane Heat,Adelaide Strikers,Adelaide Strikers,5 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1152512,2018/19,2018/12/20,Melbourne Renegades,Perth Scorchers,Melbourne Renegades,4 wickets,Docklands Stadium,Melbourne
+1152513,2018/19,2018/12/21,Sydney Thunder,Melbourne Stars,Sydney Thunder,15 runs,Manuka Oval,Canberra
+1152514,2018/19,2018/12/22,Sydney Sixers,Perth Scorchers,Sydney Sixers,17 runs,Sydney Cricket Ground,Sydney
+1152515,2018/19,2018/12/22,Brisbane Heat,Hobart Hurricanes,Hobart Hurricanes,15 runs,Carrara Oval,Carrara
+1152516,2018/19,2018/12/23,Adelaide Strikers,Melbourne Renegades,Melbourne Renegades,5 wickets,Adelaide Oval,Adelaide
+1152517,2018/19,2018/12/24,Hobart Hurricanes,Melbourne Stars,Hobart Hurricanes,6 wickets,Bellerive Oval,Hobart
+1152518,2018/19,2018/12/24,Sydney Thunder,Sydney Sixers,Sydney Thunder,21 runs,Sydney Showground Stadium,Sydney
+1152519,2018/19,2018/12/26,Perth Scorchers,Adelaide Strikers,Perth Scorchers,7 wickets,Perth Stadium,Perth
+1152520,2018/19,2018/12/27,Sydney Sixers,Melbourne Stars,Melbourne Stars,5 wickets,Sydney Cricket Ground,Sydney
+1152521,2018/19,2018/12/28,Hobart Hurricanes,Sydney Thunder,Hobart Hurricanes,7 wickets,Bellerive Oval,Hobart
+1152522,2018/19,2018/12/29,Melbourne Renegades,Sydney Sixers,Sydney Sixers,33 runs,Docklands Stadium,Melbourne
+1152523,2018/19,2018/12/30,Hobart Hurricanes,Perth Scorchers,Hobart Hurricanes,6 wickets,Aurora Stadium,Launceston
+1152524,2018/19,2018/12/31,Adelaide Strikers,Sydney Thunder,Adelaide Strikers,20 runs,Adelaide Oval,Adelaide
+1152525,2018/19,2019/01/01,Brisbane Heat,Sydney Sixers,Sydney Sixers,5 wickets,Carrara Oval,Carrara
+1152526,2018/19,2019/01/01,Melbourne Stars,Melbourne Renegades,Melbourne Stars,7 wickets,Melbourne Cricket Ground,Melbourne
+1152527,2018/19,2019/01/02,Sydney Thunder,Perth Scorchers,Sydney Thunder,1 runs,Sydney Showground Stadium,Sydney
+1152528,2018/19,2019/01/03,Melbourne Renegades,Adelaide Strikers,Adelaide Strikers,32 runs,"Simonds Stadium, South Geelong, Victoria",Geelong
+1152529,2018/19,2019/01/04,Hobart Hurricanes,Sydney Sixers,Hobart Hurricanes,5 wickets,Bellerive Oval,Hobart
+1152530,2018/19,2019/01/05,Melbourne Stars,Sydney Thunder,Melbourne Stars,8 wickets,Carrara Oval,Carrara
+1152531,2018/19,2019/01/05,Perth Scorchers,Brisbane Heat,Brisbane Heat,5 wickets,Perth Stadium,Perth
+1152532,2018/19,2019/01/06,Adelaide Strikers,Sydney Sixers,Sydney Sixers,6 wickets,Adelaide Oval,Adelaide
+1152533,2018/19,2019/01/07,Melbourne Renegades,Hobart Hurricanes,Melbourne Renegades,6 wickets,Docklands Stadium,Melbourne
+1152534,2018/19,2019/01/08,Sydney Thunder,Brisbane Heat,Brisbane Heat,15 runs,Sydney Showground Stadium,Sydney
+1152535,2018/19,2019/01/09,Melbourne Stars,Perth Scorchers,Perth Scorchers,6 wickets,Melbourne Cricket Ground,Melbourne
+1152536,2018/19,2019/01/10,Brisbane Heat,Melbourne Renegades,Melbourne Renegades,8 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1152537,2018/19,2019/01/11,Adelaide Strikers,Melbourne Stars,Adelaide Strikers,41 runs,Adelaide Oval,Adelaide
+1152538,2018/19,2019/01/13,Sydney Thunder,Adelaide Strikers,Sydney Thunder,71 runs,Sydney Showground Stadium,Sydney
+1152539,2018/19,2019/01/13,Melbourne Renegades,Brisbane Heat,Brisbane Heat,101 runs,Geelong Cricket Ground,Geelong
+1152540,2018/19,2019/01/13,Perth Scorchers,Sydney Sixers,Perth Scorchers,7 wickets,Perth Stadium,Perth
+1152541,2018/19,2019/01/14,Melbourne Stars,Hobart Hurricanes,Hobart Hurricanes,59 runs,Melbourne Cricket Ground,Melbourne
+1152542,2018/19,2019/01/16,Sydney Sixers,Melbourne Renegades,Melbourne Renegades,7 wickets,Sydney Cricket Ground,Sydney
+1152543,2018/19,2019/01/17,Brisbane Heat,Sydney Thunder,,,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1152544,2018/19,2019/01/18,Perth Scorchers,Hobart Hurricanes,Hobart Hurricanes,4 wickets,Perth Stadium,Perth
+1152545,2018/19,2019/01/19,Melbourne Renegades,Melbourne Stars,Melbourne Stars,6 wickets,Docklands Stadium,Melbourne
+1152546,2018/19,2019/01/20,Sydney Sixers,Brisbane Heat,Sydney Sixers,79 runs,Sydney Cricket Ground,Sydney
+1152547,2018/19,2019/01/21,Adelaide Strikers,Hobart Hurricanes,Hobart Hurricanes,10 wickets,Adelaide Oval,Adelaide
+1152548,2018/19,2019/01/22,Sydney Thunder,Melbourne Renegades,Melbourne Renegades,12 runs,Sydney Showground Stadium,Sydney
+1152549,2018/19,2019/01/23,Melbourne Stars,Adelaide Strikers,Melbourne Stars,44 runs,Ted Summerton Reserve,Moe
+1152550,2018/19,2019/01/23,Sydney Sixers,Hobart Hurricanes,Sydney Sixers,9 wickets,Sydney Cricket Ground,Sydney
+1152551,2018/19,2019/01/24,Perth Scorchers,Sydney Thunder,Sydney Thunder,6 wickets,Perth Stadium,Perth
+1152552,2018/19,2019/01/27,Melbourne Stars,Brisbane Heat,Melbourne Stars,5 runs,Melbourne Cricket Ground,Melbourne
+1152553,2018/19,2019/01/28,Perth Scorchers,Melbourne Renegades,Melbourne Renegades,78 runs,Perth Stadium,Perth
+1152554,2018/19,2019/01/29,Hobart Hurricanes,Brisbane Heat,Hobart Hurricanes,9 wickets,Bellerive Oval,Hobart
+1152555,2018/19,2019/01/29,Sydney Sixers,Adelaide Strikers,Sydney Sixers,8 wickets,Sydney Cricket Ground,Sydney
+1152556,2018/19,2019/01/30,Melbourne Renegades,Sydney Thunder,Melbourne Renegades,27 runs,Docklands Stadium,Melbourne
+1152557,2018/19,2019/01/31,Hobart Hurricanes,Adelaide Strikers,Adelaide Strikers,7 wickets,Aurora Stadium,Launceston
+1152558,2018/19,2019/02/01,Brisbane Heat,Perth Scorchers,Brisbane Heat,6 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1152559,2018/19,2019/02/02,Sydney Sixers,Sydney Thunder,Sydney Sixers,9 wickets,Sydney Cricket Ground,Sydney
+1152560,2018/19,2019/02/03,Adelaide Strikers,Brisbane Heat,Brisbane Heat,6 wickets,Adelaide Oval,Adelaide
+1152561,2018/19,2019/02/03,Perth Scorchers,Melbourne Stars,Perth Scorchers,27 runs,Perth Stadium,Perth
+1152562,2018/19,2019/02/07,Hobart Hurricanes,Melbourne Renegades,Hobart Hurricanes,16 runs,Bellerive Oval,Hobart
+1152563,2018/19,2019/02/08,Brisbane Heat,Melbourne Stars,Brisbane Heat,10 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1152564,2018/19,2019/02/09,Adelaide Strikers,Perth Scorchers,Adelaide Strikers,5 wickets,Adelaide Oval,Adelaide
+1152565,2018/19,2019/02/09,Sydney Thunder,Hobart Hurricanes,Sydney Thunder,4 wickets,Manuka Oval,Canberra
+1152566,2018/19,2019/02/10,Melbourne Stars,Sydney Sixers,Melbourne Stars,94 runs,Melbourne Cricket Ground,Melbourne
+1152567,2018/19,2019/02/14,Hobart Hurricanes,Melbourne Stars,Melbourne Stars,6 wickets,Bellerive Oval,Hobart
+1152568,2018/19,2019/02/15,Melbourne Renegades,Sydney Sixers,Melbourne Renegades,3 wickets,Docklands Stadium,Melbourne
+1152569,2018/19,2019/02/17,Melbourne Stars,Melbourne Renegades,Melbourne Renegades,13 runs,Docklands Stadium,Melbourne
+1195573,2019/20,2019/12/17,Brisbane Heat,Sydney Thunder,Sydney Thunder,29 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1195574,2019/20,2019/12/18,Sydney Sixers,Perth Scorchers,Sydney Sixers,8 wickets,Sydney Cricket Ground,Sydney
+1195575,2019/20,2019/12/19,Melbourne Renegades,Sydney Thunder,Sydney Thunder,6 wickets,"Simonds Stadium, South Geelong, Victoria",Geelong
+1195576,2019/20,2019/12/20,Hobart Hurricanes,Sydney Sixers,Hobart Hurricanes,25 runs,Traeger Park,Alice Springs
+1195577,2019/20,2019/12/20,Brisbane Heat,Melbourne Stars,Melbourne Stars,22 runs,Carrara Oval,Carrara
+1195578,2019/20,2019/12/21,Sydney Thunder,Adelaide Strikers,,,Manuka Oval,Canberra
+1195579,2019/20,2019/12/21,Perth Scorchers,Melbourne Renegades,Perth Scorchers,11 runs,Perth Stadium,Perth
+1195580,2019/20,2019/12/22,Melbourne Stars,Hobart Hurricanes,Melbourne Stars,52 runs,Ted Summerton Reserve,Moe
+1195581,2019/20,2019/12/22,Sydney Sixers,Brisbane Heat,Brisbane Heat,48 runs,Sydney Cricket Ground,Sydney
+1195582,2019/20,2019/12/23,Adelaide Strikers,Perth Scorchers,Adelaide Strikers,15 runs,Adelaide Oval,Adelaide
+1195583,2019/20,2019/12/24,Hobart Hurricanes,Melbourne Renegades,Hobart Hurricanes,7 wickets,Bellerive Oval,Hobart
+1195584,2019/20,2019/12/26,Perth Scorchers,Sydney Sixers,Sydney Sixers,48 runs,Perth Stadium,Perth
+1195585,2019/20,2019/12/27,Melbourne Stars,Adelaide Strikers,Adelaide Strikers,5 runs,Carrara Oval,Carrara
+1195586,2019/20,2019/12/28,Sydney Sixers,Sydney Thunder,,,Sydney Cricket Ground,Sydney
+1195587,2019/20,2019/12/29,Melbourne Renegades,Adelaide Strikers,Adelaide Strikers,18 runs,Docklands Stadium,Melbourne
+1195588,2019/20,2019/12/30,Hobart Hurricanes,Melbourne Stars,Melbourne Stars,4 runs,Aurora Stadium,Launceston
+1195589,2019/20,2019/12/31,Adelaide Strikers,Sydney Thunder,Sydney Thunder,3 runs,Adelaide Oval,Adelaide
+1195590,2019/20,2020/01/01,Brisbane Heat,Perth Scorchers,Perth Scorchers,40 runs,Carrara Oval,Carrara
+1195591,2019/20,2020/01/02,Sydney Thunder,Melbourne Stars,Melbourne Stars,3 wickets,Sydney Showground Stadium,Sydney
+1195592,2019/20,2020/01/02,Melbourne Renegades,Sydney Sixers,Sydney Sixers,6 wickets,Docklands Stadium,Melbourne
+1195593,2019/20,2020/01/03,Hobart Hurricanes,Brisbane Heat,Brisbane Heat,31 runs,Bellerive Oval,Hobart
+1195594,2019/20,2020/01/04,Melbourne Stars,Melbourne Renegades,Melbourne Stars,8 wickets,Melbourne Cricket Ground,Melbourne
+1195595,2019/20,2020/01/05,Sydney Sixers,Adelaide Strikers,Sydney Sixers,7 wickets,International Sports Stadium,Coffs Harbour
+1195596,2019/20,2020/01/05,Perth Scorchers,Hobart Hurricanes,Hobart Hurricanes,8 runs,Perth Stadium,Perth
+1195597,2019/20,2020/01/06,Sydney Thunder,Brisbane Heat,Brisbane Heat,16 runs,Sydney Showground Stadium,Sydney
+1195598,2019/20,2020/01/07,Melbourne Renegades,Perth Scorchers,Perth Scorchers,6 wickets,"Simonds Stadium, South Geelong, Victoria",Geelong
+1195599,2019/20,2020/01/08,Adelaide Strikers,Sydney Sixers,Sydney Sixers,2 wickets,Adelaide Oval,Adelaide
+1195600,2019/20,2020/01/08,Melbourne Stars,Sydney Thunder,Melbourne Stars,6 wickets,Melbourne Cricket Ground,Melbourne
+1195601,2019/20,2020/01/09,Brisbane Heat,Hobart Hurricanes,Brisbane Heat,5 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1195602,2019/20,2020/01/10,Melbourne Renegades,Melbourne Stars,Melbourne Stars,7 wickets,Docklands Stadium,Melbourne
+1195603,2019/20,2020/01/11,Sydney Thunder,Hobart Hurricanes,Sydney Thunder,4 wickets,Sydney Showground Stadium,Sydney
+1195604,2019/20,2020/01/11,Perth Scorchers,Brisbane Heat,Perth Scorchers,34 runs,Perth Stadium,Perth
+1195605,2019/20,2020/01/12,Adelaide Strikers,Melbourne Renegades,Adelaide Strikers,63 runs,Adelaide Oval,Adelaide
+1195606,2019/20,2020/01/12,Melbourne Stars,Sydney Sixers,Melbourne Stars,44 runs,Melbourne Cricket Ground,Melbourne
+1195607,2019/20,2020/01/13,Hobart Hurricanes,Perth Scorchers,Perth Scorchers,77 runs,Bellerive Oval,Hobart
+1195608,2019/20,2020/01/14,Brisbane Heat,Adelaide Strikers,Brisbane Heat,7 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1195609,2019/20,2020/01/15,Sydney Thunder,Melbourne Renegades,Melbourne Renegades,12 runs,Manuka Oval,Canberra
+1195610,2019/20,2020/01/15,Perth Scorchers,Melbourne Stars,Melbourne Stars,8 wickets,Perth Stadium,Perth
+1195611,2019/20,2020/01/16,Sydney Sixers,Hobart Hurricanes,,,Sydney Cricket Ground,Sydney
+1195612,2019/20,2020/01/17,Adelaide Strikers,Brisbane Heat,Adelaide Strikers,10 wickets,Adelaide Oval,Adelaide
+1195613,2019/20,2020/01/18,Melbourne Stars,Perth Scorchers,Melbourne Stars,10 runs,Melbourne Cricket Ground,Melbourne
+1195614,2019/20,2020/01/18,Sydney Thunder,Sydney Sixers,Sydney Thunder,4 runs,Sydney Showground Stadium,Sydney
+1195615,2019/20,2020/01/19,Hobart Hurricanes,Adelaide Strikers,Adelaide Strikers,10 runs,Aurora Stadium,Launceston
+1195616,2019/20,2020/01/19,Brisbane Heat,Melbourne Renegades,Melbourne Renegades,44 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1195617,2019/20,2020/01/20,Sydney Sixers,Melbourne Stars,Sydney Sixers,21 runs,Sydney Cricket Ground,Sydney
+1195618,2019/20,2020/01/20,Perth Scorchers,Sydney Thunder,Perth Scorchers,8 wickets,Perth Stadium,Perth
+1195619,2019/20,2020/01/21,Melbourne Renegades,Hobart Hurricanes,Hobart Hurricanes,4 runs,Docklands Stadium,Melbourne
+1195620,2019/20,2020/01/22,Adelaide Strikers,Melbourne Stars,Adelaide Strikers,11 runs,Adelaide Oval,Adelaide
+1195621,2019/20,2020/01/23,Brisbane Heat,Sydney Sixers,Sydney Sixers,8 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1195622,2019/20,2020/01/24,Hobart Hurricanes,Sydney Thunder,Hobart Hurricanes,57 runs,Bellerive Oval,Hobart
+1195623,2019/20,2020/01/24,Perth Scorchers,Adelaide Strikers,Adelaide Strikers,16 runs,Perth Stadium,Perth
+1195624,2019/20,2020/01/25,Sydney Sixers,Melbourne Renegades,Sydney Sixers,7 wickets,Sydney Cricket Ground,Sydney
+1195625,2019/20,2020/01/25,Melbourne Stars,Brisbane Heat,Brisbane Heat,71 runs,Melbourne Cricket Ground,Melbourne
+1195626,2019/20,2020/01/26,Sydney Thunder,Perth Scorchers,Sydney Thunder,7 wickets,Sydney Showground Stadium,Sydney
+1195627,2019/20,2020/01/26,Adelaide Strikers,Hobart Hurricanes,Hobart Hurricanes,10 runs,Adelaide Oval,Adelaide
+1195628,2019/20,2020/01/27,Melbourne Renegades,Brisbane Heat,Melbourne Renegades,7 wickets,Docklands Stadium,Melbourne
+1195629,2019/20,2020/01/30,Hobart Hurricanes,Sydney Thunder,Sydney Thunder,57 runs,Bellerive Oval,Hobart
+1195630,2019/20,2020/01/31,Melbourne Stars,Sydney Sixers,Sydney Sixers,43 runs,Melbourne Cricket Ground,Melbourne
+1195631,2019/20,2020/02/01,Adelaide Strikers,Sydney Thunder,Sydney Thunder,8 runs,Adelaide Oval,Adelaide
+1195632,2019/20,2020/02/06,Melbourne Stars,Sydney Thunder,Melbourne Stars,28 runs,Melbourne Cricket Ground,Melbourne
+1195633,2019/20,2020/02/08,Sydney Sixers,Melbourne Stars,Sydney Sixers,19 runs,Sydney Cricket Ground,Sydney
+1226826,2020/21,2021/01/08,Adelaide Strikers,Melbourne Renegades,Melbourne Renegades,6 wickets,Adelaide Oval,Adelaide
+1226827,2020/21,2021/01/24,Hobart Hurricanes,Sydney Sixers,Hobart Hurricanes,7 runs,Melbourne Cricket Ground,Melbourne
+1226828,2020/21,2020/12/12,Melbourne Stars,Sydney Thunder,Melbourne Stars,22 runs,Manuka Oval,Canberra
+1226829,2020/21,2021/01/06,Perth Scorchers,Sydney Sixers,Perth Scorchers,86 runs,Perth Stadium,Perth
+1226830,2020/21,2020/12/19,Melbourne Renegades,Hobart Hurricanes,Hobart Hurricanes,6 wickets,Bellerive Oval,Hobart
+1226831,2020/21,2020/12/22,Perth Scorchers,Sydney Thunder,Sydney Thunder,7 wickets,Manuka Oval,Canberra
+1226832,2020/21,2021/01/02,Sydney Sixers,Brisbane Heat,Brisbane Heat,4 wickets,Brisbane Cricket Ground,Brisbane
+1226833,2020/21,2021/01/05,Adelaide Strikers,Melbourne Renegades,Adelaide Strikers,60 runs,Adelaide Oval,Adelaide
+1226834,2020/21,2021/01/22,Perth Scorchers,Hobart Hurricanes,Perth Scorchers,22 runs,Docklands Stadium,Melbourne
+1226835,2020/21,2021/01/07,Brisbane Heat,Melbourne Stars,Brisbane Heat,17 runs,Carrara Oval,Carrara
+1226836,2020/21,2021/01/25,Adelaide Strikers,Sydney Thunder,Sydney Thunder,9 wickets,Adelaide Oval,Adelaide
+1226837,2020/21,2020/12/13,Sydney Sixers,Melbourne Renegades,Sydney Sixers,145 runs,Bellerive Oval,Hobart
+1226838,2020/21,2021/01/19,Perth Scorchers,Brisbane Heat,Perth Scorchers,59 runs,Docklands Stadium,Melbourne
+1226839,2020/21,2021/01/15,Melbourne Stars,Adelaide Strikers,Melbourne Stars,111 runs,Melbourne Cricket Ground,Melbourne
+1226840,2020/21,2021/01/18,Sydney Thunder,Hobart Hurricanes,Hobart Hurricanes,6 wickets,Manuka Oval,Canberra
+1226841,2020/21,2020/12/12,Perth Scorchers,Melbourne Renegades,Melbourne Renegades,7 wickets,Bellerive Oval,Hobart
+1226842,2020/21,2021/01/03,Adelaide Strikers,Sydney Sixers,Sydney Sixers,7 wickets,Carrara Oval,Carrara
+1226843,2020/21,2021/01/14,Melbourne Renegades,Brisbane Heat,Brisbane Heat,5 wickets,Manuka Oval,Canberra
+1226844,2020/21,2021/01/02,Hobart Hurricanes,Melbourne Stars,Hobart Hurricanes,21 runs,Bellerive Oval,Hobart
+1226845,2020/21,2020/12/28,Adelaide Strikers,Perth Scorchers,Adelaide Strikers,71 runs,Adelaide Oval,Adelaide
+1226846,2020/21,2020/12/26,Melbourne Stars,Sydney Sixers,Sydney Sixers,1 wickets,Carrara Oval,Carrara
+1226847,2020/21,2021/01/24,Adelaide Strikers,Sydney Thunder,Adelaide Strikers,6 runs,Adelaide Oval,Adelaide
+1226848,2020/21,2021/01/23,Brisbane Heat,Melbourne Renegades,Brisbane Heat,26 runs,Docklands Stadium,Melbourne
+1226849,2020/21,2021/01/23,Perth Scorchers,Melbourne Stars,Perth Scorchers,11 runs,Melbourne Cricket Ground,Melbourne
+1226850,2020/21,2020/12/13,Hobart Hurricanes,Adelaide Strikers,Hobart Hurricanes,11 runs,Bellerive Oval,Hobart
+1226851,2020/21,2021/01/04,Sydney Thunder,Brisbane Heat,Brisbane Heat,5 wickets,Brisbane Cricket Ground,Brisbane
+1226852,2020/21,2020/12/10,Hobart Hurricanes,Sydney Sixers,Hobart Hurricanes,16 runs,Bellerive Oval,Hobart
+1226853,2020/21,2021/01/03,Perth Scorchers,Melbourne Renegades,Perth Scorchers,96 runs,Perth Stadium,Perth
+1226854,2020/21,2020/12/29,Sydney Thunder,Melbourne Stars,Sydney Thunder,75 runs,Manuka Oval,Canberra
+1226855,2020/21,2021/01/10,Brisbane Heat,Sydney Sixers,Sydney Sixers,3 wickets,Carrara Oval,Carrara
+1226856,2020/21,2021/01/01,Melbourne Renegades,Sydney Thunder,Sydney Thunder,7 runs,Carrara Oval,Carrara
+1226857,2020/21,2021/01/12,Hobart Hurricanes,Perth Scorchers,Perth Scorchers,9 wickets,Perth Stadium,Perth
+1226858,2020/21,2021/01/26,Melbourne Stars,Sydney Sixers,Sydney Sixers,5 wickets,Melbourne Cricket Ground,Melbourne
+1226859,2020/21,2021/01/21,Adelaide Strikers,Brisbane Heat,Adelaide Strikers,82 runs,Adelaide Oval,Adelaide
+1226860,2020/21,2021/01/26,Melbourne Renegades,Hobart Hurricanes,Melbourne Renegades,11 runs,Melbourne Cricket Ground,Melbourne
+1226861,2020/21,2021/01/13,Sydney Thunder,Sydney Sixers,Sydney Sixers,5 wickets,Manuka Oval,Canberra
+1226862,2020/21,2021/01/26,Brisbane Heat,Perth Scorchers,Brisbane Heat,6 runs,Adelaide Oval,Adelaide
+1226863,2020/21,2020/12/15,Hobart Hurricanes,Adelaide Strikers,Adelaide Strikers,5 wickets,Aurora Stadium,Launceston
+1226864,2020/21,2021/01/17,Melbourne Renegades,Melbourne Stars,Melbourne Stars,6 wickets,Melbourne Cricket Ground,Melbourne
+1226865,2020/21,2021/01/16,Perth Scorchers,Sydney Sixers,Sydney Sixers,7 wickets,Manuka Oval,Canberra
+1226866,2020/21,2020/12/14,Brisbane Heat,Sydney Thunder,Sydney Thunder,4 wickets,Manuka Oval,Canberra
+1226867,2020/21,2020/12/16,Perth Scorchers,Melbourne Stars,,,Aurora Stadium,Launceston
+1226868,2020/21,2020/12/27,Hobart Hurricanes,Brisbane Heat,Brisbane Heat,4 wickets,Brisbane Cricket Ground,Brisbane
+1226869,2020/21,2021/01/20,Melbourne Stars,Melbourne Renegades,Melbourne Renegades,5 wickets,Docklands Stadium,Melbourne
+1226870,2020/21,2020/12/31,Adelaide Strikers,Perth Scorchers,Perth Scorchers,7 wickets,Adelaide Oval,Adelaide
+1226871,2020/21,2021/01/07,Sydney Thunder,Hobart Hurricanes,Sydney Thunder,39 runs,Perth Stadium,Perth
+1226872,2020/21,2020/12/11,Brisbane Heat,Melbourne Stars,Melbourne Stars,6 wickets,Manuka Oval,Canberra
+1226873,2020/21,2020/12/20,Sydney Sixers,Adelaide Strikers,Sydney Sixers,38 runs,Bellerive Oval,Hobart
+1226874,2020/21,2020/12/26,Sydney Thunder,Melbourne Renegades,Sydney Thunder,129 runs,Manuka Oval,Canberra
+1226875,2020/21,2020/12/30,Hobart Hurricanes,Brisbane Heat,Hobart Hurricanes,1 runs,Brisbane Cricket Ground,Brisbane
+1226876,2020/21,2021/01/11,Melbourne Stars,Adelaide Strikers,Adelaide Strikers,5 wickets,Adelaide Oval,Adelaide
+1226877,2020/21,2020/12/29,Melbourne Renegades,Sydney Sixers,Sydney Sixers,2 wickets,Carrara Oval,Carrara
+1226878,2020/21,2021/01/09,Perth Scorchers,Sydney Thunder,Perth Scorchers,17 runs,Perth Stadium,Perth
+1226879,2020/21,2021/01/04,Melbourne Stars,Hobart Hurricanes,Melbourne Stars,10 runs,Bellerive Oval,Hobart
+1226880,2020/21,2021/01/22,Sydney Thunder,Sydney Sixers,Sydney Thunder,46 runs,Adelaide Oval,Adelaide
+1226881,2020/21,2020/12/23,Adelaide Strikers,Brisbane Heat,Adelaide Strikers,2 runs,Brisbane Cricket Ground,Brisbane
+1226882,2020/21,2021/02/06,Sydney Sixers,Perth Scorchers,Sydney Sixers,27 runs,Sydney Cricket Ground,Sydney
+1226883,2020/21,2021/01/29,Adelaide Strikers,Brisbane Heat,Brisbane Heat,6 wickets,Brisbane Cricket Ground,Brisbane
+1226884,2020/21,2021/01/30,Perth Scorchers,Sydney Sixers,Sydney Sixers,9 wickets,Manuka Oval,Canberra
+1226885,2020/21,2021/01/31,Sydney Thunder,Brisbane Heat,Brisbane Heat,7 wickets,Manuka Oval,Canberra
+1226886,2020/21,2021/02/04,Perth Scorchers,Brisbane Heat,Perth Scorchers,49 runs,Manuka Oval,Canberra
+1269638,2021/22,2021/12/05,Sydney Sixers,Melbourne Stars,Sydney Sixers,152 runs,Sydney Cricket Ground,Sydney
+1269639,2021/22,2021/12/06,Brisbane Heat,Sydney Thunder,Sydney Thunder,7 wickets,"Manuka Oval, Canberra",Canberra
+1269640,2021/22,2021/12/07,Melbourne Renegades,Adelaide Strikers,Melbourne Renegades,2 runs,"Docklands Stadium, Melbourne",Melbourne
+1269641,2021/22,2021/12/08,Sydney Sixers,Hobart Hurricanes,Sydney Sixers,14 runs,"Aurora Stadium, Launceston",Launceston
+1269642,2021/22,2021/12/08,Perth Scorchers,Brisbane Heat,Perth Scorchers,6 runs,Perth Stadium,Perth
+1269643,2021/22,2021/12/09,Adelaide Strikers,Melbourne Renegades,Adelaide Strikers,49 runs,Adelaide Oval,Adelaide
+1269644,2021/22,2021/12/10,Melbourne Stars,Sydney Thunder,Melbourne Stars,4 runs,Melbourne Cricket Ground,Melbourne
+1269645,2021/22,2021/12/11,Hobart Hurricanes,Sydney Sixers,Hobart Hurricanes,44 runs,Sydney Cricket Ground,Sydney
+1269646,2021/22,2021/12/11,Perth Scorchers,Adelaide Strikers,Perth Scorchers,49 runs,Sydney Showground Stadium,Sydney
+1269647,2021/22,2021/12/12,Sydney Thunder,Melbourne Stars,Melbourne Stars,6 wickets,Sydney Showground Stadium,Sydney
+1269648,2021/22,2021/12/13,Melbourne Renegades,Brisbane Heat,Brisbane Heat,5 wickets,Carrara Oval,Carrara
+1269649,2021/22,2021/12/14,Perth Scorchers,Hobart Hurricanes,Perth Scorchers,53 runs,"Bellerive Oval, Hobart",Hobart
+1269650,2021/22,2021/12/15,Melbourne Stars,Sydney Sixers,Sydney Sixers,7 wickets,Melbourne Cricket Ground,Melbourne
+1269651,2021/22,2021/12/19,Sydney Thunder,Brisbane Heat,Sydney Thunder,53 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1269652,2021/22,2021/12/20,Perth Scorchers,Hobart Hurricanes,Perth Scorchers,42 runs,"Bellerive Oval, Hobart",Hobart
+1269653,2021/22,2021/12/21,Adelaide Strikers,Sydney Sixers,Sydney Sixers,4 wickets,Sydney Cricket Ground,Sydney
+1269654,2021/22,2021/12/22,Perth Scorchers,Melbourne Renegades,Perth Scorchers,21 runs,"Docklands Stadium, Melbourne",Melbourne
+1269655,2021/22,2021/12/23,Brisbane Heat,Adelaide Strikers,Brisbane Heat,39 runs,Adelaide Oval,Adelaide
+1269656,2021/22,2021/12/24,Hobart Hurricanes,Melbourne Stars,Hobart Hurricanes,24 runs,"Bellerive Oval, Hobart",Hobart
+1269657,2021/22,2021/12/26,Sydney Sixers,Sydney Thunder,Sydney Sixers,30 runs,Sydney Showground Stadium,Sydney
+1269658,2021/22,2021/12/26,Melbourne Renegades,Perth Scorchers,Perth Scorchers,8 wickets,"Docklands Stadium, Melbourne",Melbourne
+1269659,2021/22,2021/12/27,Adelaide Strikers,Hobart Hurricanes,Hobart Hurricanes,7 wickets,"Bellerive Oval, Hobart",Hobart
+1269660,2021/22,2021/12/27,Melbourne Stars,Brisbane Heat,Melbourne Stars,20 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1269661,2021/22,2021/12/28,Sydney Thunder,Perth Scorchers,Sydney Thunder,34 runs,"Manuka Oval, Canberra",Canberra
+1269662,2021/22,2021/12/29,Brisbane Heat,Sydney Sixers,Sydney Sixers,2 wickets,Sydney Cricket Ground,Sydney
+1269663,2021/22,2021/12/29,Hobart Hurricanes,Melbourne Renegades,Hobart Hurricanes,85 runs,"Docklands Stadium, Melbourne",Melbourne
+1269664,2021/22,2022/01/11,Perth Scorchers,Melbourne Stars,Perth Scorchers,47 runs,"GMHBA Stadium, South Geelong, Victoria",Geelong
+1269665,2021/22,2021/12/31,Sydney Thunder,Adelaide Strikers,Sydney Thunder,22 runs,Adelaide Oval,Adelaide
+1269666,2021/22,2022/01/01,Brisbane Heat,Hobart Hurricanes,Brisbane Heat,14 runs,"Bellerive Oval, Hobart",Hobart
+1269668,2021/22,2022/01/02,Perth Scorchers,Melbourne Stars,Perth Scorchers,50 runs,"Junction Oval, Melbourne",Melbourne
+1269669,2021/22,2022/01/02,Sydney Thunder,Adelaide Strikers,Sydney Thunder,28 runs,Sydney Showground Stadium,Sydney
+1269670,2021/22,2022/01/03,Melbourne Stars,Melbourne Renegades,Melbourne Renegades,5 wickets,Melbourne Cricket Ground,Melbourne
+1269671,2021/22,2022/01/21,Adelaide Strikers,Hobart Hurricanes,Adelaide Strikers,22 runs,Melbourne Cricket Ground,Melbourne
+1269672,2021/22,2022/01/05,Hobart Hurricanes,Adelaide Strikers,Adelaide Strikers,7 wickets,Adelaide Oval,Adelaide
+1269673,2021/22,2022/01/06,Perth Scorchers,Sydney Thunder,Sydney Thunder,6 wickets,Carrara Oval,Carrara
+1269674,2021/22,2022/01/06,Brisbane Heat,Melbourne Renegades,Melbourne Renegades,5 wickets,"GMHBA Stadium, South Geelong, Victoria",Geelong
+1269675,2021/22,2022/01/04,Perth Scorchers,Sydney Sixers,Perth Scorchers,10 runs,Carrara Oval,Carrara
+1269676,2021/22,2022/01/15,Adelaide Strikers,Melbourne Stars,Adelaide Strikers,23 runs,Adelaide Oval,Adelaide
+1269677,2021/22,2022/01/08,Sydney Thunder,Melbourne Renegades,Sydney Thunder,129 runs,"Docklands Stadium, Melbourne",Melbourne
+1269678,2021/22,2022/01/08,Brisbane Heat,Hobart Hurricanes,Hobart Hurricanes,8 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1269679,2021/22,2022/01/09,Sydney Sixers,Perth Scorchers,Perth Scorchers,5 wickets,"International Sports Stadium, Coffs Harbour",Coffs Harbour
+1269680,2021/22,2022/01/10,Adelaide Strikers,Melbourne Stars,Melbourne Stars,5 wickets,Melbourne Cricket Ground,Melbourne
+1269681,2021/22,2022/01/10,Hobart Hurricanes,Sydney Thunder,Sydney Thunder,9 wickets,Melbourne Cricket Ground,Melbourne
+1269682,2021/22,2022/01/11,Sydney Sixers,Melbourne Renegades,Sydney Sixers,45 runs,"GMHBA Stadium, South Geelong, Victoria",Geelong
+1269683,2021/22,2022/01/12,Adelaide Strikers,Brisbane Heat,Adelaide Strikers,71 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1269684,2021/22,2022/01/13,Hobart Hurricanes,Sydney Thunder,Hobart Hurricanes,9 runs,"Docklands Stadium, Melbourne",Melbourne
+1269685,2021/22,2022/01/13,Melbourne Renegades,Melbourne Stars,Melbourne Stars,6 wickets,"Docklands Stadium, Melbourne",Melbourne
+1269686,2021/22,2022/01/14,Perth Scorchers,Adelaide Strikers,Adelaide Strikers,6 wickets,Adelaide Oval,Adelaide
+1269687,2021/22,2022/01/15,Sydney Sixers,Sydney Thunder,Sydney Sixers,60 runs,Sydney Cricket Ground,Sydney
+1269688,2021/22,2022/01/16,Brisbane Heat,Melbourne Stars,Melbourne Stars,8 wickets,Melbourne Cricket Ground,Melbourne
+1269689,2021/22,2022/01/17,Sydney Sixers,Adelaide Strikers,Adelaide Strikers,8 wickets,Adelaide Oval,Adelaide
+1269690,2021/22,2022/01/17,Brisbane Heat,Perth Scorchers,Perth Scorchers,6 wickets,"Docklands Stadium, Melbourne",Melbourne
+1269691,2021/22,2022/01/18,Hobart Hurricanes,Melbourne Renegades,Hobart Hurricanes,6 runs,"Docklands Stadium, Melbourne",Melbourne
+1269692,2021/22,2022/01/19,Sydney Sixers,Brisbane Heat,Sydney Sixers,27 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1269693,2021/22,2022/01/19,Melbourne Stars,Hobart Hurricanes,Melbourne Stars,106 runs,Melbourne Cricket Ground,Melbourne
+1269694,2021/22,2022/01/19,Sydney Thunder,Melbourne Renegades,Sydney Thunder,1 runs,Melbourne Cricket Ground,Melbourne
+1269695,2021/22,2022/01/22,Perth Scorchers,Sydney Sixers,Perth Scorchers,48 runs,"Docklands Stadium, Melbourne",Melbourne
+1269696,2021/22,2022/01/23,Adelaide Strikers,Sydney Thunder,Adelaide Strikers,6 runs,Melbourne Cricket Ground,Melbourne
+1269697,2021/22,2022/01/26,Adelaide Strikers,Sydney Sixers,Sydney Sixers,4 wickets,Sydney Cricket Ground,Sydney
+1269698,2021/22,2022/01/28,Perth Scorchers,Sydney Sixers,Perth Scorchers,79 runs,"Docklands Stadium, Melbourne",Melbourne
+1324624,2022/23,2022/12/13,Melbourne Stars,Sydney Thunder,Sydney Thunder,1 wickets,"Manuka Oval, Canberra",Canberra
+1324625,2022/23,2022/12/14,Adelaide Strikers,Sydney Sixers,Adelaide Strikers,51 runs,Adelaide Oval,Adelaide
+1324626,2022/23,2022/12/15,Melbourne Renegades,Brisbane Heat,Melbourne Renegades,22 runs,"Cazaly's Stadium, Cairns",Cairns
+1324627,2022/23,2022/12/16,Melbourne Stars,Hobart Hurricanes,Melbourne Stars,38 runs,Melbourne Cricket Ground,Melbourne
+1324628,2022/23,2022/12/16,Adelaide Strikers,Sydney Thunder,Adelaide Strikers,124 runs,Sydney Showground Stadium,Sydney
+1324629,2022/23,2022/12/17,Perth Scorchers,Sydney Sixers,Perth Scorchers,38 runs,Perth Stadium,Perth
+1324630,2022/23,2022/12/18,Sydney Thunder,Melbourne Renegades,Melbourne Renegades,4 wickets,"Docklands Stadium, Melbourne",Melbourne
+1324631,2022/23,2022/12/19,Hobart Hurricanes,Perth Scorchers,Hobart Hurricanes,8 runs,"University of Tasmania Stadium, Launceston",Launceston
+1324632,2022/23,2022/12/20,Sydney Thunder,Adelaide Strikers,Adelaide Strikers,6 wickets,Adelaide Oval,Adelaide
+1324633,2022/23,2022/12/21,Brisbane Heat,Melbourne Renegades,Melbourne Renegades,4 wickets,"GMHBA Stadium, South Geelong, Victoria",Geelong
+1324634,2022/23,2022/12/22,Sydney Sixers,Hobart Hurricanes,Sydney Sixers,6 runs,Sydney Cricket Ground,Sydney
+1324635,2022/23,2022/12/23,Perth Scorchers,Melbourne Stars,Perth Scorchers,61 runs,"Junction Oval, Melbourne",Melbourne
+1324636,2022/23,2022/12/23,Brisbane Heat,Adelaide Strikers,Brisbane Heat,6 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1324637,2022/23,2022/12/24,Hobart Hurricanes,Melbourne Renegades,Hobart Hurricanes,8 runs,"Bellerive Oval, Hobart",Hobart
+1324638,2022/23,2022/12/26,Melbourne Stars,Sydney Sixers,Sydney Sixers,7 wickets,Sydney Cricket Ground,Sydney
+1324639,2022/23,2022/12/26,Adelaide Strikers,Perth Scorchers,Perth Scorchers,3 wickets,Perth Stadium,Perth
+1324640,2022/23,2022/12/27,Brisbane Heat,Sydney Thunder,Sydney Thunder,10 wickets,Sydney Showground Stadium,Sydney
+1324641,2022/23,2022/12/28,Sydney Sixers,Melbourne Renegades,Sydney Sixers,34 runs,Sydney Cricket Ground,Sydney
+1324642,2022/23,2022/12/29,Sydney Thunder,Brisbane Heat,Sydney Thunder,11 runs,Carrara Oval,Carrara
+1324643,2022/23,2022/12/29,Melbourne Stars,Perth Scorchers,Perth Scorchers,6 wickets,Perth Stadium,Perth
+1324644,2022/23,2022/12/30,Melbourne Renegades,Sydney Sixers,Sydney Sixers,6 wickets,"GMHBA Stadium, South Geelong, Victoria",Geelong
+1324645,2022/23,2022/12/31,Sydney Thunder,Hobart Hurricanes,Sydney Thunder,62 runs,"Lavington Sports Oval, Albury",Albury
+1324646,2022/23,2022/12/31,Melbourne Stars,Adelaide Strikers,Melbourne Stars,8 runs,Adelaide Oval,Adelaide
+1324647,2022/23,2023/01/01,Melbourne Renegades,Perth Scorchers,Perth Scorchers,5 wickets,"Docklands Stadium, Melbourne",Melbourne
+1324648,2022/23,2023/01/01,Brisbane Heat,Sydney Sixers,Brisbane Heat,15 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1324649,2022/23,2023/01/02,Adelaide Strikers,Hobart Hurricanes,Hobart Hurricanes,7 wickets,"Bellerive Oval, Hobart",Hobart
+1324650,2022/23,2023/01/03,Melbourne Renegades,Melbourne Stars,Melbourne Renegades,33 runs,Melbourne Cricket Ground,Melbourne
+1324651,2022/23,2023/01/04,Brisbane Heat,Sydney Sixers,,,"North Sydney Oval, Sydney",Sydney
+1324652,2022/23,2023/01/04,Perth Scorchers,Sydney Thunder,Sydney Thunder,6 wickets,Perth Stadium,Perth
+1324653,2022/23,2023/01/05,Hobart Hurricanes,Adelaide Strikers,Adelaide Strikers,7 wickets,Adelaide Oval,Adelaide
+1324654,2022/23,2023/01/06,Melbourne Stars,Sydney Sixers,Sydney Sixers,6 wickets,Melbourne Cricket Ground,Melbourne
+1324655,2022/23,2023/01/07,Hobart Hurricanes,Melbourne Renegades,Melbourne Renegades,6 wickets,"Docklands Stadium, Melbourne",Melbourne
+1324656,2022/23,2023/01/07,Brisbane Heat,Perth Scorchers,Perth Scorchers,7 wickets,Perth Stadium,Perth
+1324657,2022/23,2023/01/08,Sydney Thunder,Sydney Sixers,Sydney Sixers,7 wickets,Sydney Showground Stadium,Sydney
+1324658,2022/23,2023/01/09,Melbourne Stars,Hobart Hurricanes,Hobart Hurricanes,2 wickets,"Bellerive Oval, Hobart",Hobart
+1324659,2022/23,2023/01/10,Adelaide Strikers,Melbourne Renegades,Adelaide Strikers,20 runs,Adelaide Oval,Adelaide
+1324660,2022/23,2023/01/11,Brisbane Heat,Perth Scorchers,Perth Scorchers,8 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1324661,2022/23,2023/01/12,Adelaide Strikers,Melbourne Stars,Melbourne Stars,9 wickets,Melbourne Cricket Ground,Melbourne
+1324662,2022/23,2023/01/13,Sydney Thunder,Perth Scorchers,Perth Scorchers,9 wickets,Sydney Showground Stadium,Sydney
+1324663,2022/23,2023/01/14,Brisbane Heat,Adelaide Strikers,Brisbane Heat,17 runs,Adelaide Oval,Adelaide
+1324664,2022/23,2023/01/14,Melbourne Renegades,Melbourne Stars,Melbourne Renegades,6 runs,"Docklands Stadium, Melbourne",Melbourne
+1324665,2022/23,2023/01/15,Sydney Thunder,Hobart Hurricanes,Hobart Hurricanes,5 wickets,"Bellerive Oval, Hobart",Hobart
+1324666,2022/23,2023/01/15,Sydney Sixers,Perth Scorchers,Sydney Sixers,6 runs,Sydney Cricket Ground,Sydney
+1324667,2022/23,2023/01/16,Melbourne Stars,Brisbane Heat,Brisbane Heat,3 wickets,Melbourne Cricket Ground,Melbourne
+1324668,2022/23,2023/01/17,Sydney Sixers,Adelaide Strikers,Sydney Sixers,59 runs,"International Sports Stadium, Coffs Harbour",Coffs Harbour
+1324669,2022/23,2023/01/18,Hobart Hurricanes,Perth Scorchers,Perth Scorchers,7 wickets,Perth Stadium,Perth
+1324670,2022/23,2023/01/19,Melbourne Renegades,Sydney Thunder,Sydney Thunder,8 wickets,"Manuka Oval, Canberra",Canberra
+1324671,2022/23,2023/01/20,Adelaide Strikers,Perth Scorchers,Perth Scorchers,7 wickets,Adelaide Oval,Adelaide
+1324672,2022/23,2023/01/20,Brisbane Heat,Hobart Hurricanes,Brisbane Heat,12 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1324673,2022/23,2023/01/21,Sydney Sixers,Sydney Thunder,Sydney Sixers,125 runs,Sydney Cricket Ground,Sydney
+1324674,2022/23,2023/01/22,Brisbane Heat,Melbourne Stars,Brisbane Heat,4 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1324675,2022/23,2023/01/22,Perth Scorchers,Melbourne Renegades,Perth Scorchers,10 runs,Perth Stadium,Perth
+1324676,2022/23,2023/01/23,Sydney Sixers,Hobart Hurricanes,Sydney Sixers,24 runs,"Bellerive Oval, Hobart",Hobart
+1324677,2022/23,2023/01/24,Adelaide Strikers,Melbourne Renegades,Melbourne Renegades,6 wickets,"Docklands Stadium, Melbourne",Melbourne
+1324678,2022/23,2023/01/25,Hobart Hurricanes,Brisbane Heat,Hobart Hurricanes,2 runs,"University of Tasmania Stadium, Launceston",Launceston
+1324679,2022/23,2023/01/25,Melbourne Stars,Sydney Thunder,Sydney Thunder,3 wickets,Melbourne Cricket Ground,Melbourne
+1324680,2022/23,2023/01/27,Brisbane Heat,Sydney Thunder,Brisbane Heat,8 runs,Sydney Showground Stadium,Sydney
+1324681,2022/23,2023/01/28,Sydney Sixers,Perth Scorchers,Perth Scorchers,7 wickets,Perth Stadium,Perth
+1324682,2022/23,2023/01/29,Melbourne Renegades,Brisbane Heat,Brisbane Heat,7 wickets,"Docklands Stadium, Melbourne",Melbourne
+1324683,2022/23,2023/02/02,Sydney Sixers,Brisbane Heat,Brisbane Heat,4 wickets,Sydney Cricket Ground,Sydney
+1324684,2022/23,2023/02/04,Brisbane Heat,Perth Scorchers,Perth Scorchers,5 wickets,Perth Stadium,Perth
+1386094,2023/24,2023/12/07,Brisbane Heat,Melbourne Stars,Brisbane Heat,103 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1386095,2023/24,2023/12/08,Sydney Sixers,Melbourne Renegades,Sydney Sixers,8 runs,Sydney Cricket Ground,Sydney
+1386097,2023/24,2023/12/10,Perth Scorchers,Melbourne Renegades,,,"GMHBA Stadium, South Geelong, Victoria",Geelong
+1386098,2023/24,2023/12/11,Hobart Hurricanes,Sydney Sixers,Sydney Sixers,6 wickets,"University of Tasmania Stadium, Launceston",Launceston
+1386099,2023/24,2023/12/12,Brisbane Heat,Sydney Thunder,Brisbane Heat,20 runs,"Manuka Oval, Canberra",Canberra
+1386100,2023/24,2023/12/13,Melbourne Stars,Perth Scorchers,Perth Scorchers,7 wickets,Melbourne Cricket Ground,Melbourne
+1386101,2023/24,2023/12/19,Sydney Thunder,Adelaide Strikers,Adelaide Strikers,6 wickets,Adelaide Oval,Adelaide
+1386102,2023/24,2023/12/20,Hobart Hurricanes,Perth Scorchers,Perth Scorchers,9 wickets,Perth Stadium,Perth
+1386103,2023/24,2023/12/21,Melbourne Renegades,Brisbane Heat,Brisbane Heat,6 wickets,"Docklands Stadium, Melbourne",Melbourne
+1386104,2023/24,2023/12/22,Sydney Sixers,Adelaide Strikers,Sydney Sixers,1 runs,Sydney Cricket Ground,Sydney
+1386105,2023/24,2023/12/23,Melbourne Stars,Sydney Thunder,Sydney Thunder,5 wickets,"Lavington Sports Oval, Albury",Albury
+1386106,2023/24,2023/12/23,Melbourne Renegades,Hobart Hurricanes,Hobart Hurricanes,6 wickets,"Bellerive Oval, Hobart",Hobart
+1386107,2023/24,2023/12/26,Sydney Sixers,Melbourne Stars,Melbourne Stars,4 wickets,Sydney Cricket Ground,Sydney
+1386108,2023/24,2023/12/26,Perth Scorchers,Melbourne Renegades,Perth Scorchers,13 runs,Perth Stadium,Perth
+1386109,2023/24,2023/12/27,Brisbane Heat,Sydney Thunder,Brisbane Heat,15 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1386110,2023/24,2023/12/28,Hobart Hurricanes,Melbourne Stars,Melbourne Stars,7 wickets,"Bellerive Oval, Hobart",Hobart
+1386111,2023/24,2023/12/29,Adelaide Strikers,Melbourne Renegades,Melbourne Renegades,4 wickets,"Docklands Stadium, Melbourne",Melbourne
+1386112,2023/24,2023/12/30,Sydney Thunder,Sydney Sixers,,,Sydney Showground Stadium,Sydney
+1386113,2023/24,2023/12/31,Adelaide Strikers,Melbourne Stars,Melbourne Stars,7 wickets,Adelaide Oval,Adelaide
+1386114,2023/24,2024/01/01,Sydney Thunder,Hobart Hurricanes,Hobart Hurricanes,7 wickets,"Bellerive Oval, Hobart",Hobart
+1386116,2023/24,2024/01/02,Melbourne Renegades,Melbourne Stars,Melbourne Stars,8 wickets,Melbourne Cricket Ground,Melbourne
+1386117,2023/24,2024/01/03,Sydney Sixers,Brisbane Heat,Brisbane Heat,3 runs,"International Sports Stadium, Coffs Harbour",Coffs Harbour
+1386118,2023/24,2024/01/03,Perth Scorchers,Adelaide Strikers,Perth Scorchers,42 runs,Perth Stadium,Perth
+1386119,2023/24,2024/01/04,Melbourne Renegades,Hobart Hurricanes,Hobart Hurricanes,6 wickets,"Docklands Stadium, Melbourne",Melbourne
+1386120,2023/24,2024/01/05,Perth Scorchers,Adelaide Strikers,Adelaide Strikers,9 wickets,Adelaide Oval,Adelaide
+1386121,2023/24,2024/01/06,Melbourne Stars,Sydney Sixers,Sydney Sixers,7 wickets,Melbourne Cricket Ground,Melbourne
+1386122,2023/24,2024/01/07,Brisbane Heat,Hobart Hurricanes,Brisbane Heat,1 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1386123,2023/24,2024/01/08,Sydney Thunder,Perth Scorchers,Perth Scorchers,7 wickets,Sydney Showground Stadium,Sydney
+1386124,2023/24,2024/01/09,Hobart Hurricanes,Adelaide Strikers,Adelaide Strikers,5 wickets,Adelaide Oval,Adelaide
+1386125,2023/24,2024/01/10,Brisbane Heat,Perth Scorchers,Brisbane Heat,23 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1386126,2023/24,2024/01/11,Hobart Hurricanes,Adelaide Strikers,Adelaide Strikers,8 wickets,"Bellerive Oval, Hobart",Hobart
+1386127,2023/24,2024/01/12,Sydney Sixers,Sydney Thunder,Sydney Sixers,19 runs,Sydney Cricket Ground,Sydney
+1386128,2023/24,2024/01/13,Perth Scorchers,Brisbane Heat,Perth Scorchers,35 runs,Perth Stadium,Perth
+1386129,2023/24,2024/01/13,Melbourne Stars,Melbourne Renegades,Melbourne Renegades,6 wickets,"Docklands Stadium, Melbourne",Melbourne
+1386130,2023/24,2024/01/14,Sydney Thunder,Adelaide Strikers,Adelaide Strikers,9 wickets,"Manuka Oval, Canberra",Canberra
+1386131,2023/24,2024/01/15,Hobart Hurricanes,Melbourne Stars,Hobart Hurricanes,7 runs,Melbourne Cricket Ground,Melbourne
+1386132,2023/24,2024/01/16,Perth Scorchers,Sydney Sixers,Sydney Sixers,3 wickets,Perth Stadium,Perth
+1386134,2023/24,2024/01/19,Sydney Sixers,Brisbane Heat,Sydney Sixers,39 runs,Carrara Oval,Carrara
+1386135,2023/24,2024/01/20,Adelaide Strikers,Perth Scorchers,Adelaide Strikers,50 runs,Perth Stadium,Perth
+1386136,2023/24,2024/01/22,Brisbane Heat,Adelaide Strikers,Brisbane Heat,54 runs,Carrara Oval,Carrara
+1386137,2023/24,2024/01/24,Brisbane Heat,Sydney Sixers,Brisbane Heat,54 runs,Sydney Cricket Ground,Sydney
+1443057,2024/25,2024/12/15,Melbourne Stars,Perth Scorchers,Perth Scorchers,6 wickets,Perth Stadium,Perth
+1443058,2024/25,2024/12/16,Melbourne Renegades,Sydney Sixers,Sydney Sixers,5 wickets,Sydney Cricket Ground,Sydney
+1443059,2024/25,2024/12/17,Adelaide Strikers,Sydney Thunder,Sydney Thunder,2 wickets,"Manuka Oval, Canberra",Canberra
+1443060,2024/25,2024/12/18,Melbourne Stars,Brisbane Heat,Brisbane Heat,8 wickets,Melbourne Cricket Ground,Melbourne
+1443061,2024/25,2024/12/19,Hobart Hurricanes,Melbourne Renegades,Melbourne Renegades,6 wickets,"GMHBA Stadium, South Geelong, Victoria",Geelong
+1443062,2024/25,2024/12/20,Adelaide Strikers,Melbourne Stars,Adelaide Strikers,15 runs,Adelaide Oval,Adelaide
+1443063,2024/25,2024/12/21,Perth Scorchers,Hobart Hurricanes,Hobart Hurricanes,8 wickets,"Bellerive Oval, Hobart",Hobart
+1443064,2024/25,2024/12/21,Sydney Thunder,Sydney Sixers,Sydney Sixers,5 wickets,Sydney Showground Stadium,Sydney
+1443065,2024/25,2024/12/22,Adelaide Strikers,Brisbane Heat,Brisbane Heat,3 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1443066,2024/25,2024/12/23,Perth Scorchers,Melbourne Renegades,Melbourne Renegades,2 wickets,"Docklands Stadium, Melbourne",Melbourne
+1443067,2024/25,2024/12/26,Melbourne Stars,Sydney Sixers,Sydney Sixers,8 wickets,Sydney Cricket Ground,Sydney
+1443068,2024/25,2024/12/26,Perth Scorchers,Brisbane Heat,Perth Scorchers,33 runs,Perth Stadium,Perth
+1443069,2024/25,2024/12/27,Hobart Hurricanes,Adelaide Strikers,Hobart Hurricanes,11 runs,Adelaide Oval,Adelaide
+1443070,2024/25,2024/12/28,Sydney Thunder,Melbourne Stars,Sydney Thunder,18 runs,"Manuka Oval, Canberra",Canberra
+1443071,2024/25,2024/12/29,Brisbane Heat,Sydney Sixers,Sydney Sixers,8 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1443072,2024/25,2024/12/30,Sydney Thunder,Melbourne Renegades,Sydney Thunder,8 runs,Sydney Showground Stadium,Sydney
+1443073,2024/25,2024/12/31,Adelaide Strikers,Perth Scorchers,Perth Scorchers,7 wickets,Adelaide Oval,Adelaide
+1443074,2024/25,2025/01/01,Hobart Hurricanes,Sydney Sixers,Hobart Hurricanes,50 runs,"Bellerive Oval, Hobart",Hobart
+1443075,2024/25,2025/01/01,Brisbane Heat,Melbourne Stars,Melbourne Stars,5 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1443076,2024/25,2025/01/02,Melbourne Renegades,Adelaide Strikers,Adelaide Strikers,5 wickets,"Docklands Stadium, Melbourne",Melbourne
+1443078,2024/25,2025/01/03,Perth Scorchers,Sydney Thunder,Sydney Thunder,4 wickets,Perth Stadium,Perth
+1443079,2024/25,2025/01/04,Melbourne Renegades,Melbourne Stars,Melbourne Stars,5 wickets,Melbourne Cricket Ground,Melbourne
+1443080,2024/25,2025/01/05,Adelaide Strikers,Hobart Hurricanes,Hobart Hurricanes,5 wickets,"Bellerive Oval, Hobart",Hobart
+1443081,2024/25,2025/01/06,Sydney Thunder,Brisbane Heat,Brisbane Heat,5 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1443082,2024/25,2025/01/07,Perth Scorchers,Melbourne Renegades,Melbourne Renegades,4 wickets,Perth Stadium,Perth
+1443084,2024/25,2025/01/09,Melbourne Stars,Sydney Sixers,Melbourne Stars,16 runs,Melbourne Cricket Ground,Melbourne
+1443085,2024/25,2025/01/10,Sydney Thunder,Hobart Hurricanes,Hobart Hurricanes,6 wickets,"Bellerive Oval, Hobart",Hobart
+1443086,2024/25,2025/01/11,Sydney Sixers,Perth Scorchers,Sydney Sixers,14 runs,Sydney Cricket Ground,Sydney
+1443087,2024/25,2025/01/11,Adelaide Strikers,Brisbane Heat,Adelaide Strikers,56 runs,Adelaide Oval,Adelaide
+1443088,2024/25,2025/01/12,Melbourne Stars,Melbourne Renegades,Melbourne Stars,42 runs,"Docklands Stadium, Melbourne",Melbourne
+1443089,2024/25,2025/01/13,Sydney Thunder,Perth Scorchers,Sydney Thunder,61 runs,Sydney Showground Stadium,Sydney
+1443090,2024/25,2025/01/14,Melbourne Renegades,Hobart Hurricanes,Hobart Hurricanes,4 wickets,"Bellerive Oval, Hobart",Hobart
+1443091,2024/25,2025/01/15,Adelaide Strikers,Sydney Sixers,Sydney Sixers,3 wickets,Adelaide Oval,Adelaide
+1443092,2024/25,2025/01/16,Brisbane Heat,Hobart Hurricanes,Hobart Hurricanes,5 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1443093,2024/25,2025/01/17,Sydney Thunder,Sydney Sixers,,,Sydney Cricket Ground,Sydney
+1443094,2024/25,2025/01/18,Brisbane Heat,Melbourne Renegades,Melbourne Renegades,3 wickets,"Docklands Stadium, Melbourne",Melbourne
+1443095,2024/25,2025/01/18,Adelaide Strikers,Perth Scorchers,Perth Scorchers,5 wickets,Perth Stadium,Perth
+1443096,2024/25,2025/01/19,Melbourne Stars,Hobart Hurricanes,Melbourne Stars,40 runs,Melbourne Cricket Ground,Melbourne
+1443097,2024/25,2025/01/21,Hobart Hurricanes,Sydney Sixers,Hobart Hurricanes,12 runs,"Bellerive Oval, Hobart",Hobart
+1443098,2024/25,2025/01/22,Sydney Thunder,Melbourne Stars,Sydney Thunder,21 runs,Sydney Showground Stadium,Sydney
+1443099,2024/25,2025/01/24,Sydney Sixers,Sydney Thunder,Sydney Thunder,4 wickets,Sydney Cricket Ground,Sydney
+1443100,2024/25,2025/01/27,Sydney Thunder,Hobart Hurricanes,Hobart Hurricanes,7 wickets,"Bellerive Oval, Hobart",Hobart
+1493238,2025/26,2025/12/14,Sydney Sixers,Perth Scorchers,Perth Scorchers,5 wickets,Perth Stadium,Perth
+1493239,2025/26,2025/12/15,Melbourne Renegades,Brisbane Heat,Melbourne Renegades,14 runs,"GMHBA Stadium, South Geelong, Victoria",Geelong
+1493240,2025/26,2025/12/16,Sydney Thunder,Hobart Hurricanes,Hobart Hurricanes,4 wickets,"Bellerive Oval, Hobart",Hobart
+1493241,2025/26,2025/12/17,Sydney Sixers,Adelaide Strikers,Adelaide Strikers,3 wickets,Sydney Cricket Ground,Sydney
+1493242,2025/26,2025/12/18,Hobart Hurricanes,Melbourne Stars,Melbourne Stars,8 wickets,Melbourne Cricket Ground,Melbourne
+1493243,2025/26,2025/12/19,Perth Scorchers,Brisbane Heat,Brisbane Heat,8 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1493244,2025/26,2025/12/20,Sydney Sixers,Sydney Thunder,Sydney Sixers,47 runs,Sydney Showground Stadium,Sydney
+1493245,2025/26,2025/12/21,Melbourne Renegades,Hobart Hurricanes,Hobart Hurricanes,7 wickets,"GMHBA Stadium, South Geelong, Victoria",Geelong
+1493246,2025/26,2025/12/22,Sydney Thunder,Brisbane Heat,Sydney Thunder,34 runs,"Manuka Oval, Canberra",Canberra
+1493247,2025/26,2025/12/23,Adelaide Strikers,Melbourne Stars,Melbourne Stars,6 wickets,Adelaide Oval,Adelaide
+1493248,2025/26,2025/12/26,Sydney Sixers,Melbourne Stars,Melbourne Stars,7 wickets,Sydney Cricket Ground,Sydney
+1493249,2025/26,2025/12/26,Perth Scorchers,Hobart Hurricanes,Hobart Hurricanes,4 wickets,Perth Stadium,Perth
+1493250,2025/26,2025/12/27,Brisbane Heat,Adelaide Strikers,Brisbane Heat,7 runs,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1493251,2025/26,2025/12/28,Sydney Thunder,Melbourne Stars,Melbourne Stars,9 wickets,"Manuka Oval, Canberra",Canberra
+1493252,2025/26,2025/12/29,Melbourne Renegades,Hobart Hurricanes,Hobart Hurricanes,4 wickets,"Bellerive Oval, Hobart",Hobart
+1493253,2025/26,2025/12/30,Perth Scorchers,Sydney Thunder,Perth Scorchers,71 runs,Sydney Showground Stadium,Sydney
+1493254,2025/26,2025/12/31,Brisbane Heat,Adelaide Strikers,Adelaide Strikers,7 wickets,Adelaide Oval,Adelaide
+1493255,2025/26,2026/01/01,Melbourne Renegades,Sydney Sixers,Sydney Sixers,6 wickets,"Docklands Stadium, Melbourne",Melbourne
+1493256,2025/26,2026/01/01,Perth Scorchers,Hobart Hurricanes,Perth Scorchers,40 runs,"Bellerive Oval, Hobart",Hobart
+1493257,2025/26,2026/01/02,Melbourne Stars,Brisbane Heat,Brisbane Heat,4 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1493258,2025/26,2026/01/03,Sydney Thunder,Hobart Hurricanes,Hobart Hurricanes,6 wickets,Sydney Showground Stadium,Sydney
+1493259,2025/26,2026/01/04,Melbourne Stars,Melbourne Renegades,Melbourne Renegades,4 wickets,Melbourne Cricket Ground,Melbourne
+1493260,2025/26,2026/01/04,Perth Scorchers,Adelaide Strikers,Perth Scorchers,33 runs,Perth Stadium,Perth
+1493261,2025/26,2026/01/05,Brisbane Heat,Sydney Sixers,Sydney Sixers,3 wickets,"International Sports Stadium, Coffs Harbour",Coffs Harbour
+1493262,2025/26,2026/01/06,Adelaide Strikers,Sydney Thunder,Adelaide Strikers,6 runs,Adelaide Oval,Adelaide
+1493263,2025/26,2026/01/07,Perth Scorchers,Melbourne Renegades,Melbourne Renegades,4 wickets,Perth Stadium,Perth
+1493264,2025/26,2026/01/08,Melbourne Stars,Sydney Sixers,Sydney Sixers,6 wickets,Melbourne Cricket Ground,Melbourne
+1493265,2025/26,2026/01/09,Hobart Hurricanes,Adelaide Strikers,Hobart Hurricanes,37 runs,"Bellerive Oval, Hobart",Hobart
+1493266,2025/26,2026/01/10,Sydney Thunder,Brisbane Heat,Brisbane Heat,7 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1493267,2025/26,2026/01/10,Melbourne Renegades,Melbourne Stars,Melbourne Stars,8 wickets,"Docklands Stadium, Melbourne",Melbourne
+1493268,2025/26,2026/01/11,Sydney Sixers,Hobart Hurricanes,,,Sydney Cricket Ground,Sydney
+1493269,2025/26,2026/01/11,Perth Scorchers,Adelaide Strikers,Perth Scorchers,32 runs,Adelaide Oval,Adelaide
+1493270,2025/26,2026/01/12,Melbourne Renegades,Sydney Thunder,Sydney Thunder,4 wickets,Sydney Showground Stadium,Sydney
+1493271,2025/26,2026/01/13,Adelaide Strikers,Melbourne Stars,Melbourne Stars,6 wickets,Melbourne Cricket Ground,Melbourne
+1493272,2025/26,2026/01/14,Brisbane Heat,Hobart Hurricanes,Brisbane Heat,3 runs,"Bellerive Oval, Hobart",Hobart
+1493273,2025/26,2026/01/15,Perth Scorchers,Melbourne Renegades,Perth Scorchers,50 runs,"Docklands Stadium, Melbourne",Melbourne
+1493274,2025/26,2026/01/16,Sydney Thunder,Sydney Sixers,Sydney Sixers,5 wickets,Sydney Cricket Ground,Sydney
+1493275,2025/26,2026/01/17,Melbourne Renegades,Adelaide Strikers,Adelaide Strikers,8 wickets,Adelaide Oval,Adelaide
+1493276,2025/26,2026/01/17,Melbourne Stars,Perth Scorchers,Perth Scorchers,6 wickets,Perth Stadium,Perth
+1493277,2025/26,2026/01/18,Brisbane Heat,Sydney Sixers,Sydney Sixers,5 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1493278,2025/26,2026/01/20,Perth Scorchers,Sydney Sixers,Perth Scorchers,48 runs,Perth Stadium,Perth
+1493279,2025/26,2026/01/21,Hobart Hurricanes,Melbourne Stars,Hobart Hurricanes,3 runs,"Bellerive Oval, Hobart",Hobart
+1493280,2025/26,2026/01/23,Sydney Sixers,Hobart Hurricanes,Sydney Sixers,57 runs,Sydney Cricket Ground,Sydney
+1493281,2025/26,2026/01/25,Sydney Sixers,Perth Scorchers,Perth Scorchers,6 wickets,Perth Stadium,Perth
+524915,2011/12,2011/12/16,Sydney Sixers,Brisbane Heat,Sydney Sixers,7 wickets,Sydney Cricket Ground,
+524916,2011/12,2011/12/17,Melbourne Stars,Sydney Thunder,Sydney Thunder,6 wickets,Melbourne Cricket Ground,
+524917,2011/12,2011/12/18,Adelaide Strikers,Melbourne Renegades,Adelaide Strikers,67 runs,Adelaide Oval,
+524918,2011/12,2011/12/18,Perth Scorchers,Hobart Hurricanes,Hobart Hurricanes,31 runs,Western Australia Cricket Association Ground,Perth
+524919,2011/12,2011/12/20,Brisbane Heat,Melbourne Stars,Melbourne Stars,8 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+524920,2011/12,2011/12/21,Hobart Hurricanes,Sydney Sixers,Hobart Hurricanes,42 runs,Bellerive Oval,Hobart
+524921,2011/12,2011/12/22,Melbourne Renegades,Perth Scorchers,Perth Scorchers,8 wickets,Docklands Stadium,Melbourne
+524922,2011/12,2011/12/23,Sydney Thunder,Adelaide Strikers,Sydney Thunder,6 wickets,Stadium Australia,Sydney
+524923,2011/12,2011/12/27,Sydney Sixers,Melbourne Stars,Sydney Sixers,2 runs,Sydney Cricket Ground,
+524924,2011/12,2011/12/28,Adelaide Strikers,Hobart Hurricanes,Hobart Hurricanes,14 runs,Adelaide Oval,
+524925,2011/12,2011/12/29,Perth Scorchers,Brisbane Heat,Perth Scorchers,10 runs,Western Australia Cricket Association Ground,Perth
+524926,2011/12,2011/12/30,Sydney Thunder,Melbourne Renegades,Melbourne Renegades,6 runs,Stadium Australia,Sydney
+524927,2011/12,2012/01/01,Hobart Hurricanes,Sydney Thunder,Hobart Hurricanes,5 wickets,Bellerive Oval,Hobart
+524928,2011/12,2012/01/02,Melbourne Renegades,Sydney Sixers,Melbourne Renegades,8 wickets,Docklands Stadium,Melbourne
+524930,2011/12,2012/01/04,Melbourne Stars,Perth Scorchers,Perth Scorchers,8 runs,Melbourne Cricket Ground,
+524933,2011/12,2012/01/08,Sydney Thunder,Sydney Sixers,Sydney Sixers,17 runs,Stadium Australia,Sydney
+524934,2011/12,2012/01/08,Perth Scorchers,Adelaide Strikers,Perth Scorchers,42 runs,Western Australia Cricket Association Ground,Perth
+524935,2011/12,2012/01/09,Hobart Hurricanes,Melbourne Stars,Melbourne Stars,19 runs,Bellerive Oval,Hobart
+524936,2011/12,2012/01/10,Adelaide Strikers,Sydney Sixers,Sydney Sixers,64 runs,Adelaide Oval,
+524938,2011/12,2012/01/12,Melbourne Renegades,Brisbane Heat,Brisbane Heat,12 runs,Docklands Stadium,Melbourne
+524939,2011/12,2012/01/17,Brisbane Heat,Sydney Thunder,Brisbane Heat,91 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+524940,2011/12,2012/01/18,Hobart Hurricanes,Melbourne Renegades,Hobart Hurricanes,7 wickets,Bellerive Oval,Hobart
+524941,2011/12,2012/01/18,Sydney Sixers,Perth Scorchers,Sydney Sixers,1 runs,Sydney Cricket Ground,
+524942,2011/12,2012/01/19,Melbourne Stars,Adelaide Strikers,Melbourne Stars,6 wickets,Melbourne Cricket Ground,
+524943,2011/12,2012/01/21,Perth Scorchers,Melbourne Stars,Perth Scorchers,11 runs,Western Australia Cricket Association Ground,Perth
+524944,2011/12,2012/01/22,Hobart Hurricanes,Sydney Sixers,Sydney Sixers,7 runs,Bellerive Oval,Hobart
+524945,2011/12,2012/01/28,Perth Scorchers,Sydney Sixers,Sydney Sixers,7 wickets,Western Australia Cricket Association Ground,Perth
+571232,2012/13,2012/12/07,Melbourne Renegades,Melbourne Stars,Melbourne Renegades,8 wickets,Docklands Stadium,Melbourne
+571233,2012/13,2012/12/08,Sydney Sixers,Sydney Thunder,Sydney Sixers,7 wickets,Sydney Cricket Ground,
+571234,2012/13,2012/12/09,Brisbane Heat,Hobart Hurricanes,Hobart Hurricanes,8 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+571235,2012/13,2012/12/09,Perth Scorchers,Adelaide Strikers,Adelaide Strikers,6 wickets,Western Australia Cricket Association Ground,Perth
+571236,2012/13,2012/12/12,Perth Scorchers,Melbourne Stars,Melbourne Stars,24 runs,Western Australia Cricket Association Ground,Perth
+571237,2012/13,2012/12/13,Adelaide Strikers,Brisbane Heat,Brisbane Heat,3 wickets,Adelaide Oval,
+571238,2012/13,2012/12/14,Sydney Thunder,Melbourne Renegades,Melbourne Renegades,5 wickets,Stadium Australia,Sydney
+571239,2012/13,2012/12/15,Melbourne Stars,Hobart Hurricanes,Melbourne Stars,4 wickets,Melbourne Cricket Ground,
+571240,2012/13,2012/12/16,Sydney Sixers,Perth Scorchers,Perth Scorchers,7 wickets,Sydney Cricket Ground,
+571241,2012/13,2012/12/18,Brisbane Heat,Perth Scorchers,Perth Scorchers,9 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+571242,2012/13,2012/12/19,Melbourne Renegades,Hobart Hurricanes,Melbourne Renegades,7 wickets,Docklands Stadium,Melbourne
+571243,2012/13,2012/12/20,Sydney Thunder,Adelaide Strikers,Adelaide Strikers,51 runs,Stadium Australia,Sydney
+571245,2012/13,2012/12/22,Melbourne Renegades,Brisbane Heat,Melbourne Renegades,6 wickets,Docklands Stadium,Melbourne
+571247,2012/13,2012/12/23,Adelaide Strikers,Sydney Sixers,Adelaide Strikers,9 wickets,Adelaide Oval,
+571248,2012/13,2012/12/26,Sydney Sixers,Hobart Hurricanes,Hobart Hurricanes,7 wickets,Sydney Cricket Ground,
+571249,2012/13,2012/12/27,Adelaide Strikers,Melbourne Stars,Melbourne Stars,8 runs,Adelaide Oval,
+571250,2012/13,2012/12/28,Sydney Thunder,Brisbane Heat,Brisbane Heat,5 wickets,Stadium Australia,Sydney
+571251,2012/13,2012/12/29,Perth Scorchers,Melbourne Renegades,Perth Scorchers,51 runs,Western Australia Cricket Association Ground,Perth
+571252,2012/13,2012/12/30,Sydney Thunder,Sydney Sixers,Sydney Sixers,4 wickets,Stadium Australia,Sydney
+571254,2012/13,2013/01/02,Melbourne Renegades,Adelaide Strikers,Melbourne Renegades,48 runs,Docklands Stadium,Melbourne
+571256,2012/13,2013/01/04,Perth Scorchers,Sydney Thunder,Perth Scorchers,9 wickets,Western Australia Cricket Association Ground,Perth
+571258,2012/13,2013/01/06,Melbourne Stars,Melbourne Renegades,Melbourne Renegades,9 wickets,Melbourne Cricket Ground,
+571259,2012/13,2013/01/07,Brisbane Heat,Sydney Sixers,Sydney Sixers,5 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+571260,2012/13,2013/01/08,Melbourne Stars,Sydney Thunder,Melbourne Stars,13 runs,Melbourne Cricket Ground,
+571262,2012/13,2013/01/10,Adelaide Strikers,Perth Scorchers,Perth Scorchers,98 runs,Adelaide Oval,
+571264,2012/13,2013/01/15,Melbourne Renegades,Brisbane Heat,Brisbane Heat,15 runs,Docklands Stadium,Melbourne
+571265,2012/13,2013/01/16,Perth Scorchers,Melbourne Stars,Perth Scorchers,8 wickets,Western Australia Cricket Association Ground,Perth
+571266,2012/13,2013/01/19,Perth Scorchers,Brisbane Heat,Brisbane Heat,34 runs,Western Australia Cricket Association Ground,Perth
+654031,2013/14,2013/12/20,Melbourne Stars,Melbourne Renegades,Melbourne Stars,76 runs,Melbourne Cricket Ground,
+654033,2013/14,2013/12/21,Sydney Sixers,Sydney Thunder,Sydney Sixers,6 wickets,Sydney Cricket Ground,
+654035,2013/14,2013/12/22,Hobart Hurricanes,Adelaide Strikers,,,Bellerive Oval,Hobart
+654037,2013/14,2013/12/22,Brisbane Heat,Perth Scorchers,Brisbane Heat,3 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+654039,2013/14,2013/12/26,Perth Scorchers,Melbourne Renegades,Perth Scorchers,6 runs,Western Australia Cricket Association Ground,Perth
+654041,2013/14,2013/12/27,Sydney Thunder,Adelaide Strikers,Adelaide Strikers,6 runs,Stadium Australia,Sydney
+654043,2013/14,2013/12/28,Brisbane Heat,Hobart Hurricanes,Hobart Hurricanes,3 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+654045,2013/14,2013/12/29,Sydney Sixers,Melbourne Stars,Melbourne Stars,77 runs,Sydney Cricket Ground,
+654047,2013/14,2013/12/30,Melbourne Renegades,Brisbane Heat,Melbourne Renegades,57 runs,Docklands Stadium,Melbourne
+654051,2013/14,2014/01/01,Hobart Hurricanes,Melbourne Renegades,Melbourne Renegades,51 runs,Bellerive Oval,Hobart
+654053,2013/14,2014/01/01,Sydney Thunder,Melbourne Stars,Melbourne Stars,7 wickets,Stadium Australia,Sydney
+654055,2013/14,2014/01/02,Brisbane Heat,Sydney Sixers,Sydney Sixers,4 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+654057,2013/14,2014/01/03,Perth Scorchers,Sydney Thunder,Perth Scorchers,6 wickets,Western Australia Cricket Association Ground,Perth
+654059,2013/14,2014/01/04,Melbourne Renegades,Melbourne Stars,Melbourne Stars,9 wickets,Docklands Stadium,Melbourne
+654061,2013/14,2014/01/05,Adelaide Strikers,Sydney Sixers,Sydney Sixers,6 wickets,Adelaide Oval,
+654063,2013/14,2014/01/07,Perth Scorchers,Hobart Hurricanes,Perth Scorchers,6 runs,Western Australia Cricket Association Ground,Perth
+654065,2013/14,2014/01/08,Sydney Thunder,Brisbane Heat,Brisbane Heat,48 runs,Stadium Australia,Sydney
+654067,2013/14,2014/01/09,Melbourne Stars,Adelaide Strikers,Melbourne Stars,8 wickets,Melbourne Cricket Ground,
+654069,2013/14,2014/01/10,Sydney Sixers,Perth Scorchers,,,Sydney Cricket Ground,
+654071,2013/14,2014/01/11,Hobart Hurricanes,Sydney Thunder,Hobart Hurricanes,73 runs,Bellerive Oval,Hobart
+654073,2013/14,2014/01/11,Brisbane Heat,Melbourne Stars,Melbourne Stars,3 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+654075,2013/14,2014/01/14,Melbourne Renegades,Sydney Thunder,Sydney Thunder,9 wickets,Docklands Stadium,Melbourne
+654077,2013/14,2014/01/15,Sydney Sixers,Hobart Hurricanes,Sydney Sixers,7 runs,Sydney Cricket Ground,
+654079,2013/14,2014/01/16,Perth Scorchers,Adelaide Strikers,Perth Scorchers,5 runs,Western Australia Cricket Association Ground,Perth
+654081,2013/14,2014/01/18,Adelaide Strikers,Brisbane Heat,Brisbane Heat,32 runs,Adelaide Oval,
+654083,2013/14,2014/01/18,Melbourne Renegades,Sydney Sixers,Sydney Sixers,2 runs,Docklands Stadium,Melbourne
+654085,2013/14,2014/01/21,Melbourne Stars,Hobart Hurricanes,Melbourne Stars,5 wickets,Melbourne Cricket Ground,
+654087,2013/14,2014/01/22,Adelaide Strikers,Melbourne Renegades,Melbourne Renegades,1 runs,Adelaide Oval,
+654089,2013/14,2014/01/23,Hobart Hurricanes,Brisbane Heat,Hobart Hurricanes,40 runs,Bellerive Oval,Hobart
+654091,2013/14,2014/01/25,Sydney Thunder,Sydney Sixers,Sydney Sixers,8 wickets,Stadium Australia,Sydney
+654093,2013/14,2014/01/27,Melbourne Stars,Perth Scorchers,Melbourne Stars,20 runs,Melbourne Cricket Ground,
+654095,2013/14,2014/02/04,Melbourne Stars,Hobart Hurricanes,Hobart Hurricanes,7 wickets,Melbourne Cricket Ground,
+654097,2013/14,2014/02/05,Sydney Sixers,Perth Scorchers,Perth Scorchers,5 runs,Sydney Cricket Ground,
+654099,2013/14,2014/02/07,Perth Scorchers,Hobart Hurricanes,Perth Scorchers,39 runs,Western Australia Cricket Association Ground,Perth
+756735,2014/15,2014/12/18,Adelaide Strikers,Melbourne Stars,Adelaide Strikers,8 wickets,Adelaide Oval,
+756737,2014/15,2014/12/19,Sydney Sixers,Melbourne Renegades,Sydney Sixers,8 wickets,Sydney Cricket Ground,
+756739,2014/15,2014/12/20,Melbourne Stars,Hobart Hurricanes,Hobart Hurricanes,52 runs,Melbourne Cricket Ground,
+756741,2014/15,2014/12/21,Sydney Thunder,Brisbane Heat,Sydney Thunder,56 runs,Stadium Australia,Sydney
+756743,2014/15,2014/12/22,Perth Scorchers,Adelaide Strikers,Adelaide Strikers,1 wickets,Western Australia Cricket Association Ground,Perth
+756745,2014/15,2014/12/23,Hobart Hurricanes,Sydney Sixers,Sydney Sixers,7 wickets,Bellerive Oval,Hobart
+756747,2014/15,2014/12/26,Perth Scorchers,Melbourne Renegades,Perth Scorchers,35 runs,Western Australia Cricket Association Ground,Perth
+756749,2014/15,2014/12/27,Sydney Thunder,Sydney Sixers,Sydney Sixers,16 runs,Stadium Australia,Sydney
+756751,2014/15,2014/12/28,Brisbane Heat,Melbourne Stars,Brisbane Heat,1 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+756753,2014/15,2014/12/29,Sydney Sixers,Perth Scorchers,Perth Scorchers,36 runs,Sydney Cricket Ground,
+756755,2014/15,2014/12/30,Melbourne Renegades,Sydney Thunder,Melbourne Renegades,8 wickets,Docklands Stadium,Melbourne
+756757,2014/15,2014/12/31,Adelaide Strikers,Hobart Hurricanes,Adelaide Strikers,8 wickets,Adelaide Oval,
+756759,2014/15,2015/01/01,Perth Scorchers,Sydney Thunder,Sydney Thunder,20 runs,Western Australia Cricket Association Ground,Perth
+756761,2014/15,2015/01/02,Hobart Hurricanes,Brisbane Heat,Hobart Hurricanes,6 wickets,Bellerive Oval,Hobart
+756763,2014/15,2015/01/03,Melbourne Renegades,Melbourne Stars,Melbourne Stars,112 runs,Docklands Stadium,Melbourne
+756765,2014/15,2015/01/04,Brisbane Heat,Adelaide Strikers,Adelaide Strikers,5 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+756767,2014/15,2015/01/05,Melbourne Stars,Sydney Sixers,,,Melbourne Cricket Ground,
+756769,2014/15,2015/01/06,Adelaide Strikers,Perth Scorchers,Perth Scorchers,18 runs,Adelaide Oval,
+756773,2014/15,2015/01/08,Perth Scorchers,Brisbane Heat,Perth Scorchers,8 wickets,Western Australia Cricket Association Ground,Perth
+756775,2014/15,2015/01/22,Sydney Sixers,Sydney Thunder,Sydney Sixers,4 wickets,Sydney Cricket Ground,
+756777,2014/15,2015/01/10,Melbourne Stars,Melbourne Renegades,Melbourne Stars,3 wickets,Melbourne Cricket Ground,
+756779,2014/15,2015/01/11,Hobart Hurricanes,Perth Scorchers,Perth Scorchers,18 runs,Bellerive Oval,Hobart
+756781,2014/15,2015/01/11,Brisbane Heat,Sydney Sixers,Sydney Sixers,6 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+756783,2014/15,2015/01/12,Adelaide Strikers,Sydney Thunder,,,Adelaide Oval,
+756785,2014/15,2015/01/13,Melbourne Renegades,Brisbane Heat,Melbourne Renegades,5 wickets,Docklands Stadium,Melbourne
+756787,2014/15,2015/01/14,Sydney Sixers,Adelaide Strikers,Adelaide Strikers,23 runs,Sydney Cricket Ground,
+756789,2014/15,2015/01/07,Hobart Hurricanes,Melbourne Renegades,Melbourne Renegades,37 runs,Bellerive Oval,Hobart
+756791,2014/15,2015/01/17,Sydney Thunder,Melbourne Stars,Melbourne Stars,8 wickets,Sydney Showground Stadium,
+756793,2014/15,2015/01/19,Melbourne Renegades,Adelaide Strikers,Adelaide Strikers,22 runs,Docklands Stadium,Melbourne
+756795,2014/15,2015/01/21,Melbourne Stars,Perth Scorchers,Melbourne Stars,3 wickets,Melbourne Cricket Ground,
+756797,2014/15,2015/01/15,Brisbane Heat,Hobart Hurricanes,Brisbane Heat,18 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+756799,2014/15,2015/01/24,Adelaide Strikers,Sydney Sixers,Sydney Sixers,87 runs,Adelaide Oval,
+756801,2014/15,2015/01/25,Perth Scorchers,Melbourne Stars,Perth Scorchers,18 runs,Western Australia Cricket Association Ground,Perth
+756803,2014/15,2015/01/28,Perth Scorchers,Sydney Sixers,Perth Scorchers,4 wickets,Manuka Oval,Canberra
+897697,2015/16,2015/12/18,Adelaide Strikers,Melbourne Stars,Adelaide Strikers,19 runs,Adelaide Oval,
+897699,2015/16,2015/12/19,Brisbane Heat,Melbourne Renegades,Melbourne Renegades,7 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+897701,2015/16,2015/12/20,Sydney Sixers,Hobart Hurricanes,Sydney Sixers,95 runs,Sydney Cricket Ground,
+897705,2015/16,2015/12/21,Perth Scorchers,Adelaide Strikers,Adelaide Strikers,4 wickets,Western Australia Cricket Association Ground,Perth
+897707,2015/16,2015/12/22,Hobart Hurricanes,Brisbane Heat,Hobart Hurricanes,20 runs,Bellerive Oval,Hobart
+897709,2015/16,2015/12/23,Melbourne Renegades,Sydney Sixers,Sydney Sixers,3 wickets,Docklands Stadium,Melbourne
+897711,2015/16,2015/12/26,Perth Scorchers,Brisbane Heat,Perth Scorchers,9 wickets,Western Australia Cricket Association Ground,Perth
+897713,2015/16,2015/12/27,Sydney Sixers,Melbourne Stars,Melbourne Stars,5 wickets,Sydney Cricket Ground,
+897715,2015/16,2015/12/28,Sydney Thunder,Adelaide Strikers,Sydney Thunder,7 wickets,Sydney Showground Stadium,
+897717,2015/16,2015/12/29,Brisbane Heat,Hobart Hurricanes,Hobart Hurricanes,15 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+897719,2015/16,2015/12/30,Melbourne Renegades,Perth Scorchers,Perth Scorchers,10 wickets,Docklands Stadium,Melbourne
+897721,2015/16,2015/12/31,Adelaide Strikers,Sydney Sixers,Adelaide Strikers,5 wickets,Adelaide Oval,
+897723,2015/16,2016/01/01,Hobart Hurricanes,Sydney Thunder,Hobart Hurricanes,11 runs,Bellerive Oval,Hobart
+897725,2015/16,2016/01/02,Melbourne Stars,Melbourne Renegades,Melbourne Stars,7 wickets,Melbourne Cricket Ground,
+897727,2015/16,2016/01/02,Perth Scorchers,Sydney Sixers,Perth Scorchers,9 wickets,Western Australia Cricket Association Ground,Perth
+897729,2015/16,2016/01/03,Brisbane Heat,Sydney Thunder,Brisbane Heat,6 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+897731,2015/16,2016/01/04,Hobart Hurricanes,Melbourne Renegades,Melbourne Renegades,5 wickets,Bellerive Oval,Hobart
+897733,2015/16,2016/01/05,Adelaide Strikers,Perth Scorchers,Adelaide Strikers,36 runs,Adelaide Oval,
+897735,2015/16,2016/01/06,Melbourne Stars,Hobart Hurricanes,Melbourne Stars,8 wickets,Melbourne Cricket Ground,
+897737,2015/16,2016/01/07,Sydney Thunder,Perth Scorchers,Perth Scorchers,30 runs,Sydney Showground Stadium,
+897739,2015/16,2016/01/08,Brisbane Heat,Adelaide Strikers,Adelaide Strikers,8 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+897741,2015/16,2016/01/09,Melbourne Renegades,Melbourne Stars,Melbourne Stars,8 wickets,Docklands Stadium,Melbourne
+897743,2015/16,2016/01/10,Hobart Hurricanes,Perth Scorchers,Perth Scorchers,1 runs,Bellerive Oval,Hobart
+897745,2015/16,2016/01/10,Sydney Sixers,Brisbane Heat,Brisbane Heat,6 runs,Sydney Cricket Ground,
+897747,2015/16,2016/01/11,Sydney Thunder,Melbourne Renegades,Melbourne Renegades,5 wickets,Sydney Showground Stadium,
+897749,2015/16,2016/01/13,Adelaide Strikers,Hobart Hurricanes,Adelaide Strikers,6 wickets,Adelaide Oval,
+897751,2015/16,2016/01/14,Melbourne Stars,Brisbane Heat,Brisbane Heat,56 runs,Melbourne Cricket Ground,
+897753,2015/16,2016/01/16,Sydney Sixers,Sydney Thunder,Sydney Thunder,46 runs,Sydney Cricket Ground,
+897757,2015/16,2016/01/18,Melbourne Renegades,Adelaide Strikers,Adelaide Strikers,27 runs,Docklands Stadium,Melbourne
+897759,2015/16,2016/01/21,Adelaide Strikers,Sydney Thunder,Sydney Thunder,8 wickets,Adelaide Oval,
+897761,2015/16,2016/01/22,Melbourne Stars,Perth Scorchers,Melbourne Stars,7 wickets,Melbourne Cricket Ground,
+897763,2015/16,2016/01/24,Melbourne Stars,Sydney Thunder,Sydney Thunder,3 wickets,Melbourne Cricket Ground,

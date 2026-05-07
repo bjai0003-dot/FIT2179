@@ -1,0 +1,62 @@
+match_id,format,season,date,event,match_number,team1,team2,winner,margin,venue,city
+1072305,Test,2017/18,2017/11/23,England tour of Australia and New Zealand,1,England,Australia,Australia,10 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+1072306,Test,2017/18,2017/12/02,England tour of Australia and New Zealand,2,Australia,England,Australia,120 runs,Adelaide Oval,
+1072307,Test,2017/18,2017/12/14,England tour of Australia and New Zealand,3,England,Australia,Australia,41 runs,W.A.C.A. Ground,Perth
+1072308,Test,2017/18,2017/12/26,England tour of Australia and New Zealand,4,Australia,England,draw,,Melbourne Cricket Ground,
+1072309,Test,2017/18,2018/01/04,England tour of Australia and New Zealand,5,England,Australia,Australia,123 runs,Sydney Cricket Ground,
+1152846,Test,2019,2019/08/01,The Ashes,1,England,Australia,Australia,251 runs,Edgbaston,Birmingham
+1152847,Test,2019,2019/08/14,The Ashes,2,England,Australia,draw,,Lord's,London
+1152848,Test,2019,2019/08/22,The Ashes,3,England,Australia,England,1 wickets,Headingley,Leeds
+1152849,Test,2019,2019/09/04,The Ashes,4,England,Australia,Australia,185 runs,Old Trafford,Manchester
+1152850,Test,2019,2019/09/12,The Ashes,5,England,Australia,England,135 runs,Kennington Oval,London
+1263462,Test,2021/22,2021/12/08,The Ashes,1,England,Australia,Australia,9 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1263463,Test,2021/22,2021/12/16,The Ashes,2,Australia,England,Australia,275 runs,Adelaide Oval,Adelaide
+1263464,Test,2021/22,2021/12/26,The Ashes,3,England,Australia,Australia,14 runs,Melbourne Cricket Ground,Melbourne
+1263465,Test,2021/22,2022/01/05,The Ashes,4,Australia,England,draw,,Sydney Cricket Ground,Sydney
+1263466,Test,2021/22,2022/01/14,The Ashes,5,Australia,England,Australia,146 runs,"Bellerive Oval, Hobart",Hobart
+1336043,Test,2023,2023/06/16,The Ashes,1,England,Australia,Australia,2 wickets,"Edgbaston, Birmingham",Birmingham
+1336044,Test,2023,2023/06/28,The Ashes,2,Australia,England,Australia,43 runs,"Lord's, London",London
+1336045,Test,2023,2023/07/06,The Ashes,3,Australia,England,England,3 wickets,"Headingley, Leeds",Leeds
+1336046,Test,2023,2023/07/19,The Ashes,4,Australia,England,draw,,"Old Trafford, Manchester",Manchester
+1336047,Test,2023,2023/07/27,The Ashes,5,England,Australia,England,49 runs,"Kennington Oval, London",London
+1455611,Test,2025/26,2025/11/21,The Ashes,1,England,Australia,Australia,8 wickets,Perth Stadium,Perth
+1455612,Test,2025/26,2025/12/04,The Ashes,2,England,Australia,Australia,8 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Brisbane
+1455613,Test,2025/26,2025/12/17,The Ashes,3,Australia,England,Australia,82 runs,Adelaide Oval,Adelaide
+1455614,Test,2025/26,2025/12/26,The Ashes,4,Australia,England,England,4 wickets,Melbourne Cricket Ground,Melbourne
+1455615,Test,2025/26,2026/01/04,The Ashes,5,England,Australia,Australia,5 wickets,Sydney Cricket Ground,Sydney
+213856,Test,2005,2005/07/21,Australia tour of England and Scotland,1,Australia,England,Australia,239 runs,"Lord's, London",London
+215010,Test,2005,2005/08/04,Australia tour of England and Scotland,2,England,Australia,England,2 runs,"Edgbaston, Birmingham",Birmingham
+216994,Test,2005,2005/08/25,Australia tour of England and Scotland,4,England,Australia,England,3 wickets,"Trent Bridge, Nottingham",Nottingham
+218383,Test,2005,2005/09/08,Australia tour of England and Scotland,5,England,Australia,draw,,"Kennington Oval, London",London
+249222,Test,2006/07,2006/11/23,England tour of Australia,1,Australia,England,Australia,277 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+249223,Test,2006/07,2006/12/01,England tour of Australia,2,England,Australia,Australia,6 wickets,Adelaide Oval,
+249224,Test,2006/07,2006/12/14,England tour of Australia,3,Australia,England,Australia,206 runs,W.A.C.A. Ground,Perth
+249225,Test,2006/07,2006/12/26,England tour of Australia,4,England,Australia,Australia,99 runs,Melbourne Cricket Ground,
+249226,Test,2006/07,2007/01/02,England tour of Australia,5,England,Australia,Australia,10 wickets,Sydney Cricket Ground,
+345970,Test,2009,2009/07/08,The Ashes,1,England,Australia,draw,,Sophia Gardens,Cardiff
+345971,Test,2009,2009/07/16,The Ashes,2,England,Australia,England,115 runs,Lord's,London
+345972,Test,2009,2009/07/30,The Ashes,3,England,Australia,draw,,Edgbaston,Birmingham
+345973,Test,2009,2009/08/07,The Ashes,4,England,Australia,Australia,80 runs,Headingley,Leeds
+345974,Test,2009,2009/08/20,The Ashes,5,England,Australia,England,197 runs,Kennington Oval,London
+428749,Test,2010/11,2010/11/25,The Ashes,1,Australia,England,draw,,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+428750,Test,2010/11,2010/12/03,The Ashes,2,Australia,England,England,71 runs,Adelaide Oval,
+428751,Test,2010/11,2010/12/16,The Ashes,3,Australia,England,Australia,267 runs,Western Australia Cricket Association Ground,Perth
+428752,Test,2010/11,2010/12/26,The Ashes,4,Australia,England,England,157 runs,Melbourne Cricket Ground,
+428753,Test,2010/11,2011/01/03,The Ashes,5,Australia,England,England,83 runs,Sydney Cricket Ground,
+566932,Test,2013,2013/07/10,The Ashes,1,England,Australia,England,14 runs,Trent Bridge,Nottingham
+566933,Test,2013,2013/07/18,The Ashes,2,England,Australia,England,347 runs,Lord's,London
+566934,Test,2013,2013/08/01,The Ashes,3,England,Australia,draw,,Old Trafford,Manchester
+566935,Test,2013,2013/08/09,The Ashes,4,England,Australia,England,74 runs,Riverside Ground,Chester-le-Street
+566936,Test,2013,2013/08/21,The Ashes,5,England,Australia,draw,,Kennington Oval,London
+592397,Test,2013/14,2013/11/21,The Ashes,1,Australia,England,Australia,381 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+592398,Test,2013/14,2013/12/05,The Ashes,2,Australia,England,Australia,218 runs,Adelaide Oval,
+592399,Test,2013/14,2013/12/13,The Ashes,3,Australia,England,Australia,150 runs,Western Australia Cricket Association Ground,Perth
+592400,Test,2013/14,2013/12/26,The Ashes,4,Australia,England,Australia,8 wickets,Melbourne Cricket Ground,
+592401,Test,2013/14,2014/01/03,The Ashes,5,Australia,England,Australia,281 runs,Sydney Cricket Ground,
+64012,Test,2002/03,2002/12/26,England tour of Australia,4,Australia,England,Australia,5 wickets,Melbourne Cricket Ground,Melbourne
+64013,Test,2002/03,2003/01/02,England tour of Australia,5,England,Australia,England,225 runs,Sydney Cricket Ground,Sydney
+743963,Test,2015,2015/07/08,The Ashes,1,England,Australia,England,169 runs,Sophia Gardens,Cardiff
+743965,Test,2015,2015/07/16,The Ashes,2,England,Australia,Australia,405 runs,Lord's,London
+743967,Test,2015,2015/07/29,The Ashes,3,England,Australia,England,8 wickets,Edgbaston,Birmingham
+743969,Test,2015,2015/08/06,The Ashes,4,England,Australia,England,78 runs,Trent Bridge,Nottingham
+743971,Test,2015,2015/08/20,The Ashes,5,England,Australia,Australia,46 runs,Kennington Oval,London

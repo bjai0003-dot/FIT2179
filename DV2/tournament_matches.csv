@@ -1,0 +1,674 @@
+match_id,format,season,date,event,match_number,team1,team2,winner,margin,venue,city
+1249875,Test,2021,2021/06/18,ICC World Test Championship,,India,New Zealand,New Zealand,8 wickets,"The Rose Bowl, Southampton",Southampton
+1358412,Test,2023,2023/06/07,ICC World Test Championship,,Australia,India,Australia,209 runs,"Kennington Oval, London",London
+1449769,Test,2025,2025/06/11,ICC World Test Championship,,Australia,South Africa,South Africa,5 wickets,"Lord's, London",London
+221840,Test,2005/06,2005/10/14,ICC World XI tour of Australia,,Australia,ICC World XI,Australia,210 runs,Sydney Cricket Ground,Sydney
+1022347,ODI,2017,2017/06/01,ICC Champions Trophy,1,England,Bangladesh,England,8 wickets,Kennington Oval,London
+1022349,ODI,2017,2017/06/02,ICC Champions Trophy,2,Australia,New Zealand,no result,,Edgbaston,Birmingham
+1022351,ODI,2017,2017/06/03,ICC Champions Trophy,3,South Africa,Sri Lanka,South Africa,96 runs,Kennington Oval,London
+1022353,ODI,2017,2017/06/04,ICC Champions Trophy,4,India,Pakistan,India,124 runs,Edgbaston,Birmingham
+1022355,ODI,2017,2017/06/05,ICC Champions Trophy,5,Australia,Bangladesh,no result,,Kennington Oval,London
+1022357,ODI,2017,2017/06/06,ICC Champions Trophy,6,England,New Zealand,England,87 runs,Sophia Gardens,Cardiff
+1022359,ODI,2017,2017/06/07,ICC Champions Trophy,7,Pakistan,South Africa,Pakistan,19 runs,Edgbaston,Birmingham
+1022361,ODI,2017,2017/06/08,ICC Champions Trophy,8,India,Sri Lanka,Sri Lanka,7 wickets,Kennington Oval,London
+1022363,ODI,2017,2017/06/09,ICC Champions Trophy,9,Bangladesh,New Zealand,Bangladesh,5 wickets,Sophia Gardens,Cardiff
+1022365,ODI,2017,2017/06/10,ICC Champions Trophy,10,England,Australia,England,40 runs,Edgbaston,Birmingham
+1022367,ODI,2017,2017/06/11,ICC Champions Trophy,11,India,South Africa,India,8 wickets,Kennington Oval,London
+1022369,ODI,2017,2017/06/12,ICC Champions Trophy,12,Pakistan,Sri Lanka,Pakistan,3 wickets,Sophia Gardens,Cardiff
+1022371,ODI,2017,2017/06/14,ICC Champions Trophy,,England,Pakistan,Pakistan,8 wickets,Sophia Gardens,Cardiff
+1022373,ODI,2017,2017/06/15,ICC Champions Trophy,,Bangladesh,India,India,9 wickets,Edgbaston,Birmingham
+1022375,ODI,2017,2017/06/18,ICC Champions Trophy,,India,Pakistan,Pakistan,180 runs,Kennington Oval,London
+1068737,ODI,2017,2017/04/02,ICC World Cricket League Championship,38,United Arab Emirates,Papua New Guinea,Papua New Guinea,26 runs,Sheikh Zayed Stadium,Abu Dhabi
+1124089,ODI,2017/18,2017/12/06,ICC World Cricket League Championship,49,Hong Kong,Papua New Guinea,Hong Kong,23 runs,ICC Academy,Dubai
+1133002,ODI,2017/18,2018/03/06,ICC Cricket World Cup Qualifier (ICC Trophy),5,Papua New Guinea,Ireland,Ireland,4 wickets,Harare Sports Club,
+1133003,ODI,2017/18,2018/03/06,ICC Cricket World Cup Qualifier (ICC Trophy),6,West Indies,United Arab Emirates,West Indies,60 runs,Old Hararians,Harare
+1133005,ODI,2017/18,2018/03/06,ICC Cricket World Cup Qualifier (ICC Trophy),8,Hong Kong,Scotland,Scotland,4 wickets,Bulawayo Athletic Club,
+1133007,ODI,2017/18,2018/03/08,ICC Cricket World Cup Qualifier (ICC Trophy),10,Papua New Guinea,West Indies,West Indies,6 wickets,Old Hararians,Harare
+1133010,ODI,2017/18,2018/03/10,ICC Cricket World Cup Qualifier (ICC Trophy),13,West Indies,Ireland,West Indies,52 runs,Harare Sports Club,
+1133012,ODI,2017/18,2018/03/10,ICC Cricket World Cup Qualifier (ICC Trophy),15,Zimbabwe,Hong Kong,Zimbabwe,89 runs,Queens Sports Club,Bulawayo
+1133015,ODI,2017/18,2018/03/12,ICC Cricket World Cup Qualifier (ICC Trophy),18,Ireland,United Arab Emirates,Ireland,226 runs,Old Hararians,Harare
+1133017,ODI,2017/18,2018/03/12,ICC Cricket World Cup Qualifier (ICC Trophy),20,Zimbabwe,Scotland,tie,,Queens Sports Club,Bulawayo
+1133019,ODI,2017/18,2018/03/15,ICC Cricket World Cup Qualifier (ICC Trophy),24,Scotland,United Arab Emirates,Scotland,73 runs,Queens Sports Club,Bulawayo
+1133022,ODI,2017/18,2018/03/16,ICC Cricket World Cup Qualifier (ICC Trophy),25,Zimbabwe,Ireland,Zimbabwe,107 runs,Harare Sports Club,
+1133023,ODI,2017/18,2018/03/17,ICC Cricket World Cup Qualifier (ICC Trophy),27,Papua New Guinea,Hong Kong,Papua New Guinea,58 runs,Old Hararians,Harare
+1133025,ODI,2017/18,2018/03/18,ICC Cricket World Cup Qualifier (ICC Trophy),28,Ireland,Scotland,Ireland,25 runs,Harare Sports Club,
+1133026,ODI,2017/18,2018/03/19,ICC Cricket World Cup Qualifier (ICC Trophy),29,Zimbabwe,West Indies,West Indies,4 wickets,Harare Sports Club,
+1133028,ODI,2017/18,2018/03/21,ICC Cricket World Cup Qualifier (ICC Trophy),31,West Indies,Scotland,West Indies,5 runs,Harare Sports Club,
+1133029,ODI,2017/18,2018/03/22,ICC Cricket World Cup Qualifier (ICC Trophy),32,United Arab Emirates,Zimbabwe,United Arab Emirates,3 runs,Harare Sports Club,
+1134540,ODI,2017/18,2018/03/04,ICC Cricket World Cup Qualifier (ICC Trophy),1,United Arab Emirates,Papua New Guinea,United Arab Emirates,56 runs,Harare Sports Club,
+1144483,ODI,2019,2019/05/30,World Cup,1,England,South Africa,England,104 runs,Kennington Oval,London
+1144484,ODI,2019,2019/05/31,World Cup,2,Pakistan,West Indies,West Indies,7 wickets,Trent Bridge,Nottingham
+1144485,ODI,2019,2019/06/01,World Cup,3,New Zealand,Sri Lanka,New Zealand,10 wickets,Sophia Gardens,Cardiff
+1144487,ODI,2019,2019/06/02,World Cup,5,Bangladesh,South Africa,Bangladesh,21 runs,Kennington Oval,London
+1144488,ODI,2019,2019/06/03,World Cup,6,England,Pakistan,Pakistan,14 runs,Trent Bridge,Nottingham
+1144490,ODI,2019,2019/06/05,World Cup,8,India,South Africa,India,6 wickets,The Rose Bowl,Southampton
+1144491,ODI,2019,2019/06/05,World Cup,9,Bangladesh,New Zealand,New Zealand,2 wickets,Kennington Oval,London
+1144492,ODI,2019,2019/06/06,World Cup,10,Australia,West Indies,Australia,15 runs,Trent Bridge,Nottingham
+1144494,ODI,2019,2019/06/08,World Cup,12,England,Bangladesh,England,106 runs,Sophia Gardens,Cardiff
+1144496,ODI,2019,2019/06/09,World Cup,14,Australia,India,India,36 runs,Kennington Oval,London
+1144497,ODI,2019,2019/06/10,World Cup,15,South Africa,West Indies,no result,,The Rose Bowl,Southampton
+1144499,ODI,2019,2019/06/12,World Cup,17,Australia,Pakistan,Australia,41 runs,The Cooper Associates County Ground,Taunton
+1144501,ODI,2019,2019/06/14,World Cup,19,England,West Indies,England,8 wickets,The Rose Bowl,Southampton
+1144502,ODI,2019,2019/06/15,World Cup,20,Australia,Sri Lanka,Australia,87 runs,Kennington Oval,London
+1144504,ODI,2019,2019/06/16,World Cup,22,India,Pakistan,India,89 runs,Old Trafford,Manchester
+1144505,ODI,2019,2019/06/17,World Cup,23,Bangladesh,West Indies,Bangladesh,7 wickets,The Cooper Associates County Ground,Taunton
+1144507,ODI,2019,2019/06/19,World Cup,25,New Zealand,South Africa,New Zealand,4 wickets,Edgbaston,Birmingham
+1144508,ODI,2019,2019/06/20,World Cup,26,Australia,Bangladesh,Australia,48 runs,Trent Bridge,Nottingham
+1144509,ODI,2019,2019/06/21,World Cup,27,England,Sri Lanka,Sri Lanka,20 runs,Headingley,Leeds
+1144511,ODI,2019,2019/06/22,World Cup,29,New Zealand,West Indies,New Zealand,5 runs,Old Trafford,Manchester
+1144512,ODI,2019,2019/06/23,World Cup,30,Pakistan,South Africa,Pakistan,49 runs,Lord's,London
+1144514,ODI,2019,2019/06/25,World Cup,32,England,Australia,Australia,64 runs,Lord's,London
+1144515,ODI,2019,2019/06/26,World Cup,33,New Zealand,Pakistan,Pakistan,6 wickets,Edgbaston,Birmingham
+1144516,ODI,2019,2019/06/27,World Cup,34,India,West Indies,India,125 runs,Old Trafford,Manchester
+1144517,ODI,2019,2019/06/28,World Cup,35,South Africa,Sri Lanka,South Africa,9 wickets,Riverside Ground,Chester-le-Street
+1144519,ODI,2019,2019/06/29,World Cup,37,Australia,New Zealand,Australia,86 runs,Lord's,London
+1144520,ODI,2019,2019/06/30,World Cup,38,England,India,England,31 runs,Edgbaston,Birmingham
+1144521,ODI,2019,2019/07/01,World Cup,39,Sri Lanka,West Indies,Sri Lanka,23 runs,Riverside Ground,Chester-le-Street
+1144522,ODI,2019,2019/07/02,World Cup,40,Bangladesh,India,India,28 runs,Edgbaston,Birmingham
+1144523,ODI,2019,2019/07/03,World Cup,41,England,New Zealand,England,119 runs,Riverside Ground,Chester-le-Street
+1144525,ODI,2019,2019/07/05,World Cup,43,Bangladesh,Pakistan,Pakistan,94 runs,Lord's,London
+1144526,ODI,2019,2019/07/06,World Cup,44,India,Sri Lanka,India,7 wickets,Headingley,Leeds
+1144527,ODI,2019,2019/07/06,World Cup,45,Australia,South Africa,South Africa,10 runs,Old Trafford,Manchester
+1144528,ODI,2019,2019/07/09,World Cup,,India,New Zealand,New Zealand,18 runs,Old Trafford,Manchester
+1144529,ODI,2019,2019/07/11,World Cup,,Australia,England,England,8 wickets,Edgbaston,Birmingham
+1144530,ODI,2019,2019/07/14,World Cup,,England,New Zealand,tie,,Lord's,London
+1174844,ODI,2019,2019/04/27,ICC World Cricket League Division Two,,Papua New Guinea,United States of America,Papua New Guinea,5 wickets,Affies Park,Windhoek
+1174845,ODI,2019,2019/04/27,ICC World Cricket League Division Two,,Namibia,Oman,Namibia,145 runs,Wanderers Cricket Ground,Windhoek
+1196670,ODI,2019,2019/08/14,ICC Men's Cricket World Cup League 2,1,Oman,Papua New Guinea,Oman,4 wickets,Mannofield Park,Aberdeen
+1196671,ODI,2019,2019/08/15,ICC Men's Cricket World Cup League 2,2,Scotland,Oman,Oman,8 wickets,Mannofield Park,Aberdeen
+1196672,ODI,2019,2019/08/17,ICC Men's Cricket World Cup League 2,3,Scotland,Papua New Guinea,Scotland,3 wickets,Mannofield Park,Aberdeen
+1196673,ODI,2019,2019/08/18,ICC Men's Cricket World Cup League 2,4,Scotland,Oman,Scotland,85 runs,Mannofield Park,Aberdeen
+1196674,ODI,2019,2019/08/20,ICC Men's Cricket World Cup League 2,5,Scotland,Papua New Guinea,Scotland,38 runs,Mannofield Park,Aberdeen
+1196675,ODI,2019,2019/08/21,ICC Men's Cricket World Cup League 2,6,Oman,Papua New Guinea,Oman,4 wickets,Mannofield Park,Aberdeen
+1199225,ODI,2019,2019/09/13,ICC Men's Cricket World Cup League 2,1,United States of America,Papua New Guinea,United States of America,5 runs,Central Broward Regional Park Stadium Turf Ground,Lauderhill
+1199226,ODI,2019,2019/09/17,ICC Men's Cricket World Cup League 2,2,United States of America,Namibia,United States of America,5 wickets,Central Broward Regional Park Stadium Turf Ground,Lauderhill
+1199227,ODI,2019,2019/09/19,ICC Men's Cricket World Cup League 2,3,United States of America,Papua New Guinea,United States of America,62 runs,Central Broward Regional Park Stadium Turf Ground,Lauderhill
+1199229,ODI,2019,2019/09/22,ICC Men's Cricket World Cup League 2,5,Namibia,Papua New Guinea,Namibia,4 wickets,Central Broward Regional Park Stadium Turf Ground,Lauderhill
+1199230,ODI,2019,2019/09/23,ICC Men's Cricket World Cup League 2,6,Namibia,Papua New Guinea,Namibia,27 runs,Central Broward Regional Park Stadium Turf Ground,Lauderhill
+1206059,ODI,2019/20,2019/12/08,ICC Men's Cricket World Cup League 2,1,United Arab Emirates,United States of America,United States of America,3 wickets,Sharjah Cricket Stadium,Sharjah
+1206060,ODI,2019/20,2019/12/09,ICC Men's Cricket World Cup League 2,2,Scotland,United States of America,United States of America,35 runs,Sharjah Cricket Stadium,Sharjah
+1206062,ODI,2019/20,2019/12/12,ICC Men's Cricket World Cup League 2,4,United Arab Emirates,United States of America,United States of America,98 runs,ICC Academy,Dubai
+1206063,ODI,2019/20,2019/12/14,ICC Men's Cricket World Cup League 2,5,Scotland,United States of America,Scotland,4 wickets,ICC Academy,Dubai
+1206064,ODI,2019/20,2019/12/15,ICC Men's Cricket World Cup League 2,6,United Arab Emirates,Scotland,United Arab Emirates,7 wickets,ICC Academy,Dubai
+1211169,ODI,2019/20,2020/01/05,ICC Men's Cricket World Cup League 2,1,Oman,United Arab Emirates,Oman,5 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1211170,ODI,2019/20,2020/01/06,ICC Men's Cricket World Cup League 2,2,Namibia,United Arab Emirates,United Arab Emirates,8 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1211171,ODI,2019/20,2020/01/08,ICC Men's Cricket World Cup League 2,3,Oman,Namibia,Namibia,52 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1211173,ODI,2019/20,2020/01/09,ICC Men's Cricket World Cup League 2,4,Namibia,United Arab Emirates,United Arab Emirates,8 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1215122,ODI,2019/20,2020/02/05,ICC Men's Cricket World Cup League 2,25,Nepal,Oman,Oman,18 runs,Tribhuvan University International Cricket Ground,Kirtipur
+1215123,ODI,2019/20,2020/02/06,ICC Men's Cricket World Cup League 2,26,Oman,United States of America,Oman,6 wickets,Tribhuvan University International Cricket Ground,Kirtipur
+1215124,ODI,2019/20,2020/02/08,ICC Men's Cricket World Cup League 2,27,Nepal,United States of America,Nepal,35 runs,Tribhuvan University International Cricket Ground,Kirtipur
+1215125,ODI,2019/20,2020/02/09,ICC Men's Cricket World Cup League 2,28,Nepal,Oman,Oman,8 wickets,Tribhuvan University International Cricket Ground,Kirtipur
+1215126,ODI,2019/20,2020/02/11,ICC Men's Cricket World Cup League 2,29,Oman,United States of America,Oman,92 runs,Tribhuvan University International Cricket Ground,Kirtipur
+1215127,ODI,2019/20,2020/02/12,ICC Men's Cricket World Cup League 2,30,Nepal,United States of America,Nepal,8 wickets,Tribhuvan University International Cricket Ground,Kirtipur
+1244022,ODI,2020/21,2021/01/20,ICC Men's Cricket World Cup Super League,1,West Indies,Bangladesh,Bangladesh,6 wickets,Shere Bangla National Stadium,Dhaka
+1244023,ODI,2020/21,2021/01/22,ICC Men's Cricket World Cup Super League,2,West Indies,Bangladesh,Bangladesh,7 wickets,Shere Bangla National Stadium,Dhaka
+1275249,ODI,2021,2021/09/13,ICC Men's Cricket World Cup League 2,37,United States of America,Nepal,Nepal,5 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1275250,ODI,2021,2021/09/14,ICC Men's Cricket World Cup League 2,38,Nepal,Oman,Oman,5 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1275251,ODI,2021,2021/09/16,ICC Men's Cricket World Cup League 2,39,United States of America,Oman,Oman,4 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1275253,ODI,2021,2021/09/19,ICC Men's Cricket World Cup League 2,41,Oman,Nepal,Nepal,7 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1275255,ODI,2021,2021/09/25,ICC Men's Cricket World Cup League 2,43,Papua New Guinea,Scotland,Scotland,6 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2),Al Amarat
+1275256,ODI,2021,2021/09/26,ICC Men's Cricket World Cup League 2,44,Oman,Papua New Guinea,Oman,110 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2),Al Amarat
+1275257,ODI,2021,2021/09/28,ICC Men's Cricket World Cup League 2,45,Scotland,Oman,Scotland,18 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2),Al Amarat
+1275258,ODI,2021,2021/09/29,ICC Men's Cricket World Cup League 2,46,Papua New Guinea,Scotland,Scotland,4 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1275259,ODI,2021,2021/10/01,ICC Men's Cricket World Cup League 2,47,Papua New Guinea,Oman,Oman,3 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1275260,ODI,2021,2021/10/02,ICC Men's Cricket World Cup League 2,48,Scotland,Oman,no result,,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1290881,ODI,2021/22,2021/11/26,ICC Men's Cricket World Cup League 2,49,Namibia,Oman,Namibia,40 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1299586,ODI,2021/22,2022/02/05,ICC Men's Cricket World Cup League 2,57,Oman,United Arab Emirates,United Arab Emirates,4 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1299587,ODI,2021/22,2022/02/06,ICC Men's Cricket World Cup League 2,58,Oman,United Arab Emirates,United Arab Emirates,4 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1299588,ODI,2021/22,2022/02/08,ICC Men's Cricket World Cup League 2,59,Oman,United Arab Emirates,tie,,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1302616,ODI,2021/22,2022/03/05,ICC Men's Cricket World Cup League 2,60,Oman,United Arab Emirates,Oman,12 runs,"ICC Academy, Dubai",Dubai
+1302617,ODI,2021/22,2022/03/06,ICC Men's Cricket World Cup League 2,61,Namibia,Oman,Namibia,110 runs,"ICC Academy, Dubai",Dubai
+1302618,ODI,2021/22,2022/03/08,ICC Men's Cricket World Cup League 2,62,Namibia,United Arab Emirates,United Arab Emirates,3 wickets,"ICC Academy, Dubai",Dubai
+1302619,ODI,2021/22,2022/03/09,ICC Men's Cricket World Cup League 2,63,Oman,United Arab Emirates,Oman,8 runs,"ICC Academy, Dubai",Dubai
+1302620,ODI,2021/22,2022/03/11,ICC Men's Cricket World Cup League 2,64,Namibia,Oman,Oman,7 wickets,Sharjah Cricket Stadium,Sharjah
+1302621,ODI,2021/22,2022/03/12,ICC Men's Cricket World Cup League 2,65,United Arab Emirates,Namibia,United Arab Emirates,43 runs,Sharjah Cricket Stadium,Sharjah
+1302622,ODI,2021/22,2022/03/14,ICC Men's Cricket World Cup League 2,66,Oman,Namibia,Namibia,5 wickets,Dubai International Cricket Stadium,Dubai
+1302623,ODI,2021/22,2022/03/15,ICC Men's Cricket World Cup League 2,67,Papua New Guinea,United Arab Emirates,United Arab Emirates,7 wickets,Sharjah Cricket Stadium,Sharjah
+1302624,ODI,2021/22,2022/03/16,ICC Men's Cricket World Cup League 2,68,Papua New Guinea,Nepal,Nepal,2 wickets,Sharjah Cricket Stadium,Sharjah
+1302625,ODI,2021/22,2022/03/18,ICC Men's Cricket World Cup League 2,69,United Arab Emirates,Nepal,United Arab Emirates,48 runs,Dubai International Cricket Stadium,Dubai
+1302626,ODI,2021/22,2022/03/19,ICC Men's Cricket World Cup League 2,70,United Arab Emirates,Papua New Guinea,Papua New Guinea,6 wickets,Dubai International Cricket Stadium,Dubai
+1302627,ODI,2021/22,2022/03/21,ICC Men's Cricket World Cup League 2,71,United Arab Emirates,Nepal,United Arab Emirates,99 runs,Dubai International Cricket Stadium,Dubai
+1302628,ODI,2021/22,2022/03/22,ICC Men's Cricket World Cup League 2,72,Papua New Guinea,Nepal,Nepal,7 wickets,Dubai International Cricket Stadium,Dubai
+1308244,ODI,2022,2022/04/09,ICC Men's Cricket World Cup League 2,73,Scotland,Papua New Guinea,Scotland,162 runs,Dubai International Cricket Stadium,Dubai
+1308245,ODI,2022,2022/04/10,ICC Men's Cricket World Cup League 2,74,Scotland,Oman,Scotland,4 runs,Dubai International Cricket Stadium,Dubai
+1308246,ODI,2022,2022/04/12,ICC Men's Cricket World Cup League 2,75,Papua New Guinea,Oman,Oman,7 wickets,Dubai International Cricket Stadium,Dubai
+1308247,ODI,2022,2022/04/13,ICC Men's Cricket World Cup League 2,76,Scotland,Papua New Guinea,Scotland,123 runs,Dubai International Cricket Stadium,Dubai
+1308248,ODI,2022,2022/04/15,ICC Men's Cricket World Cup League 2,77,Oman,Scotland,Scotland,2 wickets,Dubai International Cricket Stadium,Dubai
+1308249,ODI,2022,2022/04/16,ICC Men's Cricket World Cup League 2,78,Oman,Papua New Guinea,Oman,85 runs,Dubai International Cricket Stadium,Dubai
+1312798,ODI,2022,2022/05/28,ICC Men's Cricket World Cup League 2,79,United States of America,Scotland,United States of America,104 runs,"Choice Moosa Stadium, Pearland",Pearland
+1312799,ODI,2022,2022/05/29,ICC Men's Cricket World Cup League 2,80,Scotland,United States of America,Scotland,111 runs,"Choice Moosa Stadium, Pearland",Pearland
+1312800,ODI,2022,2022/05/31,ICC Men's Cricket World Cup League 2,81,United Arab Emirates,Scotland,Scotland,4 wickets,"Moosa Cricket Stadium, Pearland",Pearland
+1312801,ODI,2022,2022/06/01,ICC Men's Cricket World Cup League 2,82,United Arab Emirates,United States of America,United States of America,4 wickets,"Moosa Cricket Stadium, Pearland",Pearland
+1312802,ODI,2022,2022/06/03,ICC Men's Cricket World Cup League 2,83,Scotland,United Arab Emirates,United Arab Emirates,5 wickets,"Moosa Cricket Stadium, Pearland",Pearland
+1312803,ODI,2022,2022/06/04,ICC Men's Cricket World Cup League 2,84,United States of America,United Arab Emirates,United Arab Emirates,8 wickets,"Moosa Cricket Stadium, Pearland",Pearland
+1312804,ODI,2022,2022/06/08,ICC Men's Cricket World Cup League 2,85,United States of America,Oman,United States of America,114 runs,"Moosa Cricket Stadium, Pearland",Pearland
+1312805,ODI,2022,2022/06/09,ICC Men's Cricket World Cup League 2,86,Oman,Nepal,Oman,13 runs,"Moosa Cricket Stadium, Pearland",Pearland
+1312806,ODI,2022,2022/06/11,ICC Men's Cricket World Cup League 2,87,Nepal,United States of America,tie,,"Moosa Cricket Stadium, Pearland",Pearland
+1312807,ODI,2022,2022/06/12,ICC Men's Cricket World Cup League 2,88,Oman,United States of America,Oman,13 runs,"Moosa Cricket Stadium, Pearland",Pearland
+1312808,ODI,2022,2022/06/14,ICC Men's Cricket World Cup League 2,89,Oman,Nepal,Nepal,7 wickets,"Moosa Cricket Stadium, Pearland",Pearland
+1312809,ODI,2022,2022/06/15,ICC Men's Cricket World Cup League 2,90,United States of America,Nepal,United States of America,39 runs,"Moosa Cricket Stadium, Pearland",Pearland
+1322031,ODI,2022,2022/07/11,ICC Men's Cricket World Cup League 2,92,Namibia,Nepal,Namibia,40 runs,"Cambusdoon New Ground, Ayr",Ayr
+1322032,ODI,2022,2022/07/13,ICC Men's Cricket World Cup League 2,93,Scotland,Nepal,Nepal,5 wickets,"Titwood, Glasgow",Glasgow
+1322033,ODI,2022,2022/07/14,ICC Men's Cricket World Cup League 2,94,Namibia,Scotland,Scotland,3 wickets,"Titwood, Glasgow",Glasgow
+1322034,ODI,2022,2022/07/16,ICC Men's Cricket World Cup League 2,95,Namibia,Nepal,Namibia,63 runs,"Cambusdoon New Ground, Ayr",Ayr
+1322035,ODI,2022,2022/07/17,ICC Men's Cricket World Cup League 2,96,Nepal,Scotland,Scotland,8 wickets,"Titwood, Glasgow",Glasgow
+1322036,ODI,2022,2022/08/10,ICC Men's Cricket World Cup League 2,97,Scotland,United Arab Emirates,Scotland,64 runs,"Mannofield Park, Aberdeen",Aberdeen
+1322037,ODI,2022,2022/08/11,ICC Men's Cricket World Cup League 2,98,United Arab Emirates,United States of America,United States of America,1 wickets,"Mannofield Park, Aberdeen",Aberdeen
+1322038,ODI,2022,2022/08/13,ICC Men's Cricket World Cup League 2,99,United States of America,Scotland,Scotland,5 wickets,"Mannofield Park, Aberdeen",Aberdeen
+1322039,ODI,2022,2022/08/14,ICC Men's Cricket World Cup League 2,100,Scotland,United Arab Emirates,Scotland,86 runs,"Mannofield Park, Aberdeen",Aberdeen
+1322041,ODI,2022,2022/08/17,ICC Men's Cricket World Cup League 2,102,Scotland,United States of America,United States of America,2 wickets,"Mannofield Park, Aberdeen",Aberdeen
+1331365,ODI,2022,2022/09/11,ICC Men's Cricket World Cup League 2,103,United States of America,Papua New Guinea,tie,,"Amini Park, Port Moresby",Port Moresby
+1331366,ODI,2022,2022/09/13,ICC Men's Cricket World Cup League 2,104,Papua New Guinea,United States of America,Papua New Guinea,26 runs,"Amini Park, Port Moresby",Port Moresby
+1331367,ODI,2022,2022/09/15,ICC Men's Cricket World Cup League 2,105,Namibia,United States of America,Namibia,79 runs,"Amini Park, Port Moresby",Port Moresby
+1331368,ODI,2022,2022/09/17,ICC Men's Cricket World Cup League 2,106,Namibia,United States of America,Namibia,68 runs,"Amini Park, Port Moresby",Port Moresby
+1331369,ODI,2022,2022/09/20,ICC Men's Cricket World Cup League 2,107,Namibia,Papua New Guinea,Namibia,167 runs,"Amini Park, Port Moresby",Port Moresby
+1331370,ODI,2022,2022/09/21,ICC Men's Cricket World Cup League 2,108,Namibia,Papua New Guinea,Namibia,61 runs,"Amini Park, Port Moresby",Port Moresby
+1341969,ODI,2022/23,2022/11/19,ICC Men's Cricket World Cup League 2,109,Papua New Guinea,Namibia,Namibia,8 wickets,"Wanderers Cricket Ground, Windhoek",Windhoek
+1341970,ODI,2022/23,2022/11/20,ICC Men's Cricket World Cup League 2,110,United States of America,Namibia,United States of America,71 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1341971,ODI,2022/23,2022/11/22,ICC Men's Cricket World Cup League 2,111,Papua New Guinea,United States of America,United States of America,6 wickets,"Wanderers Cricket Ground, Windhoek",Windhoek
+1341972,ODI,2022/23,2022/11/23,ICC Men's Cricket World Cup League 2,112,Papua New Guinea,Namibia,Namibia,3 wickets,"Wanderers Cricket Ground, Windhoek",Windhoek
+1341973,ODI,2022/23,2022/11/25,ICC Men's Cricket World Cup League 2,113,United States of America,Papua New Guinea,United States of America,35 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1341974,ODI,2022/23,2022/11/26,ICC Men's Cricket World Cup League 2,114,United States of America,Namibia,Namibia,6 wickets,"Wanderers Cricket Ground, Windhoek",Windhoek
+1341975,ODI,2022/23,2022/12/01,ICC Men's Cricket World Cup League 2,115,Namibia,Scotland,Scotland,4 wickets,"United Cricket Club Ground, Windhoek",Windhoek
+1341976,ODI,2022/23,2022/12/02,ICC Men's Cricket World Cup League 2,116,Nepal,Namibia,no result,,"United Cricket Club Ground, Windhoek",Windhoek
+1341977,ODI,2022/23,2022/12/04,ICC Men's Cricket World Cup League 2,117,Nepal,Scotland,Scotland,3 wickets,"United Cricket Club Ground, Windhoek",Windhoek
+1341978,ODI,2022/23,2022/12/05,ICC Men's Cricket World Cup League 2,118,Scotland,Namibia,Namibia,3 wickets,"United Cricket Club Ground, Windhoek",Windhoek
+1341979,ODI,2022/23,2022/12/07,ICC Men's Cricket World Cup League 2,119,Namibia,Nepal,Namibia,86 runs,"United Cricket Club Ground, Windhoek",Windhoek
+1341980,ODI,2022/23,2022/12/08,ICC Men's Cricket World Cup League 2,120,Nepal,Scotland,Scotland,8 wickets,"United Cricket Club Ground, Windhoek",Windhoek
+1358073,ODI,2022/23,2023/02/14,ICC Men's Cricket World Cup League 2,121,Namibia,Nepal,Nepal,2 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358074,ODI,2022/23,2023/02/15,ICC Men's Cricket World Cup League 2,122,Namibia,Scotland,Scotland,10 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358075,ODI,2022/23,2023/02/17,ICC Men's Cricket World Cup League 2,123,Scotland,Nepal,Nepal,3 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358076,ODI,2022/23,2023/02/18,ICC Men's Cricket World Cup League 2,124,Namibia,Nepal,Nepal,3 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358077,ODI,2022/23,2023/02/20,ICC Men's Cricket World Cup League 2,125,Scotland,Namibia,Scotland,43 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358078,ODI,2022/23,2023/02/21,ICC Men's Cricket World Cup League 2,126,Scotland,Nepal,Nepal,2 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358079,ODI,2022/23,2023/02/23,ICC Men's Cricket World Cup League 2,127,Namibia,United Arab Emirates,United Arab Emirates,1 wickets,Dubai International Cricket Stadium,Dubai
+1358080,ODI,2022/23,2023/02/25,ICC Men's Cricket World Cup League 2,128,United Arab Emirates,Namibia,Namibia,7 wickets,Dubai International Cricket Stadium,Dubai
+1358082,ODI,2022/23,2023/02/28,ICC Men's Cricket World Cup League 2,130,Papua New Guinea,United Arab Emirates,Papua New Guinea,131 runs,Dubai International Cricket Stadium,Dubai
+1358083,ODI,2022/23,2023/03/02,ICC Men's Cricket World Cup League 2,131,United Arab Emirates,Nepal,United Arab Emirates,68 runs,Dubai International Cricket Stadium,Dubai
+1358084,ODI,2022/23,2023/03/03,ICC Men's Cricket World Cup League 2,132,Papua New Guinea,Nepal,Nepal,3 wickets,Dubai International Cricket Stadium,Dubai
+1358085,ODI,2022/23,2023/03/05,ICC Men's Cricket World Cup League 2,133,United Arab Emirates,Papua New Guinea,Papua New Guinea,5 wickets,Dubai International Cricket Stadium,Dubai
+1358086,ODI,2022/23,2023/03/06,ICC Men's Cricket World Cup League 2,134,Nepal,United Arab Emirates,Nepal,42 runs,Dubai International Cricket Stadium,Dubai
+1358087,ODI,2022/23,2023/03/09,ICC Men's Cricket World Cup League 2,135,Nepal,Papua New Guinea,Nepal,52 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358088,ODI,2022/23,2023/03/10,ICC Men's Cricket World Cup League 2,136,Papua New Guinea,United Arab Emirates,Papua New Guinea,56 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358089,ODI,2022/23,2023/03/12,ICC Men's Cricket World Cup League 2,137,Nepal,United Arab Emirates,Nepal,177 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358090,ODI,2022/23,2023/03/13,ICC Men's Cricket World Cup League 2,138,Papua New Guinea,Nepal,Nepal,9 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358091,ODI,2022/23,2023/03/15,ICC Men's Cricket World Cup League 2,139,Papua New Guinea,United Arab Emirates,United Arab Emirates,6 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1358092,ODI,2022/23,2023/03/16,ICC Men's Cricket World Cup League 2,140,United Arab Emirates,Nepal,Nepal,9 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1364125,ODI,2023,2023/05/12,ICC Men's Cricket World Cup Super League,2,Ireland,Bangladesh,Bangladesh,3 wickets,"County Ground, Chelmsford",Chelmsford
+1365092,ODI,2023,2023/03/26,ICC Cricket World Cup Qualifier Play-off,1,United States of America,Namibia,United States of America,80 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1365093,ODI,2023,2023/03/27,ICC Cricket World Cup Qualifier Play-off,2,United Arab Emirates,Papua New Guinea,United Arab Emirates,21 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1365095,ODI,2023,2023/03/29,ICC Cricket World Cup Qualifier Play-off,4,Canada,United States of America,Canada,26 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1365097,ODI,2023,2023/03/30,ICC Cricket World Cup Qualifier Play-off,6,Jersey,Namibia,Namibia,8 wickets,"Wanderers Cricket Ground, Windhoek",Windhoek
+1365098,ODI,2023,2023/03/30,ICC Cricket World Cup Qualifier Play-off,7,United Arab Emirates,United States of America,United States of America,5 wickets,"United Cricket Club Ground, Windhoek",Windhoek
+1365099,ODI,2023,2023/04/01,ICC Cricket World Cup Qualifier Play-off,8,Canada,United Arab Emirates,United Arab Emirates,6 wickets,"Wanderers Cricket Ground, Windhoek",Windhoek
+1365100,ODI,2023,2023/04/01,ICC Cricket World Cup Qualifier Play-off,9,Jersey,Papua New Guinea,Jersey,11 runs,"United Cricket Club Ground, Windhoek",Windhoek
+1365101,ODI,2023,2023/04/02,ICC Cricket World Cup Qualifier Play-off,10,United States of America,Papua New Guinea,United States of America,117 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1365102,ODI,2023,2023/04/02,ICC Cricket World Cup Qualifier Play-off,11,United Arab Emirates,Namibia,United Arab Emirates,28 runs,"United Cricket Club Ground, Windhoek",Windhoek
+1365103,ODI,2023,2023/04/04,ICC Cricket World Cup Qualifier Play-off,12,Namibia,Canada,Namibia,111 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1365104,ODI,2023,2023/04/04,ICC Cricket World Cup Qualifier Play-off,13,United States of America,Jersey,United States of America,25 runs,"United Cricket Club Ground, Windhoek",Windhoek
+1365105,ODI,2023,2023/04/05,ICC Cricket World Cup Qualifier Play-off,14,United Arab Emirates,Jersey,United Arab Emirates,66 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1365106,ODI,2023,2023/04/05,ICC Cricket World Cup Qualifier Play-off,15,Canada,Papua New Guinea,Canada,90 runs,"United Cricket Club Ground, Windhoek",Windhoek
+1365552,ODI,2023,2023/05/14,ICC Men's Cricket World Cup Super League,3,Bangladesh,Ireland,Bangladesh,5 runs,"County Ground, Chelmsford",Chelmsford
+1377746,ODI,2023,2023/06/18,ICC Cricket World Cup Qualifier,1,Nepal,Zimbabwe,Zimbabwe,8 wickets,Harare Sports Club,Harare
+1377747,ODI,2023,2023/06/18,ICC Cricket World Cup Qualifier,2,West Indies,United States of America,West Indies,39 runs,"Takashinga Sports Club, Highfield, Harare",Harare
+1377748,ODI,2023,2023/06/19,ICC Cricket World Cup Qualifier,3,Sri Lanka,United Arab Emirates,Sri Lanka,175 runs,"Queens Sports Club, Bulawayo",Bulawayo
+1377749,ODI,2023,2023/06/19,ICC Cricket World Cup Qualifier,4,Ireland,Oman,Oman,5 wickets,Bulawayo Athletic Club,Bulawayo
+1377750,ODI,2023,2023/06/20,ICC Cricket World Cup Qualifier,5,Netherlands,Zimbabwe,Zimbabwe,6 wickets,Harare Sports Club,Harare
+1377751,ODI,2023,2023/06/20,ICC Cricket World Cup Qualifier,6,United States of America,Nepal,Nepal,6 wickets,"Takashinga Sports Club, Highfield, Harare",Harare
+1377752,ODI,2023,2023/06/21,ICC Cricket World Cup Qualifier,7,Ireland,Scotland,Scotland,1 wickets,"Queens Sports Club, Bulawayo",Bulawayo
+1377753,ODI,2023,2023/06/21,ICC Cricket World Cup Qualifier,8,United Arab Emirates,Oman,Oman,5 wickets,Bulawayo Athletic Club,Bulawayo
+1377754,ODI,2023,2023/06/22,ICC Cricket World Cup Qualifier,9,West Indies,Nepal,West Indies,101 runs,Harare Sports Club,Harare
+1377755,ODI,2023,2023/06/22,ICC Cricket World Cup Qualifier,10,United States of America,Netherlands,Netherlands,5 wickets,"Takashinga Sports Club, Highfield, Harare",Harare
+1377756,ODI,2023,2023/06/23,ICC Cricket World Cup Qualifier,11,Oman,Sri Lanka,Sri Lanka,10 wickets,"Queens Sports Club, Bulawayo",Bulawayo
+1377757,ODI,2023,2023/06/23,ICC Cricket World Cup Qualifier,12,Scotland,United Arab Emirates,Scotland,111 runs,Bulawayo Athletic Club,Bulawayo
+1377758,ODI,2023,2023/06/24,ICC Cricket World Cup Qualifier,13,Zimbabwe,West Indies,Zimbabwe,35 runs,Harare Sports Club,Harare
+1377759,ODI,2023,2023/06/24,ICC Cricket World Cup Qualifier,14,Nepal,Netherlands,Netherlands,7 wickets,"Takashinga Sports Club, Highfield, Harare",Harare
+1377760,ODI,2023,2023/06/25,ICC Cricket World Cup Qualifier,15,Sri Lanka,Ireland,Sri Lanka,133 runs,"Queens Sports Club, Bulawayo",Bulawayo
+1377761,ODI,2023,2023/06/25,ICC Cricket World Cup Qualifier,16,Scotland,Oman,Scotland,76 runs,Bulawayo Athletic Club,Bulawayo
+1377762,ODI,2023,2023/06/26,ICC Cricket World Cup Qualifier,17,Zimbabwe,United States of America,Zimbabwe,304 runs,Harare Sports Club,Harare
+1377763,ODI,2023,2023/06/26,ICC Cricket World Cup Qualifier,18,West Indies,Netherlands,tie,,"Takashinga Sports Club, Highfield, Harare",Harare
+1377764,ODI,2023,2023/06/27,ICC Cricket World Cup Qualifier,19,Sri Lanka,Scotland,Sri Lanka,82 runs,"Queens Sports Club, Bulawayo",Bulawayo
+1377765,ODI,2023,2023/06/27,ICC Cricket World Cup Qualifier,20,Ireland,United Arab Emirates,Ireland,138 runs,Bulawayo Athletic Club,Bulawayo
+1377766,ODI,2023,2023/06/29,ICC Cricket World Cup Qualifier,21,Zimbabwe,Oman,Zimbabwe,14 runs,"Queens Sports Club, Bulawayo",Bulawayo
+1377767,ODI,2023,2023/06/30,ICC Cricket World Cup Qualifier,22,Sri Lanka,Netherlands,Sri Lanka,21 runs,"Queens Sports Club, Bulawayo",Bulawayo
+1377768,ODI,2023,2023/06/30,ICC Cricket World Cup Qualifier,,United States of America,Ireland,Ireland,6 wickets,"Takashinga Sports Club, Highfield, Harare",Harare
+1377769,ODI,2023,2023/07/01,ICC Cricket World Cup Qualifier,23,West Indies,Scotland,Scotland,7 wickets,Harare Sports Club,Harare
+1377770,ODI,2023,2023/07/02,ICC Cricket World Cup Qualifier,24,Zimbabwe,Sri Lanka,Sri Lanka,9 wickets,"Queens Sports Club, Bulawayo",Bulawayo
+1377771,ODI,2023,2023/07/02,ICC Cricket World Cup Qualifier,,United Arab Emirates,Nepal,Nepal,3 wickets,"Takashinga Sports Club, Highfield, Harare",Harare
+1377772,ODI,2023,2023/07/03,ICC Cricket World Cup Qualifier,25,Netherlands,Oman,Netherlands,74 runs,Harare Sports Club,Harare
+1377773,ODI,2023,2023/07/04,ICC Cricket World Cup Qualifier,26,Scotland,Zimbabwe,Scotland,31 runs,"Queens Sports Club, Bulawayo",Bulawayo
+1377774,ODI,2023,2023/07/04,ICC Cricket World Cup Qualifier,,Nepal,Ireland,Ireland,2 wickets,"Takashinga Sports Club, Highfield, Harare",Harare
+1377775,ODI,2023,2023/07/05,ICC Cricket World Cup Qualifier,27,Oman,West Indies,West Indies,7 wickets,Harare Sports Club,Harare
+1377776,ODI,2023,2023/07/06,ICC Cricket World Cup Qualifier,28,Scotland,Netherlands,Netherlands,4 wickets,"Queens Sports Club, Bulawayo",Bulawayo
+1377777,ODI,2023,2023/07/06,ICC Cricket World Cup Qualifier,,United Arab Emirates,United States of America,United Arab Emirates,1 runs,"Takashinga Sports Club, Highfield, Harare",Harare
+1377778,ODI,2023,2023/07/07,ICC Cricket World Cup Qualifier,29,West Indies,Sri Lanka,Sri Lanka,8 wickets,Harare Sports Club,Harare
+1377779,ODI,2023,2023/07/09,ICC Cricket World Cup Qualifier,,Sri Lanka,Netherlands,Sri Lanka,128 runs,Harare Sports Club,Harare
+1384392,ODI,2023/24,2023/10/05,ICC Cricket World Cup,1,England,New Zealand,New Zealand,9 wickets,"Narendra Modi Stadium, Ahmedabad",Ahmedabad
+1384393,ODI,2023/24,2023/10/06,ICC Cricket World Cup,2,Pakistan,Netherlands,Pakistan,81 runs,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad
+1384395,ODI,2023/24,2023/10/07,ICC Cricket World Cup,4,South Africa,Sri Lanka,South Africa,102 runs,"Arun Jaitley Stadium, Delhi",Delhi
+1384396,ODI,2023/24,2023/10/08,ICC Cricket World Cup,5,Australia,India,India,6 wickets,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai
+1384397,ODI,2023/24,2023/10/09,ICC Cricket World Cup,6,New Zealand,Netherlands,New Zealand,99 runs,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad
+1384398,ODI,2023/24,2023/10/10,ICC Cricket World Cup,7,England,Bangladesh,England,137 runs,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala
+1384399,ODI,2023/24,2023/10/10,ICC Cricket World Cup,8,Sri Lanka,Pakistan,Pakistan,6 wickets,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",Hyderabad
+1384401,ODI,2023/24,2023/10/12,ICC Cricket World Cup,10,South Africa,Australia,South Africa,134 runs,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow
+1384402,ODI,2023/24,2023/10/13,ICC Cricket World Cup,11,Bangladesh,New Zealand,New Zealand,8 wickets,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai
+1384403,ODI,2023/24,2023/10/14,ICC Cricket World Cup,12,Pakistan,India,India,7 wickets,"Narendra Modi Stadium, Ahmedabad",Ahmedabad
+1384405,ODI,2023/24,2023/10/16,ICC Cricket World Cup,14,Sri Lanka,Australia,Australia,5 wickets,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow
+1384406,ODI,2023/24,2023/10/17,ICC Cricket World Cup,15,Netherlands,South Africa,Netherlands,38 runs,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala
+1384408,ODI,2023/24,2023/10/19,ICC Cricket World Cup,17,Bangladesh,India,India,7 wickets,"Maharashtra Cricket Association Stadium, Pune",Pune
+1384409,ODI,2023/24,2023/10/20,ICC Cricket World Cup,18,Australia,Pakistan,Australia,62 runs,"M Chinnaswamy Stadium, Bengaluru",Bengaluru
+1384410,ODI,2023/24,2023/10/21,ICC Cricket World Cup,19,Netherlands,Sri Lanka,Sri Lanka,5 wickets,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow
+1384411,ODI,2023/24,2023/10/21,ICC Cricket World Cup,20,South Africa,England,South Africa,229 runs,"Wankhede Stadium, Mumbai",Mumbai
+1384412,ODI,2023/24,2023/10/22,ICC Cricket World Cup,21,New Zealand,India,India,4 wickets,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala
+1384414,ODI,2023/24,2023/10/24,ICC Cricket World Cup,23,South Africa,Bangladesh,South Africa,149 runs,"Wankhede Stadium, Mumbai",Mumbai
+1384415,ODI,2023/24,2023/10/25,ICC Cricket World Cup,24,Australia,Netherlands,Australia,309 runs,"Arun Jaitley Stadium, Delhi",Delhi
+1384416,ODI,2023/24,2023/10/26,ICC Cricket World Cup,25,England,Sri Lanka,Sri Lanka,8 wickets,"M Chinnaswamy Stadium, Bengaluru",Bengaluru
+1384417,ODI,2023/24,2023/10/27,ICC Cricket World Cup,26,Pakistan,South Africa,South Africa,1 wickets,"MA Chidambaram Stadium, Chepauk, Chennai",Chennai
+1384418,ODI,2023/24,2023/10/28,ICC Cricket World Cup,27,Australia,New Zealand,Australia,5 runs,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Dharamsala
+1384419,ODI,2023/24,2023/10/28,ICC Cricket World Cup,28,Netherlands,Bangladesh,Netherlands,87 runs,"Eden Gardens, Kolkata",Kolkata
+1384420,ODI,2023/24,2023/10/29,ICC Cricket World Cup,29,India,England,India,100 runs,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",Lucknow
+1384422,ODI,2023/24,2023/10/31,ICC Cricket World Cup,31,Bangladesh,Pakistan,Pakistan,7 wickets,"Eden Gardens, Kolkata",Kolkata
+1384423,ODI,2023/24,2023/11/01,ICC Cricket World Cup,32,South Africa,New Zealand,South Africa,190 runs,"Maharashtra Cricket Association Stadium, Pune",Pune
+1384424,ODI,2023/24,2023/11/02,ICC Cricket World Cup,33,India,Sri Lanka,India,302 runs,"Wankhede Stadium, Mumbai",Mumbai
+1384426,ODI,2023/24,2023/11/04,ICC Cricket World Cup,35,New Zealand,Pakistan,Pakistan,21 runs,"M Chinnaswamy Stadium, Bengaluru",Bengaluru
+1384427,ODI,2023/24,2023/11/04,ICC Cricket World Cup,36,Australia,England,Australia,33 runs,"Narendra Modi Stadium, Ahmedabad",Ahmedabad
+1384428,ODI,2023/24,2023/11/05,ICC Cricket World Cup,37,India,South Africa,India,243 runs,"Eden Gardens, Kolkata",Kolkata
+1384429,ODI,2023/24,2023/11/06,ICC Cricket World Cup,38,Sri Lanka,Bangladesh,Bangladesh,3 wickets,"Arun Jaitley Stadium, Delhi",Delhi
+1384431,ODI,2023/24,2023/11/08,ICC Cricket World Cup,40,England,Netherlands,England,160 runs,"Maharashtra Cricket Association Stadium, Pune",Pune
+1384432,ODI,2023/24,2023/11/09,ICC Cricket World Cup,41,Sri Lanka,New Zealand,New Zealand,5 wickets,"M Chinnaswamy Stadium, Bengaluru",Bengaluru
+1384434,ODI,2023/24,2023/11/11,ICC Cricket World Cup,43,Bangladesh,Australia,Australia,8 wickets,"Maharashtra Cricket Association Stadium, Pune",Pune
+1384435,ODI,2023/24,2023/11/11,ICC Cricket World Cup,44,England,Pakistan,England,93 runs,"Eden Gardens, Kolkata",Kolkata
+1384436,ODI,2023/24,2023/11/12,ICC Cricket World Cup,45,India,Netherlands,India,160 runs,"M Chinnaswamy Stadium, Bengaluru",Bengaluru
+1384437,ODI,2023/24,2023/11/15,ICC Cricket World Cup,,India,New Zealand,India,70 runs,"Wankhede Stadium, Mumbai",Mumbai
+1384438,ODI,2023/24,2023/11/16,ICC Cricket World Cup,,South Africa,Australia,Australia,3 wickets,"Eden Gardens, Kolkata",Kolkata
+1384439,ODI,2023/24,2023/11/19,ICC Cricket World Cup,,India,Australia,Australia,6 wickets,"Narendra Modi Stadium, Ahmedabad",Ahmedabad
+1420529,ODI,2023/24,2024/02/15,ICC Men's Cricket World Cup League 2,1,Nepal,Namibia,Namibia,4 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1420530,ODI,2023/24,2024/02/17,ICC Men's Cricket World Cup League 2,2,Netherlands,Nepal,Nepal,9 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1420531,ODI,2023/24,2024/02/19,ICC Men's Cricket World Cup League 2,3,Namibia,Netherlands,Netherlands,7 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1420532,ODI,2023/24,2024/02/21,ICC Men's Cricket World Cup League 2,4,Nepal,Namibia,Namibia,2 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1420533,ODI,2023/24,2024/02/23,ICC Men's Cricket World Cup League 2,5,Namibia,Netherlands,Namibia,24 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1420534,ODI,2023/24,2024/02/25,ICC Men's Cricket World Cup League 2,6,Nepal,Netherlands,Netherlands,8 wickets,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1421069,ODI,2023/24,2024/02/28,ICC Men's Cricket World Cup League 2,7,United Arab Emirates,Canada,Canada,3 wickets,Dubai International Cricket Stadium,Dubai
+1421070,ODI,2023/24,2024/03/01,ICC Men's Cricket World Cup League 2,8,Scotland,Canada,Canada,7 wickets,Dubai International Cricket Stadium,Dubai
+1421071,ODI,2023/24,2024/03/03,ICC Men's Cricket World Cup League 2,9,United Arab Emirates,Scotland,Scotland,8 wickets,Dubai International Cricket Stadium,Dubai
+1421072,ODI,2023/24,2024/03/05,ICC Men's Cricket World Cup League 2,10,Canada,United Arab Emirates,Canada,8 runs,Dubai International Cricket Stadium,Dubai
+1421073,ODI,2023/24,2024/03/07,ICC Men's Cricket World Cup League 2,11,Scotland,Canada,Canada,5 wickets,Dubai International Cricket Stadium,Dubai
+1421074,ODI,2025,2025/05/04,ICC Men's Cricket World Cup League 2,12,United Arab Emirates,Scotland,Scotland,3 wickets,"VRA Ground, Amstelveen",Amstelveen
+1428956,ODI,2024,2024/07/16,ICC Men's Cricket World Cup League 2,13,Oman,Scotland,no result,,"Forthill, Dundee",Dundee
+1428957,ODI,2024,2024/07/18,ICC Men's Cricket World Cup League 2,14,Oman,Namibia,Namibia,6 wickets,"Forthill, Dundee",Dundee
+1428958,ODI,2024,2024/07/20,ICC Men's Cricket World Cup League 2,15,Scotland,Namibia,Scotland,47 runs,"Forthill, Dundee",Dundee
+1428959,ODI,2024,2024/07/22,ICC Men's Cricket World Cup League 2,16,Oman,Scotland,Scotland,8 wickets,"Forthill, Dundee",Dundee
+1428960,ODI,2024,2024/07/24,ICC Men's Cricket World Cup League 2,17,Namibia,Oman,Oman,4 wickets,"Forthill, Dundee",Dundee
+1428961,ODI,2024,2024/07/26,ICC Men's Cricket World Cup League 2,18,Scotland,Namibia,Scotland,138 runs,"Forthill, Dundee",Dundee
+1445034,ODI,2024,2024/08/11,ICC Men's Cricket World Cup League 2,19,Canada,Netherlands,Netherlands,5 wickets,"Sportpark Westvliet, The Hague",The Hague
+1445035,ODI,2024,2024/08/13,ICC Men's Cricket World Cup League 2,20,United States of America,Canada,United States of America,14 runs,"Sportpark Westvliet, The Hague",The Hague
+1445036,ODI,2024,2024/08/15,ICC Men's Cricket World Cup League 2,21,Netherlands,United States of America,Netherlands,19 runs,"Sportpark Westvliet, The Hague",The Hague
+1445037,ODI,2024,2024/08/17,ICC Men's Cricket World Cup League 2,22,Netherlands,Canada,Netherlands,63 runs,"Hazelaarweg, Rotterdam",Rotterdam
+1445038,ODI,2024,2024/08/19,ICC Men's Cricket World Cup League 2,23,United States of America,Canada,United States of America,50 runs,"Hazelaarweg, Rotterdam",Rotterdam
+1445039,ODI,2024,2024/08/21,ICC Men's Cricket World Cup League 2,24,Netherlands,United States of America,Netherlands,27 runs,"Hazelaarweg, Rotterdam",Rotterdam
+1450690,ODI,2024,2024/09/16,ICC Men's Cricket World Cup League 2,25,Namibia,United States of America,United States of America,6 wickets,"United Cricket Club Ground, Windhoek",Windhoek
+1450691,ODI,2024,2024/09/18,ICC Men's Cricket World Cup League 2,27,United Arab Emirates,United States of America,United States of America,10 wickets,"United Cricket Club Ground, Windhoek",Windhoek
+1450692,ODI,2024,2024/09/20,ICC Men's Cricket World Cup League 2,29,Namibia,United Arab Emirates,United Arab Emirates,1 wickets,"United Cricket Club Ground, Windhoek",Windhoek
+1450693,ODI,2024,2024/09/22,ICC Men's Cricket World Cup League 2,31,Namibia,United States of America,United States of America,7 wickets,"United Cricket Club Ground, Windhoek",Windhoek
+1450694,ODI,2024,2024/09/24,ICC Men's Cricket World Cup League 2,33,United States of America,United Arab Emirates,United States of America,136 runs,"United Cricket Club Ground, Windhoek",Windhoek
+1450695,ODI,2024,2024/09/26,ICC Men's Cricket World Cup League 2,35,United Arab Emirates,Namibia,Namibia,8 wickets,"Wanderers Cricket Ground, Windhoek",Windhoek
+1450696,ODI,2024,2024/09/16,ICC Men's Cricket World Cup League 2,26,Canada,Nepal,Canada,103 runs,"Maple Leaf North-West Ground, King City",King City
+1450697,ODI,2024,2024/09/18,ICC Men's Cricket World Cup League 2,28,Nepal,Oman,Oman,1 wickets,"Maple Leaf North-West Ground, King City",King City
+1450698,ODI,2024,2024/09/20,ICC Men's Cricket World Cup League 2,30,Canada,Oman,Canada,59 runs,"Maple Leaf North-West Ground, King City",King City
+1450699,ODI,2024,2024/09/22,ICC Men's Cricket World Cup League 2,32,Nepal,Canada,Canada,5 wickets,"Maple Leaf North-West Ground, King City",King City
+1450701,ODI,2024,2024/09/26,ICC Men's Cricket World Cup League 2,36,Oman,Canada,Canada,5 wickets,"Maple Leaf North-West Ground, King City",King City
+1450702,ODI,2024/25,2024/10/25,ICC Men's Cricket World Cup League 2,37,United States of America,Scotland,Scotland,10 wickets,"Grand Prairie Stadium, Dallas",Dallas
+1450704,ODI,2024/25,2024/10/29,ICC Men's Cricket World Cup League 2,39,Scotland,Nepal,Nepal,5 wickets,"Grand Prairie Stadium, Dallas",Dallas
+1450705,ODI,2024/25,2024/10/31,ICC Men's Cricket World Cup League 2,40,Scotland,United States of America,Scotland,71 runs,"Grand Prairie Stadium, Dallas",Dallas
+1450706,ODI,2024/25,2024/11/02,ICC Men's Cricket World Cup League 2,42,United States of America,Nepal,United States of America,37 runs,"Grand Prairie Stadium, Dallas",Dallas
+1450707,ODI,2024/25,2024/11/04,ICC Men's Cricket World Cup League 2,44,Nepal,Scotland,no result,,"Grand Prairie Stadium, Dallas",Dallas
+1457464,ODI,2024/25,2024/11/01,ICC Men's Cricket World Cup League 2,41,United Arab Emirates,Oman,Oman,6 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1457465,ODI,2024/25,2024/11/03,ICC Men's Cricket World Cup League 2,43,United Arab Emirates,Netherlands,United Arab Emirates,26 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1457466,ODI,2024/25,2024/11/05,ICC Men's Cricket World Cup League 2,45,Netherlands,Oman,Oman,8 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1457467,ODI,2024/25,2024/11/07,ICC Men's Cricket World Cup League 2,46,United Arab Emirates,Oman,Oman,4 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1457468,ODI,2024/25,2024/11/09,ICC Men's Cricket World Cup League 2,47,Netherlands,United Arab Emirates,Netherlands,67 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1457469,ODI,2024/25,2024/11/11,ICC Men's Cricket World Cup League 2,48,Oman,Netherlands,Oman,1 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1466414,ODI,2024/25,2025/02/19,ICC Champions Trophy,1,New Zealand,Pakistan,New Zealand,60 runs,"National Stadium, Karachi",Karachi
+1466415,ODI,2024/25,2025/02/20,ICC Champions Trophy,2,Bangladesh,India,India,6 wickets,Dubai International Cricket Stadium,Dubai
+1466417,ODI,2024/25,2025/02/22,ICC Champions Trophy,4,England,Australia,Australia,5 wickets,"Gaddafi Stadium, Lahore",Lahore
+1466418,ODI,2024/25,2025/02/23,ICC Champions Trophy,5,Pakistan,India,India,6 wickets,Dubai International Cricket Stadium,Dubai
+1466419,ODI,2024/25,2025/02/24,ICC Champions Trophy,6,Bangladesh,New Zealand,New Zealand,5 wickets,Rawalpindi Cricket Stadium,Rawalpindi
+1466424,ODI,2024/25,2025/03/01,ICC Champions Trophy,11,England,South Africa,South Africa,7 wickets,"National Stadium, Karachi",Karachi
+1466425,ODI,2024/25,2025/03/02,ICC Champions Trophy,12,India,New Zealand,India,44 runs,Dubai International Cricket Stadium,Dubai
+1466426,ODI,2024/25,2025/03/04,ICC Champions Trophy,,Australia,India,India,4 wickets,Dubai International Cricket Stadium,Dubai
+1466427,ODI,2024/25,2025/03/05,ICC Champions Trophy,,New Zealand,South Africa,New Zealand,50 runs,"Gaddafi Stadium, Lahore",Lahore
+1466428,ODI,2024/25,2025/03/09,ICC Champions Trophy,,New Zealand,India,India,4 wickets,Dubai International Cricket Stadium,Dubai
+1468879,ODI,2024/25,2025/02/08,ICC Men's Cricket World Cup League 2,49,United States of America,Namibia,United States of America,114 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1468880,ODI,2024/25,2025/02/10,ICC Men's Cricket World Cup League 2,50,Namibia,Oman,Namibia,23 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1468881,ODI,2024/25,2025/02/12,ICC Men's Cricket World Cup League 2,51,United States of America,Oman,Oman,7 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1468882,ODI,2024/25,2025/02/14,ICC Men's Cricket World Cup League 2,52,United States of America,Namibia,United States of America,70 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1468883,ODI,2024/25,2025/02/16,ICC Men's Cricket World Cup League 2,53,Namibia,Oman,Oman,2 wickets,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1468884,ODI,2024/25,2025/02/18,ICC Men's Cricket World Cup League 2,54,United States of America,Oman,United States of America,57 runs,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Al Amarat
+1474410,ODI,2024/25,2025/03/07,ICC Men's Cricket World Cup League 2,56,Netherlands,Namibia,Netherlands,53 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1474411,ODI,2024/25,2025/03/09,ICC Men's Cricket World Cup League 2,57,Canada,Namibia,tie,,"Wanderers Cricket Ground, Windhoek",Windhoek
+1474413,ODI,2024/25,2025/03/13,ICC Men's Cricket World Cup League 2,59,Namibia,Netherlands,Netherlands,7 wickets,"Wanderers Cricket Ground, Windhoek",Windhoek
+1474414,ODI,2024/25,2025/03/15,ICC Men's Cricket World Cup League 2,60,Namibia,Canada,Namibia,12 runs,"Wanderers Cricket Ground, Windhoek",Windhoek
+1481530,ODI,2025,2025/05/06,ICC Men's Cricket World Cup League 2,61,Netherlands,United Arab Emirates,Netherlands,113 runs,"VRA Ground, Amstelveen",Amstelveen
+1481531,ODI,2025,2025/05/08,ICC Men's Cricket World Cup League 2,62,United Arab Emirates,Scotland,United Arab Emirates,97 runs,"VRA Ground, Amstelveen",Amstelveen
+1481532,ODI,2025,2025/05/10,ICC Men's Cricket World Cup League 2,63,Netherlands,Scotland,Netherlands,19 runs,"VRA Ground, Amstelveen",Amstelveen
+1481533,ODI,2025,2025/05/12,ICC Men's Cricket World Cup League 2,64,United Arab Emirates,Netherlands,Netherlands,5 wickets,"Sportpark Maarschalkerweerd, Utrecht",Utrecht
+1481534,ODI,2025,2025/05/14,ICC Men's Cricket World Cup League 2,65,United Arab Emirates,Scotland,Scotland,8 wickets,"Sportpark Maarschalkerweerd, Utrecht",Utrecht
+1481535,ODI,2025,2025/05/16,ICC Men's Cricket World Cup League 2,66,Scotland,Netherlands,Scotland,145 runs,"Sportpark Maarschalkerweerd, Utrecht",Utrecht
+1482564,ODI,2025,2025/05/17,ICC Men's Cricket World Cup League 2,67,United States of America,Canada,United States of America,169 runs,"Central Broward Regional Park Stadium Turf Ground, Lauderhill",Lauderhill
+1482565,ODI,2025,2025/05/19,ICC Men's Cricket World Cup League 2,68,Oman,Canada,Oman,15 runs,"Central Broward Regional Park Stadium Turf Ground, Lauderhill",Lauderhill
+1482566,ODI,2025,2025/05/21,ICC Men's Cricket World Cup League 2,69,Oman,United States of America,tie,,"Central Broward Regional Park Stadium Turf Ground, Lauderhill",Lauderhill
+1482567,ODI,2025,2025/05/23,ICC Men's Cricket World Cup League 2,70,Canada,Oman,Oman,18 runs,"Central Broward Regional Park Stadium Turf Ground, Lauderhill",Lauderhill
+1482568,ODI,2025,2025/05/25,ICC Men's Cricket World Cup League 2,71,United States of America,Canada,United States of America,88 runs,"Central Broward Regional Park Stadium Turf Ground, Lauderhill",Lauderhill
+1482569,ODI,2025,2025/05/27,ICC Men's Cricket World Cup League 2,72,United States of America,Oman,United States of America,9 runs,"Central Broward Regional Park Stadium Turf Ground, Lauderhill",Lauderhill
+1486772,ODI,2025,2025/06/02,ICC Men's Cricket World Cup League 2,73,Scotland,Nepal,Nepal,1 wickets,"Forthill, Dundee",Dundee
+1486773,ODI,2025,2025/06/04,ICC Men's Cricket World Cup League 2,74,Netherlands,Nepal,Nepal,5 wickets,"Forthill, Dundee",Dundee
+1486774,ODI,2025,2025/06/06,ICC Men's Cricket World Cup League 2,75,Scotland,Netherlands,Scotland,44 runs,"Forthill, Dundee",Dundee
+1486775,ODI,2025,2025/06/08,ICC Men's Cricket World Cup League 2,76,Scotland,Nepal,Scotland,2 runs,"Forthill, Dundee",Dundee
+1486776,ODI,2025,2025/06/10,ICC Men's Cricket World Cup League 2,77,Nepal,Netherlands,Nepal,16 runs,"Forthill, Dundee",Dundee
+1486777,ODI,2025,2025/06/12,ICC Men's Cricket World Cup League 2,78,Scotland,Netherlands,Netherlands,4 wickets,"Forthill, Dundee",Dundee
+1498181,ODI,2025,2025/08/27,ICC Men's Cricket World Cup League 2,79,Canada,Namibia,Namibia,5 wickets,"Maple Leaf North-West Ground, King City",King City
+1498183,ODI,2025,2025/08/31,ICC Men's Cricket World Cup League 2,81,Canada,Scotland,Scotland,7 wickets,"Maple Leaf North-West Ground, King City",King City
+1498184,ODI,2025,2025/09/02,ICC Men's Cricket World Cup League 2,82,Namibia,Canada,Namibia,24 runs,"Maple Leaf North-West Ground, King City",King City
+1498185,ODI,2025,2025/09/04,ICC Men's Cricket World Cup League 2,83,Scotland,Namibia,Scotland,55 runs,"Maple Leaf North-West Ground, King City",King City
+1507884,ODI,2025/26,2025/10/26,ICC Men's Cricket World Cup League 2,85,United States of America,Nepal,United States of America,106 runs,Dubai International Cricket Stadium,Dubai
+1507885,ODI,2025/26,2025/10/28,ICC Men's Cricket World Cup League 2,86,United Arab Emirates,United States of America,United States of America,4 wickets,Dubai International Cricket Stadium,Dubai
+1507886,ODI,2025/26,2025/10/30,ICC Men's Cricket World Cup League 2,87,Nepal,United Arab Emirates,United Arab Emirates,5 wickets,"ICC Academy, Dubai",Dubai
+1507887,ODI,2025/26,2025/11/01,ICC Men's Cricket World Cup League 2,88,Nepal,United States of America,United States of America,4 wickets,"ICC Academy, Dubai",Dubai
+1507888,ODI,2025/26,2025/11/03,ICC Men's Cricket World Cup League 2,89,United States of America,United Arab Emirates,United States of America,243 runs,Dubai International Cricket Stadium,Dubai
+1507889,ODI,2025/26,2025/11/05,ICC Men's Cricket World Cup League 2,90,Nepal,United Arab Emirates,United Arab Emirates,4 wickets,"ICC Academy, Dubai",Dubai
+1529140,ODI,2026,2026/04/04,ICC Men's Cricket World Cup League 2,92,Namibia,Oman,Oman,3 wickets,"Namibia Cricket Ground, Windhoek",Windhoek
+1529141,ODI,2026,2026/04/06,ICC Men's Cricket World Cup League 2,93,Namibia,Scotland,no result,,"Namibia Cricket Ground, Windhoek",Windhoek
+1529142,ODI,2026,2026/04/08,ICC Men's Cricket World Cup League 2,94,Oman,Scotland,Oman,12 runs,"Namibia Cricket Ground, Windhoek",Windhoek
+1529143,ODI,2026,2026/04/10,ICC Men's Cricket World Cup League 2,95,Oman,Namibia,Namibia,1 wickets,"Namibia Cricket Ground, Windhoek",Windhoek
+1529144,ODI,2026,2026/04/12,ICC Men's Cricket World Cup League 2,96,Namibia,Scotland,Scotland,7 wickets,"Namibia Cricket Ground, Windhoek",Windhoek
+1531696,ODI,2026,2026/04/25,ICC Men's Cricket World Cup League 2,97,Nepal,United Arab Emirates,Nepal,37 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1531697,ODI,2026,2026/04/27,ICC Men's Cricket World Cup League 2,98,United Arab Emirates,Oman,United Arab Emirates,25 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1531698,ODI,2026,2026/04/29,ICC Men's Cricket World Cup League 2,99,Oman,Nepal,Oman,102 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1531699,ODI,2026,2026/05/01,ICC Men's Cricket World Cup League 2,100,Nepal,United Arab Emirates,Nepal,6 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1531700,ODI,2026,2026/05/03,ICC Men's Cricket World Cup League 2,101,United Arab Emirates,Oman,United Arab Emirates,54 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+1531701,ODI,2026,2026/05/05,ICC Men's Cricket World Cup League 2,102,Nepal,Oman,Nepal,81 runs,"Tribhuvan University International Cricket Ground, Kirtipur",Kirtipur
+221083,ODI,2005/06,2005/10/07,ICC World XI tour of Australia,2,Australia,ICC World XI,Australia,55 runs,Docklands Stadium,Melbourne
+221337,ODI,2005/06,2005/10/09,ICC World XI tour of Australia,3,Australia,ICC World XI,Australia,156 runs,Docklands Stadium,Melbourne
+247457,ODI,2006/07,2007/03/13,ICC World Cup,1,West Indies,Pakistan,West Indies,54 runs,"Sabina Park, Kingston",Jamaica
+247458,ODI,2006/07,2007/03/14,ICC World Cup,2,Australia,Scotland,Australia,203 runs,"Warner Park, Basseterre",St Kitts
+247460,ODI,2006/07,2007/03/15,ICC World Cup,4,Bermuda,Sri Lanka,Sri Lanka,243 runs,"Queen's Park Oval, Port of Spain",Trinidad
+247461,ODI,2006/07,2007/03/15,ICC World Cup,5,Ireland,Zimbabwe,tie,,"Sabina Park, Kingston",Jamaica
+247462,ODI,2006/07,2007/03/16,ICC World Cup,7,Netherlands,South Africa,South Africa,221 runs,"Warner Park, Basseterre",St Kitts
+247463,ODI,2006/07,2007/03/16,ICC World Cup,6,England,New Zealand,New Zealand,6 wickets,"Beausejour Stadium, Gros Islet",St Lucia
+247464,ODI,2006/07,2007/03/17,ICC World Cup,8,Bangladesh,India,Bangladesh,5 wickets,"Queen's Park Oval, Port of Spain",Trinidad
+247465,ODI,2006/07,2007/03/17,ICC World Cup,9,Ireland,Pakistan,Ireland,3 wickets,"Sabina Park, Kingston",Jamaica
+247466,ODI,2006/07,2007/03/18,ICC World Cup,10,Australia,Netherlands,Australia,229 runs,"Warner Park, Basseterre",St Kitts
+247467,ODI,2006/07,2007/03/18,ICC World Cup,11,Canada,England,England,51 runs,"Beausejour Stadium, Gros Islet",St Lucia
+247468,ODI,2006/07,2007/03/19,ICC World Cup,12,Bermuda,India,India,257 runs,"Queen's Park Oval, Port of Spain",Trinidad
+247469,ODI,2006/07,2007/03/19,ICC World Cup,13,West Indies,Zimbabwe,West Indies,6 wickets,"Sabina Park, Kingston",Jamaica
+247470,ODI,2006/07,2007/03/20,ICC World Cup,15,Scotland,South Africa,South Africa,7 wickets,"Warner Park, Basseterre",St Kitts
+247471,ODI,2006/07,2007/03/20,ICC World Cup,14,Kenya,New Zealand,New Zealand,148 runs,"Beausejour Stadium, Gros Islet",St Lucia
+247472,ODI,2006/07,2007/03/21,ICC World Cup,16,Bangladesh,Sri Lanka,Sri Lanka,198 runs,"Queen's Park Oval, Port of Spain",Trinidad
+247473,ODI,2006/07,2007/03/21,ICC World Cup,17,Pakistan,Zimbabwe,Pakistan,93 runs,"Sabina Park, Kingston",Jamaica
+247474,ODI,2006/07,2007/03/22,ICC World Cup,19,Netherlands,Scotland,Netherlands,8 wickets,"Warner Park, Basseterre",St Kitts
+247475,ODI,2006/07,2007/03/22,ICC World Cup,18,Canada,New Zealand,New Zealand,114 runs,"Beausejour Stadium, Gros Islet",St Lucia
+247476,ODI,2006/07,2007/03/23,ICC World Cup,20,India,Sri Lanka,Sri Lanka,69 runs,"Queen's Park Oval, Port of Spain",Trinidad
+247477,ODI,2006/07,2007/03/23,ICC World Cup,21,West Indies,Ireland,West Indies,8 wickets,"Sabina Park, Kingston",Jamaica
+247478,ODI,2006/07,2007/03/24,ICC World Cup,22,Australia,South Africa,Australia,83 runs,"Warner Park, Basseterre",St Kitts
+247479,ODI,2006/07,2007/03/24,ICC World Cup,23,England,Kenya,England,7 wickets,"Beausejour Stadium, Gros Islet",St Lucia
+247480,ODI,2006/07,2007/03/25,ICC World Cup,24,Bangladesh,Bermuda,Bangladesh,7 wickets,"Queen's Park Oval, Port of Spain",Trinidad
+247481,ODI,2006/07,2007/03/27,ICC World Cup,25,West Indies,Australia,Australia,103 runs,"Sir Vivian Richards Stadium, North Sound",Antigua
+247482,ODI,2006/07,2007/03/28,ICC World Cup,26,South Africa,Sri Lanka,South Africa,1 wickets,Providence Stadium,Guyana
+247483,ODI,2006/07,2007/03/29,ICC World Cup,27,West Indies,New Zealand,New Zealand,7 wickets,"Sir Vivian Richards Stadium, North Sound",Antigua
+247484,ODI,2006/07,2007/03/30,ICC World Cup,28,England,Ireland,England,48 runs,Providence Stadium,Guyana
+247485,ODI,2006/07,2007/03/31,ICC World Cup,29,Australia,Bangladesh,Australia,10 wickets,"Sir Vivian Richards Stadium, North Sound",Antigua
+247486,ODI,2006/07,2007/04/01,ICC World Cup,30,West Indies,Sri Lanka,Sri Lanka,113 runs,Providence Stadium,Guyana
+247487,ODI,2006/07,2007/04/02,ICC World Cup,31,Bangladesh,New Zealand,New Zealand,9 wickets,"Sir Vivian Richards Stadium, North Sound",Antigua
+247488,ODI,2006/07,2007/04/03,ICC World Cup,32,Ireland,South Africa,South Africa,7 wickets,Providence Stadium,Guyana
+247489,ODI,2006/07,2007/04/04,ICC World Cup,33,England,Sri Lanka,Sri Lanka,2 runs,"Sir Vivian Richards Stadium, North Sound",Antigua
+247490,ODI,2006/07,2007/04/07,ICC World Cup,34,Bangladesh,South Africa,Bangladesh,67 runs,Providence Stadium,Guyana
+247491,ODI,2006/07,2007/04/08,ICC World Cup,35,Australia,England,Australia,7 wickets,"Sir Vivian Richards Stadium, North Sound",Antigua
+247492,ODI,2006/07,2007/04/09,ICC World Cup,36,Ireland,New Zealand,New Zealand,129 runs,Providence Stadium,Guyana
+247493,ODI,2006/07,2007/04/10,ICC World Cup,37,West Indies,South Africa,South Africa,67 runs,"National Cricket Stadium, St George's",Grenada
+247494,ODI,2006/07,2007/04/11,ICC World Cup,38,Bangladesh,England,England,4 wickets,"Kensington Oval, Bridgetown",Barbados
+247495,ODI,2006/07,2007/04/12,ICC World Cup,39,New Zealand,Sri Lanka,Sri Lanka,6 wickets,"National Cricket Stadium, St George's",Grenada
+247496,ODI,2006/07,2007/04/13,ICC World Cup,40,Australia,Ireland,Australia,9 wickets,"Kensington Oval, Bridgetown",Barbados
+247497,ODI,2006/07,2007/04/14,ICC World Cup,41,New Zealand,South Africa,New Zealand,5 wickets,"National Cricket Stadium, St George's",Grenada
+247498,ODI,2006/07,2007/04/15,ICC World Cup,42,Bangladesh,Ireland,Ireland,74 runs,"Kensington Oval, Bridgetown",Barbados
+247499,ODI,2006/07,2007/04/16,ICC World Cup,43,Australia,Sri Lanka,Australia,7 wickets,"National Cricket Stadium, St George's",Grenada
+247500,ODI,2006/07,2007/04/17,ICC World Cup,44,England,South Africa,South Africa,9 wickets,"Kensington Oval, Bridgetown",Barbados
+247501,ODI,2006/07,2007/04/18,ICC World Cup,45,Ireland,Sri Lanka,Sri Lanka,8 wickets,"National Cricket Stadium, St George's",Grenada
+247502,ODI,2006/07,2007/04/19,ICC World Cup,46,West Indies,Bangladesh,West Indies,99 runs,"Kensington Oval, Bridgetown",Barbados
+247503,ODI,2006/07,2007/04/20,ICC World Cup,47,Australia,New Zealand,Australia,215 runs,"National Cricket Stadium, St George's",Grenada
+247504,ODI,2006/07,2007/04/21,ICC World Cup,48,West Indies,England,England,1 wickets,"Kensington Oval, Bridgetown",Barbados
+247505,ODI,2006/07,2007/04/24,ICC World Cup,,New Zealand,Sri Lanka,Sri Lanka,81 runs,"Sabina Park, Kingston",Jamaica
+247506,ODI,2006/07,2007/04/25,ICC World Cup,,Australia,South Africa,Australia,7 wickets,"Beausejour Stadium, Gros Islet",St Lucia
+247507,ODI,2006/07,2007/04/28,ICC World Cup,,Australia,Sri Lanka,Australia,53 runs,"Kensington Oval, Bridgetown",Barbados
+249739,ODI,2006/07,2006/10/07,ICC Champions Trophy,1,Bangladesh,Sri Lanka,Sri Lanka,37 runs,"Punjab Cricket Association Stadium, Mohali",Chandigarh
+249740,ODI,2006/07,2006/10/08,ICC Champions Trophy,2,West Indies,Zimbabwe,West Indies,9 wickets,"Sardar Patel Stadium, Motera",Ahmedabad
+249741,ODI,2006/07,2006/10/10,ICC Champions Trophy,3,Sri Lanka,Zimbabwe,Sri Lanka,144 runs,"Sardar Patel Stadium, Motera",Ahmedabad
+249742,ODI,2006/07,2006/10/11,ICC Champions Trophy,4,Bangladesh,West Indies,West Indies,10 wickets,Sawai Mansingh Stadium,Jaipur
+249743,ODI,2006/07,2006/10/13,ICC Champions Trophy,5,Bangladesh,Zimbabwe,Bangladesh,101 runs,Sawai Mansingh Stadium,Jaipur
+249744,ODI,2006/07,2006/10/14,ICC Champions Trophy,6,Sri Lanka,West Indies,Sri Lanka,9 wickets,Brabourne Stadium,Mumbai
+249745,ODI,2006/07,2006/10/15,ICC Champions Trophy,7,India,England,India,4 wickets,Sawai Mansingh Stadium,Jaipur
+249746,ODI,2006/07,2006/10/16,ICC Champions Trophy,8,New Zealand,South Africa,New Zealand,87 runs,Brabourne Stadium,Mumbai
+249747,ODI,2006/07,2006/10/17,ICC Champions Trophy,9,Pakistan,Sri Lanka,Pakistan,4 wickets,Sawai Mansingh Stadium,Jaipur
+249748,ODI,2006/07,2006/10/18,ICC Champions Trophy,10,Australia,West Indies,West Indies,10 runs,Brabourne Stadium,Mumbai
+249749,ODI,2006/07,2006/10/20,ICC Champions Trophy,11,New Zealand,Sri Lanka,Sri Lanka,7 wickets,Brabourne Stadium,Mumbai
+249750,ODI,2006/07,2006/10/21,ICC Champions Trophy,12,Australia,England,Australia,6 wickets,Sawai Mansingh Stadium,Jaipur
+249751,ODI,2006/07,2006/10/24,ICC Champions Trophy,13,South Africa,Sri Lanka,South Africa,78 runs,"Sardar Patel Stadium, Motera",Ahmedabad
+249752,ODI,2006/07,2006/10/25,ICC Champions Trophy,14,New Zealand,Pakistan,New Zealand,51 runs,"Punjab Cricket Association Stadium, Mohali",Chandigarh
+249753,ODI,2006/07,2006/10/26,ICC Champions Trophy,15,India,West Indies,West Indies,3 wickets,"Sardar Patel Stadium, Motera",Ahmedabad
+249754,ODI,2006/07,2006/10/27,ICC Champions Trophy,16,Pakistan,South Africa,South Africa,124 runs,"Punjab Cricket Association Stadium, Mohali",Chandigarh
+249755,ODI,2006/07,2006/10/28,ICC Champions Trophy,17,England,West Indies,England,3 wickets,"Sardar Patel Stadium, Motera",Ahmedabad
+249756,ODI,2006/07,2006/10/29,ICC Champions Trophy,18,India,Australia,Australia,6 wickets,"Punjab Cricket Association Stadium, Mohali",Chandigarh
+249757,ODI,2006/07,2006/11/01,ICC Champions Trophy,,Australia,New Zealand,Australia,34 runs,"Punjab Cricket Association Stadium, Mohali",Chandigarh
+249758,ODI,2006/07,2006/11/02,ICC Champions Trophy,,South Africa,West Indies,West Indies,6 wickets,Sawai Mansingh Stadium,Jaipur
+249759,ODI,2006/07,2006/11/05,ICC Champions Trophy,,Australia,West Indies,Australia,8 wickets,Brabourne Stadium,Mumbai
+259384,ODI,2006/07,2006/11/27,ICC Tri-Series (in South Africa),2,Bermuda,Canada,Canada,5 wickets,Sedgars Park,Potchefstroom
+259389,ODI,2006/07,2006/12/02,ICC Tri-Series (in South Africa),6,Bermuda,Netherlands,Bermuda,6 wickets,Willowmoore Park,Benoni
+259390,ODI,2006/07,2006/11/30,ICC Tri-Series (in South Africa),4,Bermuda,Canada,Canada,3 wickets,Willowmoore Park,Benoni
+259391,ODI,2006/07,2006/12/01,ICC Tri-Series (in South Africa),5,Canada,Netherlands,Netherlands,1 wickets,Willowmoore Park,Benoni
+267386,ODI,2006/07,2007/02/02,ICC World Cricket League Division One,7,Bermuda,Canada,Canada,56 runs,Gymkhana Club Ground,Nairobi
+267387,ODI,2006/07,2007/02/04,ICC World Cricket League Division One,10,Bermuda,Netherlands,Netherlands,8 wickets,Ruaraka Sports Club Ground,Nairobi
+267389,ODI,2006/07,2007/02/04,ICC World Cricket League Division One,12,Kenya,Scotland,Scotland,77 runs,Gymkhana Club Ground,Nairobi
+267391,ODI,2006/07,2007/02/05,ICC World Cricket League Division One,14,Kenya,Canada,Kenya,158 runs,Jaffery Sports Club Ground,Nairobi
+390204,ODI,2009,2009/04/01,ICC World Cup Qualifiers,4,Ireland,Scotland,Ireland,7 wickets,Willowmoore Park,Benoni
+390227,ODI,2009,2009/04/08,ICC World Cup Qualifiers,27,Canada,Scotland,Canada,148 runs,Willowmoore Park,Benoni
+415273,ODI,2009/10,2009/09/22,ICC Champions Trophy,1,South Africa,Sri Lanka,Sri Lanka,55 runs,SuperSport Park,Centurion
+415274,ODI,2009/10,2009/09/23,ICC Champions Trophy,2,Pakistan,West Indies,Pakistan,5 wickets,New Wanderers Stadium,Johannesburg
+415275,ODI,2009/10,2009/09/24,ICC Champions Trophy,3,South Africa,New Zealand,South Africa,5 wickets,SuperSport Park,Centurion
+415276,ODI,2009/10,2009/09/25,ICC Champions Trophy,4,England,Sri Lanka,England,6 wickets,New Wanderers Stadium,Johannesburg
+415277,ODI,2009/10,2009/09/26,ICC Champions Trophy,5,Australia,West Indies,Australia,50 runs,New Wanderers Stadium,Johannesburg
+415278,ODI,2009/10,2009/09/26,ICC Champions Trophy,6,India,Pakistan,Pakistan,54 runs,SuperSport Park,Centurion
+415279,ODI,2009/10,2009/09/27,ICC Champions Trophy,7,New Zealand,Sri Lanka,New Zealand,38 runs,New Wanderers Stadium,Johannesburg
+415280,ODI,2009/10,2009/09/27,ICC Champions Trophy,8,South Africa,England,England,22 runs,SuperSport Park,Centurion
+415281,ODI,2009/10,2009/09/28,ICC Champions Trophy,9,Australia,India,no result,,SuperSport Park,Centurion
+415282,ODI,2009/10,2009/09/29,ICC Champions Trophy,10,England,New Zealand,New Zealand,4 wickets,New Wanderers Stadium,Johannesburg
+415283,ODI,2009/10,2009/09/30,ICC Champions Trophy,11,Australia,Pakistan,Australia,2 wickets,SuperSport Park,Centurion
+415284,ODI,2009/10,2009/09/30,ICC Champions Trophy,12,India,West Indies,India,7 wickets,New Wanderers Stadium,Johannesburg
+415285,ODI,2009/10,2009/10/02,ICC Champions Trophy,,Australia,England,Australia,9 wickets,SuperSport Park,Centurion
+415286,ODI,2009/10,2009/10/03,ICC Champions Trophy,,New Zealand,Pakistan,New Zealand,5 wickets,New Wanderers Stadium,Johannesburg
+415287,ODI,2009/10,2009/10/05,ICC Champions Trophy,,Australia,New Zealand,Australia,6 wickets,SuperSport Park,Centurion
+433558,ODI,2010/11,2011/02/19,ICC Cricket World Cup,1,Bangladesh,India,India,87 runs,Shere Bangla National Stadium,Mirpur
+433559,ODI,2010/11,2011/02/20,ICC Cricket World Cup,2,Kenya,New Zealand,New Zealand,10 wickets,"MA Chidambaram Stadium, Chepauk",Chennai
+433560,ODI,2010/11,2011/02/20,ICC Cricket World Cup,3,Sri Lanka,Canada,Sri Lanka,210 runs,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Hambantota
+433561,ODI,2010/11,2011/02/21,ICC Cricket World Cup,4,Australia,Zimbabwe,Australia,91 runs,"Sardar Patel Stadium, Motera",Ahmedabad
+433562,ODI,2010/11,2011/02/22,ICC Cricket World Cup,5,England,Netherlands,England,6 wickets,"Vidarbha Cricket Association Stadium, Jamtha",Nagpur
+433563,ODI,2010/11,2011/02/23,ICC Cricket World Cup,6,Kenya,Pakistan,Pakistan,205 runs,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",Hambantota
+433564,ODI,2010/11,2011/02/24,ICC Cricket World Cup,7,South Africa,West Indies,South Africa,7 wickets,Feroz Shah Kotla,Delhi
+433565,ODI,2010/11,2011/02/25,ICC Cricket World Cup,8,Australia,New Zealand,Australia,7 wickets,"Vidarbha Cricket Association Stadium, Jamtha",Nagpur
+433566,ODI,2010/11,2011/02/25,ICC Cricket World Cup,9,Bangladesh,Ireland,Bangladesh,27 runs,Shere Bangla National Stadium,Mirpur
+433567,ODI,2010/11,2011/02/26,ICC Cricket World Cup,10,Sri Lanka,Pakistan,Pakistan,11 runs,R Premadasa Stadium,Colombo
+433568,ODI,2010/11,2011/02/27,ICC Cricket World Cup,11,India,England,tie,,M Chinnaswamy Stadium,Bangalore
+433569,ODI,2010/11,2011/02/28,ICC Cricket World Cup,13,Netherlands,West Indies,West Indies,215 runs,Feroz Shah Kotla,Delhi
+433570,ODI,2010/11,2011/02/28,ICC Cricket World Cup,12,Canada,Zimbabwe,Zimbabwe,175 runs,"Vidarbha Cricket Association Stadium, Jamtha",Nagpur
+433571,ODI,2010/11,2011/03/01,ICC Cricket World Cup,14,Sri Lanka,Kenya,Sri Lanka,9 wickets,R Premadasa Stadium,Colombo
+433572,ODI,2010/11,2011/03/02,ICC Cricket World Cup,15,England,Ireland,Ireland,3 wickets,M Chinnaswamy Stadium,Bangalore
+433573,ODI,2010/11,2011/03/03,ICC Cricket World Cup,16,Netherlands,South Africa,South Africa,231 runs,"Punjab Cricket Association Stadium, Mohali",Chandigarh
+433574,ODI,2010/11,2011/03/03,ICC Cricket World Cup,17,Canada,Pakistan,Pakistan,46 runs,R Premadasa Stadium,Colombo
+433575,ODI,2010/11,2011/03/04,ICC Cricket World Cup,18,New Zealand,Zimbabwe,New Zealand,10 wickets,"Sardar Patel Stadium, Motera",Ahmedabad
+433576,ODI,2010/11,2011/03/04,ICC Cricket World Cup,19,Bangladesh,West Indies,West Indies,9 wickets,Shere Bangla National Stadium,Mirpur
+433577,ODI,2010/11,2011/03/05,ICC Cricket World Cup,20,Sri Lanka,Australia,no result,,R Premadasa Stadium,Colombo
+433578,ODI,2010/11,2011/03/06,ICC Cricket World Cup,22,India,Ireland,India,5 wickets,M Chinnaswamy Stadium,Bangalore
+433579,ODI,2010/11,2011/03/06,ICC Cricket World Cup,21,England,South Africa,England,6 runs,"MA Chidambaram Stadium, Chepauk",Chennai
+433580,ODI,2010/11,2011/03/07,ICC Cricket World Cup,23,Canada,Kenya,Canada,5 wickets,Feroz Shah Kotla,Delhi
+433581,ODI,2010/11,2011/03/08,ICC Cricket World Cup,24,New Zealand,Pakistan,New Zealand,110 runs,Pallekele International Cricket Stadium,
+433582,ODI,2010/11,2011/03/09,ICC Cricket World Cup,25,India,Netherlands,India,5 wickets,Feroz Shah Kotla,Delhi
+433583,ODI,2010/11,2011/03/10,ICC Cricket World Cup,26,Sri Lanka,Zimbabwe,Sri Lanka,139 runs,Pallekele International Cricket Stadium,
+433584,ODI,2010/11,2011/03/11,ICC Cricket World Cup,27,Ireland,West Indies,West Indies,44 runs,"Punjab Cricket Association Stadium, Mohali",Chandigarh
+433585,ODI,2010/11,2011/03/11,ICC Cricket World Cup,28,Bangladesh,England,Bangladesh,2 wickets,Zahur Ahmed Chowdhury Stadium,Chittagong
+433586,ODI,2010/11,2011/03/12,ICC Cricket World Cup,29,India,South Africa,South Africa,3 wickets,"Vidarbha Cricket Association Stadium, Jamtha",Nagpur
+433587,ODI,2010/11,2011/03/13,ICC Cricket World Cup,30,Canada,New Zealand,New Zealand,97 runs,Wankhede Stadium,Mumbai
+433588,ODI,2010/11,2011/03/13,ICC Cricket World Cup,31,Australia,Kenya,Australia,60 runs,M Chinnaswamy Stadium,Bangalore
+433589,ODI,2010/11,2011/03/14,ICC Cricket World Cup,33,Pakistan,Zimbabwe,Pakistan,7 wickets,Pallekele International Cricket Stadium,
+433590,ODI,2010/11,2011/03/14,ICC Cricket World Cup,32,Bangladesh,Netherlands,Bangladesh,6 wickets,Zahur Ahmed Chowdhury Stadium,Chittagong
+433591,ODI,2010/11,2011/03/15,ICC Cricket World Cup,34,Ireland,South Africa,South Africa,131 runs,Eden Gardens,Kolkata
+433592,ODI,2010/11,2011/03/16,ICC Cricket World Cup,35,Australia,Canada,Australia,7 wickets,M Chinnaswamy Stadium,Bangalore
+433593,ODI,2010/11,2011/03/17,ICC Cricket World Cup,36,England,West Indies,England,18 runs,"MA Chidambaram Stadium, Chepauk",Chennai
+433594,ODI,2010/11,2011/03/18,ICC Cricket World Cup,38,New Zealand,Sri Lanka,Sri Lanka,112 runs,Wankhede Stadium,Mumbai
+433595,ODI,2010/11,2011/03/18,ICC Cricket World Cup,37,Ireland,Netherlands,Ireland,6 wickets,Eden Gardens,Kolkata
+433596,ODI,2010/11,2011/03/19,ICC Cricket World Cup,40,Australia,Pakistan,Pakistan,4 wickets,R Premadasa Stadium,Colombo
+433597,ODI,2010/11,2011/03/19,ICC Cricket World Cup,39,Bangladesh,South Africa,South Africa,206 runs,Shere Bangla National Stadium,Mirpur
+433598,ODI,2010/11,2011/03/20,ICC Cricket World Cup,41,Kenya,Zimbabwe,Zimbabwe,161 runs,Eden Gardens,Kolkata
+433599,ODI,2010/11,2011/03/20,ICC Cricket World Cup,42,India,West Indies,India,80 runs,"MA Chidambaram Stadium, Chepauk",Chennai
+433600,ODI,2010/11,2011/03/23,ICC Cricket World Cup,,Pakistan,West Indies,Pakistan,10 wickets,Shere Bangla National Stadium,Mirpur
+433601,ODI,2010/11,2011/03/24,ICC Cricket World Cup,,India,Australia,India,5 wickets,"Sardar Patel Stadium, Motera",Ahmedabad
+433602,ODI,2010/11,2011/03/25,ICC Cricket World Cup,,New Zealand,South Africa,New Zealand,49 runs,Shere Bangla National Stadium,Mirpur
+433603,ODI,2010/11,2011/03/26,ICC Cricket World Cup,,Sri Lanka,England,Sri Lanka,10 wickets,R Premadasa Stadium,Colombo
+433604,ODI,2010/11,2011/03/29,ICC Cricket World Cup,,Sri Lanka,New Zealand,Sri Lanka,5 wickets,R Premadasa Stadium,Colombo
+433605,ODI,2010/11,2011/03/30,ICC Cricket World Cup,,India,Pakistan,India,29 runs,"Punjab Cricket Association Stadium, Mohali",Chandigarh
+433606,ODI,2010/11,2011/04/02,ICC Cricket World Cup,,India,Sri Lanka,India,6 wickets,Wankhede Stadium,Mumbai
+450379,ODI,2010,2010/07/07,ICC World Cricket League Division One,10,Canada,Ireland,Ireland,5 wickets,VRA Ground,Amstelveen
+504779,ODI,2011,2011/06/29,ICC World Cricket League Championship,2,Scotland,Netherlands,Scotland,5 wickets,Mannofield Park,Aberdeen
+523804,ODI,2011,2011/09/19,ICC World Cricket League Championship,11,Ireland,Canada,Ireland,133 runs,Clontarf Cricket Club Ground,Dublin
+523805,ODI,2011,2011/09/20,ICC World Cricket League Championship,12,Ireland,Canada,Ireland,56 runs,Clontarf Cricket Club Ground,Dublin
+543881,ODI,2011/12,2012/02/18,ICC World Cricket League Championship,17,Kenya,Ireland,Kenya,7 wickets,Mombasa Sports Club Ground,
+543882,ODI,2011/12,2012/02/20,ICC World Cricket League Championship,18,Kenya,Ireland,Ireland,117 runs,Mombasa Sports Club Ground,
+566946,ODI,2013,2013/06/19,ICC Champions Trophy,,England,South Africa,England,7 wickets,Kennington Oval,London
+566947,ODI,2013,2013/06/20,ICC Champions Trophy,,India,Sri Lanka,India,8 wickets,Sophia Gardens,Cardiff
+566948,ODI,2013,2013/06/23,ICC Champions Trophy,,England,India,India,5 runs,Edgbaston,Birmingham
+578614,ODI,2013,2013/06/06,ICC Champions Trophy,1,India,South Africa,India,26 runs,Sophia Gardens,Cardiff
+578615,ODI,2013,2013/06/07,ICC Champions Trophy,2,Pakistan,West Indies,West Indies,2 wickets,Kennington Oval,London
+578616,ODI,2013,2013/06/08,ICC Champions Trophy,3,England,Australia,England,48 runs,Edgbaston,Birmingham
+578617,ODI,2013,2013/06/09,ICC Champions Trophy,4,New Zealand,Sri Lanka,New Zealand,1 wickets,Sophia Gardens,Cardiff
+578618,ODI,2013,2013/06/10,ICC Champions Trophy,5,Pakistan,South Africa,South Africa,67 runs,Edgbaston,Birmingham
+578619,ODI,2013,2013/06/11,ICC Champions Trophy,6,India,West Indies,India,8 wickets,Kennington Oval,London
+578620,ODI,2013,2013/06/12,ICC Champions Trophy,7,Australia,New Zealand,no result,,Edgbaston,Birmingham
+578621,ODI,2013,2013/06/13,ICC Champions Trophy,8,England,Sri Lanka,Sri Lanka,7 wickets,Kennington Oval,London
+578622,ODI,2013,2013/06/14,ICC Champions Trophy,9,South Africa,West Indies,tie,,Sophia Gardens,Cardiff
+578623,ODI,2013,2013/06/15,ICC Champions Trophy,10,India,Pakistan,India,8 wickets,Edgbaston,Birmingham
+578624,ODI,2013,2013/06/16,ICC Champions Trophy,11,England,New Zealand,England,10 runs,Sophia Gardens,Cardiff
+578625,ODI,2013,2013/06/17,ICC Champions Trophy,12,Australia,Sri Lanka,Sri Lanka,20 runs,Kennington Oval,London
+592266,ODI,2012/13,2013/03/11,ICC World Cricket League Championship,35,Canada,Kenya,Kenya,6 wickets,ICC Global Cricket Academy,Dubai
+631138,ODI,2013,2013/07/07,ICC World Cricket League Championship,43,Netherlands,Ireland,Ireland,88 runs,VRA Ground,Amstelveen
+65235,ODI,2002/03,2003/02/09,ICC World Cup,1,West Indies,South Africa,West Indies,3 runs,"Newlands, Cape Town",Cape Town
+65236,ODI,2002/03,2003/02/10,ICC World Cup,2,Zimbabwe,Namibia,Zimbabwe,86 runs,Harare Sports Club,Harare
+65237,ODI,2002/03,2003/02/10,ICC World Cup,3,Sri Lanka,New Zealand,Sri Lanka,47 runs,"Goodyear Park, Bloemfontein",Bloemfontein
+65238,ODI,2002/03,2003/02/11,ICC World Cup,4,Australia,Pakistan,Australia,82 runs,"New Wanderers Stadium, Johannesburg",Johannesburg
+65239,ODI,2002/03,2003/02/11,ICC World Cup,5,Canada,Bangladesh,Canada,60 runs,"Kingsmead, Durban",Durban
+65240,ODI,2002/03,2003/02/12,ICC World Cup,6,Kenya,South Africa,South Africa,10 wickets,"North West Cricket Stadium, Potchefstroom",Potchefstroom
+65241,ODI,2002/03,2003/02/12,ICC World Cup,7,India,Netherlands,India,68 runs,"Boland Bank Park, Paarl",Paarl
+65242,ODI,2002/03,2003/02/13,ICC World Cup,9,New Zealand,West Indies,New Zealand,20 runs,"St George's Park, Port Elizabeth",Gqeberha
+65244,ODI,2002/03,2003/02/15,ICC World Cup,11,India,Australia,Australia,9 wickets,"SuperSport Park, Centurion",Centurion
+65245,ODI,2002/03,2003/02/15,ICC World Cup,12,Canada,Kenya,Kenya,4 wickets,"Newlands, Cape Town",Cape Town
+65246,ODI,2002/03,2003/02/16,ICC World Cup,13,Netherlands,England,England,6 wickets,"Buffalo Park, East London",East London
+65247,ODI,2002/03,2003/02/16,ICC World Cup,14,Pakistan,Namibia,Pakistan,171 runs,"De Beers Diamond Oval, Kimberley",Kimberley
+65248,ODI,2002/03,2003/02/16,ICC World Cup,15,South Africa,New Zealand,New Zealand,9 wickets,"New Wanderers Stadium, Johannesburg",Johannesburg
+65249,ODI,2002/03,2003/02/18,ICC World Cup,16,West Indies,Bangladesh,no result,,"Willowmoore Park, Benoni",Benoni
+65250,ODI,2002/03,2003/02/19,ICC World Cup,17,India,Zimbabwe,India,83 runs,Harare Sports Club,Harare
+65251,ODI,2002/03,2003/02/19,ICC World Cup,18,Canada,Sri Lanka,Sri Lanka,9 wickets,"Boland Bank Park, Paarl",Paarl
+65252,ODI,2002/03,2003/02/19,ICC World Cup,19,England,Namibia,England,55 runs,"St George's Park, Port Elizabeth",Gqeberha
+65254,ODI,2002/03,2003/02/22,ICC World Cup,22,Bangladesh,South Africa,South Africa,10 wickets,"Goodyear Park, Bloemfontein",Bloemfontein
+65255,ODI,2002/03,2003/02/22,ICC World Cup,23,England,Pakistan,England,112 runs,"Newlands, Cape Town",Cape Town
+65256,ODI,2002/03,2003/02/23,ICC World Cup,24,Canada,West Indies,West Indies,7 wickets,"SuperSport Park, Centurion",Centurion
+65257,ODI,2002/03,2003/02/23,ICC World Cup,25,India,Namibia,India,181 runs,"City Oval, Pietermaritzburg",Pietermaritzburg
+65258,ODI,2002/03,2003/02/24,ICC World Cup,26,Kenya,Sri Lanka,Kenya,53 runs,"Gymkhana Club Ground, Nairobi",Nairobi
+65259,ODI,2002/03,2003/02/24,ICC World Cup,27,Zimbabwe,Australia,Australia,7 wickets,"Queens Sports Club, Bulawayo",Bulawayo
+65260,ODI,2002/03,2003/02/25,ICC World Cup,28,Pakistan,Netherlands,Pakistan,97 runs,"Boland Bank Park, Paarl",Paarl
+65261,ODI,2002/03,2003/02/26,ICC World Cup,29,Bangladesh,New Zealand,New Zealand,7 wickets,"De Beers Diamond Oval, Kimberley",Kimberley
+65262,ODI,2002/03,2003/02/26,ICC World Cup,30,India,England,India,82 runs,"Kingsmead, Durban",Durban
+65263,ODI,2002/03,2003/02/27,ICC World Cup,31,Australia,Namibia,Australia,256 runs,"North West Cricket Stadium, Potchefstroom",Potchefstroom
+65264,ODI,2002/03,2003/02/27,ICC World Cup,32,South Africa,Canada,South Africa,118 runs,"Buffalo Park, East London",East London
+65265,ODI,2002/03,2003/02/28,ICC World Cup,33,Zimbabwe,Netherlands,Zimbabwe,99 runs,"Queens Sports Club, Bulawayo",Bulawayo
+65266,ODI,2002/03,2003/02/28,ICC World Cup,34,Sri Lanka,West Indies,Sri Lanka,6 runs,"Newlands, Cape Town",Cape Town
+65267,ODI,2002/03,2003/03/01,ICC World Cup,35,Kenya,Bangladesh,Kenya,32 runs,"New Wanderers Stadium, Johannesburg",Johannesburg
+65268,ODI,2002/03,2003/03/01,ICC World Cup,36,Pakistan,India,India,6 wickets,"SuperSport Park, Centurion",Centurion
+65269,ODI,2002/03,2003/03/02,ICC World Cup,37,England,Australia,Australia,2 wickets,"St George's Park, Port Elizabeth",Gqeberha
+65270,ODI,2002/03,2003/03/03,ICC World Cup,38,Canada,New Zealand,New Zealand,5 wickets,"Willowmoore Park, Benoni",Benoni
+65271,ODI,2002/03,2003/03/03,ICC World Cup,39,Netherlands,Namibia,Netherlands,64 runs,"Goodyear Park, Bloemfontein",Bloemfontein
+65272,ODI,2002/03,2003/03/03,ICC World Cup,40,Sri Lanka,South Africa,tie,,"Kingsmead, Durban",Durban
+65273,ODI,2002/03,2003/03/04,ICC World Cup,41,Pakistan,Zimbabwe,no result,,"Queens Sports Club, Bulawayo",Bulawayo
+65275,ODI,2002/03,2003/03/07,ICC World Cup,,Australia,Sri Lanka,Australia,96 runs,"SuperSport Park, Centurion",Centurion
+65276,ODI,2002/03,2003/03/07,ICC World Cup,,Kenya,India,India,6 wickets,"Newlands, Cape Town",Cape Town
+65277,ODI,2002/03,2003/03/08,ICC World Cup,,Zimbabwe,New Zealand,New Zealand,6 wickets,"Goodyear Park, Bloemfontein",Bloemfontein
+65278,ODI,2002/03,2003/03/10,ICC World Cup,,India,Sri Lanka,India,183 runs,"New Wanderers Stadium, Johannesburg",Johannesburg
+65279,ODI,2002/03,2003/03/11,ICC World Cup,,Australia,New Zealand,Australia,96 runs,"St George's Park, Port Elizabeth",Gqeberha
+65280,ODI,2002/03,2003/03/12,ICC World Cup,,Zimbabwe,Kenya,Kenya,7 wickets,"Goodyear Park, Bloemfontein",Bloemfontein
+65281,ODI,2002/03,2003/03/14,ICC World Cup,,New Zealand,India,India,7 wickets,"SuperSport Park, Centurion",Centurion
+65282,ODI,2002/03,2003/03/15,ICC World Cup,,Sri Lanka,Zimbabwe,Sri Lanka,74 runs,"Buffalo Park, East London",East London
+65283,ODI,2002/03,2003/03/15,ICC World Cup,,Kenya,Australia,Australia,5 wickets,"Kingsmead, Durban",Durban
+65284,ODI,2002/03,2003/03/18,ICC World Cup,,Australia,Sri Lanka,Australia,48 runs,"St George's Park, Port Elizabeth",Gqeberha
+65285,ODI,2002/03,2003/03/20,ICC World Cup,,India,Kenya,India,91 runs,"Kingsmead, Durban",Durban
+65286,ODI,2002/03,2003/03/23,ICC World Cup,,Australia,India,Australia,125 runs,"New Wanderers Stadium, Johannesburg",Johannesburg
+656399,ODI,2014/15,2015/02/14,ICC Cricket World Cup,1,New Zealand,Sri Lanka,New Zealand,98 runs,Hagley Oval,Christchurch
+656401,ODI,2014/15,2015/02/14,ICC Cricket World Cup,2,Australia,England,Australia,111 runs,Melbourne Cricket Ground,
+656403,ODI,2014/15,2015/02/15,ICC Cricket World Cup,3,South Africa,Zimbabwe,South Africa,62 runs,Seddon Park,Hamilton
+656405,ODI,2014/15,2015/02/15,ICC Cricket World Cup,4,India,Pakistan,India,76 runs,Adelaide Oval,
+656407,ODI,2014/15,2015/02/16,ICC Cricket World Cup,5,Ireland,West Indies,Ireland,4 wickets,Saxton Oval,Nelson
+656409,ODI,2014/15,2015/02/17,ICC Cricket World Cup,6,New Zealand,Scotland,New Zealand,3 wickets,University Oval,Dunedin
+656413,ODI,2014/15,2015/02/19,ICC Cricket World Cup,8,United Arab Emirates,Zimbabwe,Zimbabwe,4 wickets,Saxton Oval,Nelson
+656415,ODI,2014/15,2015/02/20,ICC Cricket World Cup,9,New Zealand,England,New Zealand,8 wickets,Westpac Stadium,Wellington
+656417,ODI,2014/15,2015/02/21,ICC Cricket World Cup,10,Pakistan,West Indies,West Indies,150 runs,Hagley Oval,Christchurch
+656423,ODI,2014/15,2015/02/22,ICC Cricket World Cup,13,India,South Africa,India,130 runs,Melbourne Cricket Ground,
+656425,ODI,2014/15,2015/02/23,ICC Cricket World Cup,14,England,Scotland,England,119 runs,Hagley Oval,Christchurch
+656427,ODI,2014/15,2015/02/24,ICC Cricket World Cup,15,West Indies,Zimbabwe,West Indies,73 runs,Manuka Oval,Canberra
+656429,ODI,2014/15,2015/02/25,ICC Cricket World Cup,16,Ireland,United Arab Emirates,Ireland,2 wickets,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+656433,ODI,2014/15,2015/02/26,ICC Cricket World Cup,18,Bangladesh,Sri Lanka,Sri Lanka,92 runs,Melbourne Cricket Ground,
+656435,ODI,2014/15,2015/02/27,ICC Cricket World Cup,19,South Africa,West Indies,South Africa,257 runs,Sydney Cricket Ground,
+656437,ODI,2014/15,2015/02/28,ICC Cricket World Cup,20,New Zealand,Australia,New Zealand,1 wickets,Eden Park,Auckland
+656439,ODI,2014/15,2015/02/28,ICC Cricket World Cup,21,India,United Arab Emirates,India,9 wickets,Western Australia Cricket Association Ground,Perth
+656441,ODI,2014/15,2015/03/01,ICC Cricket World Cup,22,England,Sri Lanka,Sri Lanka,9 wickets,Westpac Stadium,Wellington
+656443,ODI,2014/15,2015/03/01,ICC Cricket World Cup,23,Pakistan,Zimbabwe,Pakistan,20 runs,"Brisbane Cricket Ground, Woolloongabba",Brisbane
+656445,ODI,2014/15,2015/03/03,ICC Cricket World Cup,24,Ireland,South Africa,South Africa,201 runs,Manuka Oval,Canberra
+656447,ODI,2014/15,2015/03/04,ICC Cricket World Cup,25,Pakistan,United Arab Emirates,Pakistan,129 runs,McLean Park,Napier
+656451,ODI,2014/15,2015/03/05,ICC Cricket World Cup,27,Bangladesh,Scotland,Bangladesh,6 wickets,Saxton Oval,Nelson
+656453,ODI,2014/15,2015/03/06,ICC Cricket World Cup,28,India,West Indies,India,4 wickets,Western Australia Cricket Association Ground,Perth
+656455,ODI,2014/15,2015/03/07,ICC Cricket World Cup,29,Pakistan,South Africa,Pakistan,29 runs,Eden Park,Auckland
+656457,ODI,2014/15,2015/03/07,ICC Cricket World Cup,30,Ireland,Zimbabwe,Ireland,5 runs,Bellerive Oval,Hobart
+656461,ODI,2014/15,2015/03/08,ICC Cricket World Cup,32,Australia,Sri Lanka,Australia,64 runs,Sydney Cricket Ground,
+656463,ODI,2014/15,2015/03/09,ICC Cricket World Cup,33,Bangladesh,England,Bangladesh,15 runs,Adelaide Oval,
+656465,ODI,2014/15,2015/03/10,ICC Cricket World Cup,34,India,Ireland,India,8 wickets,Seddon Park,Hamilton
+656467,ODI,2014/15,2015/03/11,ICC Cricket World Cup,35,Scotland,Sri Lanka,Sri Lanka,148 runs,Bellerive Oval,Hobart
+656469,ODI,2014/15,2015/03/12,ICC Cricket World Cup,36,South Africa,United Arab Emirates,South Africa,146 runs,Westpac Stadium,Wellington
+656471,ODI,2014/15,2015/03/13,ICC Cricket World Cup,37,New Zealand,Bangladesh,New Zealand,3 wickets,Seddon Park,Hamilton
+656475,ODI,2014/15,2015/03/14,ICC Cricket World Cup,39,India,Zimbabwe,India,6 wickets,Eden Park,Auckland
+656477,ODI,2014/15,2015/03/14,ICC Cricket World Cup,40,Australia,Scotland,Australia,7 wickets,Bellerive Oval,Hobart
+656479,ODI,2014/15,2015/03/15,ICC Cricket World Cup,41,United Arab Emirates,West Indies,West Indies,6 wickets,McLean Park,Napier
+656481,ODI,2014/15,2015/03/15,ICC Cricket World Cup,42,Ireland,Pakistan,Pakistan,7 wickets,Adelaide Oval,
+656483,ODI,2014/15,2015/03/18,ICC Cricket World Cup,,South Africa,Sri Lanka,South Africa,9 wickets,Sydney Cricket Ground,
+656485,ODI,2014/15,2015/03/19,ICC Cricket World Cup,,Bangladesh,India,India,109 runs,Melbourne Cricket Ground,
+656487,ODI,2014/15,2015/03/20,ICC Cricket World Cup,,Australia,Pakistan,Australia,6 wickets,Adelaide Oval,
+656489,ODI,2014/15,2015/03/21,ICC Cricket World Cup,,New Zealand,West Indies,New Zealand,143 runs,Westpac Stadium,Wellington
+656491,ODI,2014/15,2015/03/24,ICC Cricket World Cup,,New Zealand,South Africa,New Zealand,4 wickets,Eden Park,Auckland
+656493,ODI,2014/15,2015/03/26,ICC Cricket World Cup,,Australia,India,Australia,95 runs,Sydney Cricket Ground,
+656495,ODI,2014/15,2015/03/29,ICC Cricket World Cup,,Australia,New Zealand,Australia,7 wickets,Melbourne Cricket Ground,
+660825,ODI,2013,2013/08/27,ICC World Cricket League Championship,49,Canada,Netherlands,no result,,Maple Leaf North-West Ground,King City
+660827,ODI,2013,2013/08/29,ICC World Cricket League Championship,50,Canada,Netherlands,Netherlands,9 wickets,Maple Leaf North-West Ground,King City
+660837,ODI,2013,2013/09/06,ICC World Cricket League Championship,51,Ireland,Scotland,Ireland,1 wickets,"Civil Service Cricket Club, Stormont",Belfast
+66196,ODI,2004,2004/09/10,ICC Champions Trophy,1,England,Zimbabwe,England,152 runs,Edgbaston,Birmingham
+66197,ODI,2004,2004/09/10,ICC Champions Trophy,2,New Zealand,United States of America,New Zealand,210 runs,Kennington Oval,London
+66198,ODI,2004,2004/09/11,ICC Champions Trophy,3,India,Kenya,India,98 runs,The Rose Bowl,Southampton
+66200,ODI,2004,2004/09/13,ICC Champions Trophy,5,United States of America,Australia,Australia,9 wickets,The Rose Bowl,Southampton
+66201,ODI,2004,2004/09/14,ICC Champions Trophy,6,Zimbabwe,Sri Lanka,Sri Lanka,4 wickets,Kennington Oval,London
+66202,ODI,2004,2004/09/14,ICC Champions Trophy,7,Kenya,Pakistan,Pakistan,7 wickets,Edgbaston,Birmingham
+66203,ODI,2004,2004/09/15,ICC Champions Trophy,8,West Indies,Bangladesh,West Indies,138 runs,The Rose Bowl,Southampton
+66204,ODI,2004,2004/09/16,ICC Champions Trophy,9,New Zealand,Australia,Australia,7 wickets,Kennington Oval,London
+66205,ODI,2004,2004/09/17,ICC Champions Trophy,10,England,Sri Lanka,England,49 runs,The Rose Bowl,Southampton
+66206,ODI,2004,2004/09/18,ICC Champions Trophy,11,South Africa,West Indies,West Indies,5 wickets,Kennington Oval,London
+66207,ODI,2004,2004/09/19,ICC Champions Trophy,12,India,Pakistan,Pakistan,3 wickets,Edgbaston,Birmingham
+66208,ODI,2004,2004/09/21,ICC Champions Trophy,,Australia,England,England,6 wickets,Edgbaston,Birmingham
+66209,ODI,2004,2004/09/22,ICC Champions Trophy,,Pakistan,West Indies,West Indies,7 wickets,The Rose Bowl,Southampton
+66210,ODI,2004,2004/09/25,ICC Champions Trophy,,England,West Indies,West Indies,2 wickets,Kennington Oval,London
+696731,ODI,2013/14,2014/01/23,ICC Cricket World Cup Qualifier,18,Scotland,Canada,Scotland,170 runs,Hagley Oval,Christchurch
+696733,ODI,2013/14,2014/01/23,ICC Cricket World Cup Qualifier,19,Netherlands,Kenya,Kenya,4 wickets,Bert Sutcliffe Oval,Lincoln
+696747,ODI,2013/14,2014/01/28,ICC Cricket World Cup Qualifier,26,Canada,Netherlands,Netherlands,8 wickets,Bay Oval,Mount Maunganui
+696759,ODI,2013/14,2014/01/30,ICC Cricket World Cup Qualifier,32,Kenya,Scotland,Scotland,3 wickets,Hagley Oval,Christchurch
+911049,ODI,2015/16,2015/11/16,ICC World Cricket League Championship,13,United Arab Emirates,Hong Kong,Hong Kong,89 runs,ICC Academy,Dubai
+997993,ODI,2016,2016/08/14,ICC World Cricket League Championship,26,Scotland,United Arab Emirates,Scotland,98 runs,"Grange Cricket Club Ground, Raeburn Place",Edinburgh
+997995,ODI,2016,2016/08/16,ICC World Cricket League Championship,28,Scotland,United Arab Emirates,Scotland,7 wickets,"Grange Cricket Club Ground, Raeburn Place",Edinburgh
