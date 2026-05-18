@@ -1,0 +1,75 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Radial bar chart: ODI World Cup titles by nation. Each country gets an equal angular slice; bar radius encodes title count.",
+  "width": 380,
+  "height": 380,
+  "background": "transparent",
+  "config": {
+    "font": "DM Sans",
+    "view": {"stroke": null}
+  },
+  "data": {"url": "data/wc_titles.csv"},
+  "layer": [
+    {
+      "description": "Outer concentric guides (1, 2, ..., 6 titles)",
+      "data": {
+        "values": [
+          {"r": 1}, {"r": 2}, {"r": 3}, {"r": 4}, {"r": 5}, {"r": 6}
+        ]
+      },
+      "mark": {"type": "arc", "innerRadius": 0, "outerRadius": 0, "stroke": "rgba(11,31,51,0.10)", "fill": null, "strokeWidth": 0.8},
+      "encoding": {
+        "theta": {"value": 6.283185},
+        "radius": {"field": "r", "type": "quantitative", "scale": {"domain": [0, 6], "range": [0, 170]}, "stack": null}
+      }
+    },
+    {
+      "description": "Radial bars: one arc segment per country",
+      "transform": [
+        {"window": [{"op": "row_number", "as": "idx"}], "sort": [{"field": "titles", "order": "descending"}]}
+      ],
+      "mark": {"type": "arc", "innerRadius": 24, "stroke": "#0b1f33", "strokeWidth": 1, "cornerRadius": 3},
+      "encoding": {
+        "theta": {"field": "idx", "type": "ordinal", "scale": {"type": "band", "padding": 0.2}, "stack": null, "sort": null},
+        "radius": {"field": "titles", "type": "quantitative", "scale": {"type": "linear", "domain": [0, 6], "range": [24, 170]}, "stack": null},
+        "color": {
+          "field": "country",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Australia", "India", "West Indies", "Pakistan", "Sri Lanka", "England"],
+            "range":  ["#c8a23d", "#1d3f6e", "#9b2a2a", "#0e5e3a", "#2d8a5e", "#2b3340"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "country", "type": "nominal", "title": "Country"},
+          {"field": "titles",  "type": "quantitative", "title": "Titles"},
+          {"field": "years",   "type": "nominal", "title": "Years won"}
+        ]
+      }
+    },
+    {
+      "description": "Country labels at the outer edge",
+      "transform": [
+        {"window": [{"op": "row_number", "as": "idx"}], "sort": [{"field": "titles", "order": "descending"}]}
+      ],
+      "mark": {"type": "text", "radius": 190, "font": "Fraunces", "fontSize": 13, "fontWeight": 500, "color": "#0b1f33"},
+      "encoding": {
+        "theta": {"field": "idx", "type": "ordinal", "scale": {"type": "band", "padding": 0.2}, "stack": null, "sort": null, "bandPosition": 0.5},
+        "text": {"field": "country", "type": "nominal"}
+      }
+    },
+    {
+      "description": "Title-count labels at the tip of each bar",
+      "transform": [
+        {"window": [{"op": "row_number", "as": "idx"}], "sort": [{"field": "titles", "order": "descending"}]}
+      ],
+      "mark": {"type": "text", "font": "Fraunces", "fontSize": 18, "fontWeight": 700, "color": "#0b1f33"},
+      "encoding": {
+        "theta": {"field": "idx", "type": "ordinal", "scale": {"type": "band", "padding": 0.2}, "stack": null, "sort": null, "bandPosition": 0.5},
+        "radius": {"field": "titles", "type": "quantitative", "scale": {"domain": [0, 6], "range": [24, 170]}, "stack": null, "bandPosition": 0.5},
+        "text": {"field": "titles", "type": "quantitative"}
+      }
+    }
+  ]
+}

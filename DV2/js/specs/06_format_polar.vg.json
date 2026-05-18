@@ -1,0 +1,80 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Polar area chart (Coxcomb / rose). Three wedges, one per format. Wedge radius encodes Australia's win percentage in that format.",
+  "width": 380,
+  "height": 380,
+  "background": "transparent",
+  "config": {
+    "font": "DM Sans",
+    "view": {"stroke": null}
+  },
+  "data": {"url": "data/win_by_format.csv"},
+  "layer": [
+    {
+      "description": "Concentric grid rings every 20%",
+      "data": {"values": [{"v": 20}, {"v": 40}, {"v": 60}, {"v": 80}, {"v": 100}]},
+      "mark": {"type": "arc", "innerRadius": 0, "stroke": "rgba(11,31,51,0.10)", "fill": null, "strokeWidth": 0.8},
+      "encoding": {
+        "theta": {"value": 6.283185},
+        "radius": {"field": "v", "type": "quantitative", "scale": {"domain": [0, 100], "range": [0, 170]}, "stack": null}
+      }
+    },
+    {
+      "description": "Grid-ring labels",
+      "data": {"values": [{"v": 20, "label": "20%"}, {"v": 40, "label": "40%"}, {"v": 60, "label": "60%"}, {"v": 80, "label": "80%"}]},
+      "mark": {"type": "text", "font": "DM Sans", "fontSize": 9, "color": "#6a6f78", "align": "left", "dx": 4},
+      "encoding": {
+        "theta": {"value": 0},
+        "radius": {"field": "v", "type": "quantitative", "scale": {"domain": [0, 100], "range": [0, 170]}, "stack": null},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "description": "Polar area wedges",
+      "transform": [
+        {"window": [{"op": "row_number", "as": "idx"}], "sort": [{"field": "format", "order": "ascending"}]}
+      ],
+      "mark": {"type": "arc", "innerRadius": 0, "stroke": "#0b1f33", "strokeWidth": 1, "opacity": 0.85},
+      "encoding": {
+        "theta": {"field": "idx", "type": "ordinal", "scale": {"type": "band", "padding": 0.04}, "stack": null, "sort": null},
+        "radius": {"field": "win_pct", "type": "quantitative", "scale": {"type": "linear", "domain": [0, 100], "range": [0, 170]}, "stack": null},
+        "color": {
+          "field": "format",
+          "type": "nominal",
+          "scale": {"domain": ["Test", "ODI", "T20I"], "range": ["#074026", "#0e5e3a", "#c8a23d"]},
+          "legend": {"orient": "bottom", "title": null, "labelFontSize": 12, "symbolType": "square"}
+        },
+        "tooltip": [
+          {"field": "format",       "type": "nominal", "title": "Format"},
+          {"field": "win_pct",      "type": "quantitative", "title": "Win %", "format": ".1f"},
+          {"field": "matches",      "type": "quantitative", "title": "Matches"},
+          {"field": "avg_score",    "type": "quantitative", "title": "Avg score"},
+          {"field": "avg_wickets",  "type": "quantitative", "title": "Avg wickets taken"}
+        ]
+      }
+    },
+    {
+      "description": "Format label at wedge centroid",
+      "transform": [
+        {"window": [{"op": "row_number", "as": "idx"}], "sort": [{"field": "format", "order": "ascending"}]}
+      ],
+      "mark": {"type": "text", "font": "Fraunces", "fontSize": 16, "fontWeight": 600, "color": "#fff", "radius": 100},
+      "encoding": {
+        "theta": {"field": "idx", "type": "ordinal", "scale": {"type": "band", "padding": 0.04}, "stack": null, "sort": null, "bandPosition": 0.5},
+        "text": {"field": "format", "type": "nominal"}
+      }
+    },
+    {
+      "description": "Win % big label near edge",
+      "transform": [
+        {"window": [{"op": "row_number", "as": "idx"}], "sort": [{"field": "format", "order": "ascending"}]},
+        {"calculate": "format(datum.win_pct, '.1f') + '%'", "as": "pct_label"}
+      ],
+      "mark": {"type": "text", "font": "Fraunces", "fontSize": 20, "fontWeight": 700, "color": "#fff", "radius": 145},
+      "encoding": {
+        "theta": {"field": "idx", "type": "ordinal", "scale": {"type": "band", "padding": 0.04}, "stack": null, "sort": null, "bandPosition": 0.5},
+        "text": {"field": "pct_label", "type": "nominal"}
+      }
+    }
+  ]
+}

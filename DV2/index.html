@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1280" />
+  <title>Cricket Australia: A Nation's Game · FIT2179 DV2</title>
+  <meta name="description" content="A data visualisation essay on Australian cricket — from global dominance to domestic passion. FIT2179 Data Visualisation 2, Monash University." />
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+
+  <!-- Vega + Vega-Lite + Vega-Embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       HERO
+  ============================================================= -->
+  <header class="hero">
+    <div class="hero__inner">
+      <div class="hero__eyebrow">
+        <span class="dot"></span> FIT2179 · Data Visualisation 2 · Semester 1, 2026
+      </div>
+      <h1 class="hero__title">
+        Cricket Australia<span class="amp">,</span>
+        <em>A Nation's Game.</em>
+      </h1>
+      <p class="hero__deck">
+        From Bradman's invincibles to a packed Boxing Day Test, from the urn at Lord's
+        to a sticky Hobart night under floodlights — this is a data essay on how
+        Australia became the most successful side in cricket history, and how that
+        dominance flowed home into the streets, suburbs, and stadiums of a country
+        that just won't stop watching.
+      </p>
+
+      <div class="hero__stats">
+        <div class="stat">
+          <div class="stat__num">10</div>
+          <div class="stat__label">ICC trophies</div>
+          <div class="stat__sub">most of any nation</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">6</div>
+          <div class="stat__label">ODI World Cups</div>
+          <div class="stat__sub">1987 → 2023</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">~150</div>
+          <div class="stat__label">Ashes Tests won</div>
+          <div class="stat__sub">since 1882</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">253<span class="pct">%</span></div>
+          <div class="stat__label">BBL attendance growth</div>
+          <div class="stat__sub">season 1 → peak</div>
+        </div>
+      </div>
+
+      <div class="hero__byline">
+        Written &amp; visualised by Somanshu · Monash University · May 2026
+        <span class="sep">·</span>
+        <a href="#sources">sources</a>
+        <span class="sep">·</span>
+        <a href="#ai">ai acknowledgement</a>
+      </div>
+    </div>
+    <div class="hero__scrollcue">scroll ↓</div>
+  </header>
+
+  <!-- ============================================================
+       INTRO
+  ============================================================= -->
+  <section class="intro">
+    <div class="container">
+      <p class="dropcap">
+        <span class="dropcap__letter">A</span>ustralia have played international cricket
+        for nearly 150 years. In that time, no other nation has won more World Cups,
+        held the world No. 1 ranking longer, or built a domestic T20 competition that
+        grew from a curiosity into one of the country's most-watched sporting events.
+        This essay traces that story in four chapters — the global record, the
+        tournament cabinet, the rivalry with England, and the rise of the Big Bash —
+        and asks one question along the way: <em>what does dominance actually look like
+        in data?</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 1 · WORLD STAGE
+  ============================================================= -->
+  <section class="chapter" id="chapter-1">
+    <div class="container">
+      <div class="chapter__head">
+        <div class="chapter__num">01</div>
+        <h2 class="chapter__title">Australia on the World Stage</h2>
+        <p class="chapter__deck">
+          Across every opponent and every format, Australia have won more often than
+          they have lost. The map below shows a head-to-head record against every
+          cricket-playing nation — green is where Australia wins more than half the
+          time, which is to say, almost everywhere.
+        </p>
+      </div>
+
+      <!-- Chart 1: Head-to-head world map -->
+      <figure class="figure figure--wide">
+        <div id="vis-headtohead" class="vis"></div>
+        <figcaption>
+          <strong>Figure 1.</strong> Head-to-head record against each Test-playing nation.
+          Country fill encodes Australia's win percentage; circle size encodes the total
+          number of matches played. Hover for full record.
+          <span class="source">Source: aggregated from ESPN Cricinfo Statsguru records, all formats combined.</span>
+        </figcaption>
+      </figure>
+
+      <!-- Chart 2: ICC Rankings over time -->
+      <figure class="figure figure--wide">
+        <div id="vis-rankings" class="vis"></div>
+        <figcaption>
+          <strong>Figure 2.</strong> ICC Test ranking points, 2003–2025. Australia held the
+          No. 1 spot for most of the 2000s — a stretch widely considered the longest
+          period of dominance in cricket's modern era. Click a country in the legend to
+          isolate.
+          <span class="source">Source: ICC Test Championship table history.</span>
+        </figcaption>
+      </figure>
+
+      <!-- Chart 3: KPI sparkline strip -->
+      <div class="kpi-strip">
+        <div class="kpi">
+          <div class="kpi__label">Overall win %</div>
+          <div class="kpi__big">52.9%</div>
+          <div id="vis-spark-wins" class="kpi__spark"></div>
+          <div class="kpi__foot">Annual wins, 1990–2025</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi__label">Tests played</div>
+          <div class="kpi__big">870</div>
+          <div class="kpi__foot small">2nd most after England</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi__label">Years ranked #1</div>
+          <div class="kpi__big">14</div>
+          <div class="kpi__foot small">Tests, since rankings began 2003</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi__label">Longest streak</div>
+          <div class="kpi__big">16</div>
+          <div class="kpi__foot small">Consecutive Test wins (1999–2001)</div>
+        </div>
+      </div>
+
+      <p class="aside">
+        <em>To the teams that faced Australia in the 2000s</em> — they often knew, by the
+        coin toss, that they were playing for second. McGrath, Warne, Gilchrist, Ponting,
+        the Waughs: a generation that didn't just win matches, they erased opposition from
+        the contest before lunch on day one.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 2 · ICC TROPHIES
+  ============================================================= -->
+  <section class="chapter chapter--alt" id="chapter-2">
+    <div class="container">
+      <div class="chapter__head">
+        <div class="chapter__num">02</div>
+        <h2 class="chapter__title">The Trophy Cabinet</h2>
+        <p class="chapter__deck">
+          Ten ICC trophies. Six ODI World Cups. Two Champions Trophies. A T20 World Cup
+          in 2021 and, just to round it out, the inaugural World Test Championship in 2023.
+          No other side has won more of any of these.
+        </p>
+      </div>
+
+      <!-- Chart 4: ICC trophy timeline -->
+      <figure class="figure figure--wide">
+        <div id="vis-trophies" class="vis"></div>
+        <figcaption>
+          <strong>Figure 3.</strong> Every senior men's ICC tournament since 1975, marked by
+          who lifted the trophy. Gold dots are Australian wins. The 1999–2007 cluster —
+          three consecutive ODI World Cups, plus two Champions Trophies — is the densest
+          stretch of titles by any nation in the sport's history.
+          <span class="source">Source: ICC tournament records.</span>
+        </figcaption>
+      </figure>
+
+      <div class="figure-pair">
+        <!-- Chart 5: WC titles radial -->
+        <figure class="figure">
+          <div id="vis-wctitles" class="vis"></div>
+          <figcaption>
+            <strong>Figure 4.</strong> ODI World Cup titles, all-time. Australia (6) have
+            more than the next two nations combined.
+          </figcaption>
+        </figure>
+
+        <!-- Chart 6: Format polar -->
+        <figure class="figure">
+          <div id="vis-formats" class="vis"></div>
+          <figcaption>
+            <strong>Figure 5.</strong> Australia's win rate by format. Strongest in ODI
+            and T20I — the shorter the game, the more comfortably they win.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 3 · THE ASHES
+  ============================================================= -->
+  <section class="chapter" id="chapter-3">
+    <div class="container">
+      <div class="chapter__head">
+        <div class="chapter__num">03</div>
+        <h2 class="chapter__title">The Ashes</h2>
+        <p class="chapter__deck">
+          The oldest contest in cricket — fought over a tiny clay urn since 1882. Every
+          Test ever played for it appears in the strip below. Green is Australia, navy is
+          England, sand is a draw. Read it left-to-right and you can see the eras: the
+          Bradman years, the West Indian interregnum of the 1970s, the rebuild of the
+          2010s.
+        </p>
+      </div>
+
+      <!-- Chart 7: Ashes result strip -->
+      <figure class="figure figure--wide">
+        <div id="vis-ashesstrip" class="vis"></div>
+        <figcaption>
+          <strong>Figure 6.</strong> Every Ashes Test, 1882–2023. Each square is one match.
+          Hover to reveal venue, year, and margin.
+          <span class="source">Source: CricketArchive Ashes match list, approximate where pre-1900 records are partial.</span>
+        </figcaption>
+      </figure>
+
+      <div class="figure-pair">
+        <!-- Chart 8: Ashes venues map -->
+        <figure class="figure">
+          <div id="vis-ashesvenues" class="vis"></div>
+          <figcaption>
+            <strong>Figure 7.</strong> Ashes Test venues across Australia and England.
+            Circle size = matches hosted. The MCG (Melbourne) has hosted more Ashes
+            Tests than any other ground.
+          </figcaption>
+        </figure>
+
+        <!-- Chart 9: Top performers connected dot plot -->
+        <figure class="figure">
+          <div id="vis-ashestop" class="vis"></div>
+          <figcaption>
+            <strong>Figure 8.</strong> Highest run scorers in Ashes Tests, Australia vs
+            England. Don Bradman's 5,028 runs at an average of 89.78 sit so far above
+            everything else that the rest of the chart almost compresses.
+          </figcaption>
+        </figure>
+      </div>
+
+      <p class="aside">
+        <em>A small fact for scale.</em> The MCG holds 100,024 people — the second-largest
+        cricket stadium in the world after Narendra Modi Stadium in Ahmedabad. On Boxing
+        Day, it sells out by the time the kookaburras start calling.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 4 · BIG BASH LEAGUE
+  ============================================================= -->
+  <section class="chapter chapter--alt" id="chapter-4">
+    <div class="container">
+      <div class="chapter__head">
+        <div class="chapter__num">04</div>
+        <h2 class="chapter__title">The Big Bash</h2>
+        <p class="chapter__deck">
+          In December 2011 the BBL replaced state-based domestic T20 with eight
+          city-based franchises and a mandate to fill stadiums in the summer holidays.
+          By season seven it was averaging over 30,000 fans a game. Then came COVID.
+          Then came the rebuild.
+        </p>
+      </div>
+
+      <!-- Chart 10: BBL franchise map -->
+      <figure class="figure figure--wide">
+        <div id="vis-bblmap" class="vis"></div>
+        <figcaption>
+          <strong>Figure 9.</strong> The eight BBL franchises and their home grounds.
+          Circle colour matches each club's primary kit colour; size shows total BBL
+          titles won. Perth Scorchers (5) lead the all-time count.
+        </figcaption>
+      </figure>
+
+      <!-- Chart 11: BBL attendance -->
+      <figure class="figure figure--wide">
+        <div id="vis-bblatt" class="vis"></div>
+        <figcaption>
+          <strong>Figure 10.</strong> Average per-game attendance across all 14 BBL seasons.
+          The COVID dip in BBL10–11 is visible; recovery has been steady but the league
+          has not returned to its 2016–17 peak.
+          <span class="source">Source: BBL attendance figures compiled from Cricket Australia season reports.</span>
+        </figcaption>
+      </figure>
+
+      <!-- Chart 12: BBL heatmap -->
+      <figure class="figure figure--wide">
+        <div id="vis-bblheat" class="vis"></div>
+        <figcaption>
+          <strong>Figure 11.</strong> Regular-season wins by team and season. Perth's
+          long band of darker cells is the clearest dominant era in the competition's
+          history.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONCLUSION
+  ============================================================= -->
+  <section class="conclusion">
+    <div class="container">
+      <h2 class="conclusion__title">A Nation's Game</h2>
+      <p>
+        Australia's cricket story is unusual because the international dominance and
+        the domestic mania aren't two separate things — one feeds the other. A T20
+        World Cup in 2021 fills BBL stadiums the following December. A loss in the
+        Ashes sends a million viewers back to the highlights of 2006. The data, read
+        end to end, describes a country that has organised a non-trivial portion of
+        its summer around watching cricket — and has, more often than not, been
+        rewarded for the attention.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================= -->
+  <footer class="footer" id="sources">
+    <div class="container footer__grid">
+      <div>
+        <h3>Author</h3>
+        <p>Somanshu<br />Monash University, FIT2179<br />Semester 1, 2026</p>
+      </div>
+      <div>
+        <h3>Data Sources</h3>
+        <ul>
+          <li><a href="https://stats.espncricinfo.com/ci/engine/stats/index.html" target="_blank" rel="noopener">ESPN Cricinfo Statsguru</a> — head-to-head records, player stats</li>
+          <li><a href="https://www.icc-cricket.com" target="_blank" rel="noopener">ICC official records</a> — tournaments &amp; rankings</li>
+          <li><a href="https://cricsheet.org/" target="_blank" rel="noopener">Cricsheet</a> — ball-by-ball match data</li>
+          <li><a href="https://www.kaggle.com/datasets" target="_blank" rel="noopener">Kaggle cricket datasets</a> — match results</li>
+          <li><a href="https://www.cricketarchive.com" target="_blank" rel="noopener">CricketArchive</a> — Ashes match history</li>
+          <li>BBL attendance compiled from Cricket Australia season reports</li>
+        </ul>
+      </div>
+      <div id="ai">
+        <h3>AI Acknowledgement</h3>
+        <p>
+          Claude (Anthropic) was used to assist with code structure, Vega-Lite
+          specification debugging, and copy editing. All data sourcing, chart
+          design decisions, written analysis, and final implementation are the
+          author's own.
+        </p>
+      </div>
+      <div>
+        <h3>Built With</h3>
+        <p>Vega-Lite 5.21, Vega 5.30, Vega-Embed 6.26. Typography: Fraunces, Newsreader, DM Sans. Hosted on GitHub Pages.</p>
+        <p class="small">View Vega-Lite specs: <a href="js/specs/">js/specs/</a></p>
+      </div>
+    </div>
+    <div class="container footer__small">
+      © 2026 Somanshu · Released for academic submission · Monash University
+    </div>
+  </footer>
+
+  <!-- Main script: loads Vega-Lite JSON specs and embeds each chart -->
+  <script src="js/main.js"></script>
+</body>
+</html>

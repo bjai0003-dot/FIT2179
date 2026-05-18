@@ -1,0 +1,19 @@
+country,iso_a3,matches,wins,losses,draws_nr,win_pct,iso_num
+England,GBR,770,360,320,90,46.8,826
+India,IND,380,180,160,40,47.4,356
+Pakistan,PAK,270,130,110,30,48.1,586
+New Zealand,NZL,360,200,110,50,55.6,554
+South Africa,ZAF,280,145,115,20,51.8,710
+West Indies,JAM,320,165,110,45,51.6,388
+Sri Lanka,LKA,210,130,70,10,61.9,144
+Bangladesh,BGD,40,30,8,2,75.0,50
+Zimbabwe,ZWE,35,31,3,1,88.6,716
+Ireland,IRL,9,8,1,0,88.9,372
+Afghanistan,AFG,6,5,1,0,83.3,4
+Netherlands,NLD,5,5,0,0,100.0,528
+Scotland,GBR2,4,4,0,0,100.0,826
+Kenya,KEN,7,7,0,0,100.0,404
+Namibia,NAM,2,2,0,0,100.0,516
+UAE,ARE,2,2,0,0,100.0,784
+Canada,CAN,2,2,0,0,100.0,124
+USA,USA,1,1,0,0,100.0,840

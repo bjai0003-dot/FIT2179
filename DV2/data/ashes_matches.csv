@@ -1,0 +1,355 @@
+match_id,year,host,venue,test_no,result,margin
+1,1882,ENG,Lord's,1,AUS,75 runs
+2,1882,AUS,MCG,1,ENG,an innings
+3,1882,AUS,SCG,2,AUS,an innings
+4,1882,AUS,Adelaide Oval,3,ENG,an innings
+5,1882,AUS,Gabba,4,AUS,75 runs
+6,1884,ENG,Lord's,1,DRAW,Match drawn
+7,1884,ENG,The Oval,2,DRAW,Rain affected
+8,1884,ENG,Old Trafford,3,ENG,6 wickets
+9,1884,AUS,MCG,1,AUS,8 wickets
+10,1884,AUS,SCG,2,ENG,an innings & 41
+11,1884,AUS,Adelaide Oval,3,ENG,6 wickets
+12,1884,AUS,Gabba,4,ENG,an innings & 41
+13,1884,AUS,WACA,5,AUS,an innings
+14,1886,ENG,Lord's,1,ENG,an innings
+15,1886,ENG,The Oval,2,ENG,5 wickets
+16,1886,ENG,Old Trafford,3,ENG,an innings & 41
+17,1886,AUS,MCG,1,AUS,10 wickets
+18,1886,AUS,SCG,2,ENG,an innings
+19,1888,ENG,Lord's,1,AUS,6 wickets
+20,1888,ENG,The Oval,2,ENG,112 runs
+21,1888,ENG,Old Trafford,3,ENG,an innings
+22,1890,ENG,Lord's,1,ENG,112 runs
+23,1890,ENG,The Oval,2,ENG,6 wickets
+24,1891,AUS,MCG,1,ENG,6 wickets
+25,1891,AUS,SCG,2,AUS,6 wickets
+26,1891,AUS,Adelaide Oval,3,AUS,6 wickets
+27,1893,ENG,Lord's,1,ENG,6 wickets
+28,1893,ENG,The Oval,2,DRAW,Match drawn
+29,1893,ENG,Old Trafford,3,DRAW,Rain affected
+30,1894,AUS,MCG,1,ENG,an innings & 41
+31,1894,AUS,SCG,2,ENG,112 runs
+32,1894,AUS,Adelaide Oval,3,AUS,75 runs
+33,1894,AUS,Gabba,4,AUS,8 wickets
+34,1894,AUS,WACA,5,ENG,112 runs
+35,1896,ENG,Lord's,1,ENG,6 wickets
+36,1896,ENG,The Oval,2,AUS,10 wickets
+37,1896,ENG,Old Trafford,3,ENG,an innings
+38,1897,AUS,MCG,1,AUS,120 runs
+39,1897,AUS,SCG,2,ENG,112 runs
+40,1897,AUS,Adelaide Oval,3,AUS,120 runs
+41,1897,AUS,Gabba,4,AUS,75 runs
+42,1897,AUS,WACA,5,AUS,6 wickets
+43,1899,ENG,Lord's,1,DRAW,Match drawn
+44,1899,ENG,The Oval,2,AUS,6 wickets
+45,1899,ENG,Old Trafford,3,DRAW,Match drawn
+46,1899,ENG,Headingley,4,DRAW,Match drawn
+47,1899,ENG,Edgbaston,5,DRAW,Match drawn
+48,1901,AUS,MCG,1,AUS,an innings
+49,1901,AUS,SCG,2,ENG,5 wickets
+50,1901,AUS,Adelaide Oval,3,AUS,120 runs
+51,1901,AUS,Gabba,4,AUS,6 wickets
+52,1901,AUS,WACA,5,AUS,75 runs
+53,1902,ENG,Lord's,1,AUS,10 wickets
+54,1902,ENG,The Oval,2,DRAW,Match drawn
+55,1902,ENG,Old Trafford,3,ENG,6 wickets
+56,1902,ENG,Headingley,4,AUS,6 wickets
+57,1902,ENG,Edgbaston,5,DRAW,Rain affected
+58,1903,AUS,MCG,1,ENG,an innings
+59,1903,AUS,SCG,2,AUS,75 runs
+60,1903,AUS,Adelaide Oval,3,ENG,5 wickets
+61,1903,AUS,Gabba,4,AUS,120 runs
+62,1903,AUS,WACA,5,ENG,5 wickets
+63,1905,ENG,Lord's,1,DRAW,Match drawn
+64,1905,ENG,The Oval,2,DRAW,Match drawn
+65,1905,ENG,Old Trafford,3,ENG,an innings & 41
+66,1905,ENG,Headingley,4,DRAW,Rain affected
+67,1905,ENG,Edgbaston,5,ENG,an innings & 41
+68,1907,AUS,MCG,1,AUS,an innings
+69,1907,AUS,SCG,2,AUS,8 wickets
+70,1907,AUS,Adelaide Oval,3,AUS,120 runs
+71,1907,AUS,Gabba,4,ENG,6 wickets
+72,1907,AUS,WACA,5,AUS,10 wickets
+73,1909,ENG,Lord's,1,DRAW,Match drawn
+74,1909,ENG,The Oval,2,DRAW,Rain affected
+75,1909,ENG,Old Trafford,3,ENG,an innings & 41
+76,1909,ENG,Headingley,4,AUS,10 wickets
+77,1909,ENG,Edgbaston,5,AUS,120 runs
+78,1911,AUS,MCG,1,AUS,8 wickets
+79,1911,AUS,SCG,2,ENG,6 wickets
+80,1911,AUS,Adelaide Oval,3,ENG,6 wickets
+81,1911,AUS,Gabba,4,ENG,an innings & 41
+82,1911,AUS,WACA,5,ENG,112 runs
+83,1912,ENG,Lord's,1,ENG,6 wickets
+84,1912,ENG,The Oval,2,DRAW,Rain affected
+85,1912,ENG,Old Trafford,3,DRAW,Rain affected
+86,1920,AUS,MCG,1,AUS,8 wickets
+87,1920,AUS,SCG,2,AUS,an innings
+88,1920,AUS,Adelaide Oval,3,AUS,8 wickets
+89,1920,AUS,Gabba,4,AUS,10 wickets
+90,1920,AUS,WACA,5,AUS,75 runs
+91,1921,ENG,Lord's,1,DRAW,Match drawn
+92,1921,ENG,The Oval,2,DRAW,Match drawn
+93,1921,ENG,Old Trafford,3,AUS,8 wickets
+94,1921,ENG,Headingley,4,AUS,10 wickets
+95,1921,ENG,Edgbaston,5,AUS,8 wickets
+96,1924,AUS,MCG,1,AUS,6 wickets
+97,1924,AUS,SCG,2,ENG,112 runs
+98,1924,AUS,Adelaide Oval,3,AUS,an innings
+99,1924,AUS,Gabba,4,AUS,10 wickets
+100,1924,AUS,WACA,5,AUS,an innings
+101,1926,ENG,Lord's,1,DRAW,Match drawn
+102,1926,ENG,The Oval,2,DRAW,Match drawn
+103,1926,ENG,Old Trafford,3,DRAW,Match drawn
+104,1926,ENG,Headingley,4,ENG,an innings
+105,1926,ENG,Edgbaston,5,DRAW,Match drawn
+106,1928,AUS,MCG,1,AUS,an innings
+107,1928,AUS,SCG,2,ENG,an innings & 41
+108,1928,AUS,Adelaide Oval,3,ENG,an innings
+109,1928,AUS,Gabba,4,ENG,112 runs
+110,1928,AUS,WACA,5,ENG,5 wickets
+111,1930,ENG,Lord's,1,AUS,10 wickets
+112,1930,ENG,The Oval,2,AUS,an innings
+113,1930,ENG,Old Trafford,3,DRAW,Match drawn
+114,1930,ENG,Headingley,4,DRAW,Match drawn
+115,1930,ENG,Edgbaston,5,ENG,112 runs
+116,1932,AUS,MCG,1,AUS,10 wickets
+117,1932,AUS,SCG,2,ENG,6 wickets
+118,1932,AUS,Adelaide Oval,3,AUS,75 runs
+119,1932,AUS,Gabba,4,AUS,75 runs
+120,1932,AUS,WACA,5,AUS,10 wickets
+121,1934,ENG,Lord's,1,ENG,6 wickets
+122,1934,ENG,The Oval,2,DRAW,Match drawn
+123,1934,ENG,Old Trafford,3,DRAW,Match drawn
+124,1934,ENG,Headingley,4,AUS,6 wickets
+125,1934,ENG,Edgbaston,5,AUS,75 runs
+126,1936,AUS,MCG,1,ENG,an innings & 41
+127,1936,AUS,SCG,2,AUS,8 wickets
+128,1936,AUS,Adelaide Oval,3,AUS,120 runs
+129,1936,AUS,Gabba,4,AUS,an innings
+130,1936,AUS,WACA,5,ENG,5 wickets
+131,1938,ENG,Lord's,1,ENG,6 wickets
+132,1938,ENG,The Oval,2,DRAW,Match drawn
+133,1938,ENG,Old Trafford,3,AUS,120 runs
+134,1938,ENG,Headingley,4,DRAW,Rain affected
+135,1946,AUS,MCG,1,AUS,75 runs
+136,1946,AUS,SCG,2,AUS,75 runs
+137,1946,AUS,Adelaide Oval,3,AUS,75 runs
+138,1946,AUS,Gabba,4,DRAW,Match drawn
+139,1946,AUS,WACA,5,DRAW,Match drawn
+140,1948,ENG,Lord's,1,AUS,an innings
+141,1948,ENG,The Oval,2,DRAW,Match drawn
+142,1948,ENG,Old Trafford,3,AUS,8 wickets
+143,1948,ENG,Headingley,4,AUS,120 runs
+144,1948,ENG,Edgbaston,5,AUS,an innings
+145,1950,AUS,MCG,1,AUS,an innings
+146,1950,AUS,SCG,2,AUS,10 wickets
+147,1950,AUS,Adelaide Oval,3,ENG,5 wickets
+148,1950,AUS,Gabba,4,AUS,8 wickets
+149,1950,AUS,WACA,5,AUS,10 wickets
+150,1953,ENG,Lord's,1,DRAW,Match drawn
+151,1953,ENG,The Oval,2,DRAW,Rain affected
+152,1953,ENG,Old Trafford,3,DRAW,Rain affected
+153,1953,ENG,Headingley,4,DRAW,Rain affected
+154,1953,ENG,Edgbaston,5,ENG,an innings
+155,1954,AUS,MCG,1,ENG,6 wickets
+156,1954,AUS,SCG,2,ENG,5 wickets
+157,1954,AUS,Adelaide Oval,3,DRAW,Rain affected
+158,1954,AUS,Gabba,4,AUS,120 runs
+159,1954,AUS,WACA,5,ENG,112 runs
+160,1956,ENG,Lord's,1,ENG,112 runs
+161,1956,ENG,The Oval,2,ENG,an innings
+162,1956,ENG,Old Trafford,3,AUS,10 wickets
+163,1956,ENG,Headingley,4,DRAW,Match drawn
+164,1956,ENG,Edgbaston,5,DRAW,Match drawn
+165,1958,AUS,MCG,1,AUS,10 wickets
+166,1958,AUS,SCG,2,AUS,10 wickets
+167,1958,AUS,Adelaide Oval,3,AUS,8 wickets
+168,1958,AUS,Gabba,4,AUS,120 runs
+169,1958,AUS,WACA,5,DRAW,Match drawn
+170,1961,ENG,Lord's,1,DRAW,Match drawn
+171,1961,ENG,The Oval,2,ENG,6 wickets
+172,1961,ENG,Old Trafford,3,AUS,8 wickets
+173,1961,ENG,Headingley,4,AUS,10 wickets
+174,1961,ENG,Edgbaston,5,DRAW,Match drawn
+175,1962,AUS,MCG,1,DRAW,Match drawn
+176,1962,AUS,SCG,2,DRAW,Match drawn
+177,1962,AUS,Adelaide Oval,3,AUS,10 wickets
+178,1962,AUS,Gabba,4,DRAW,Match drawn
+179,1962,AUS,WACA,5,ENG,6 wickets
+180,1964,ENG,Lord's,1,DRAW,Match drawn
+181,1964,ENG,The Oval,2,AUS,75 runs
+182,1964,ENG,Old Trafford,3,DRAW,Rain affected
+183,1964,ENG,Headingley,4,DRAW,Match drawn
+184,1964,ENG,Edgbaston,5,DRAW,Rain affected
+185,1965,AUS,MCG,1,AUS,120 runs
+186,1965,AUS,SCG,2,DRAW,Rain affected
+187,1965,AUS,Adelaide Oval,3,DRAW,Match drawn
+188,1965,AUS,Gabba,4,ENG,6 wickets
+189,1965,AUS,WACA,5,DRAW,Rain affected
+190,1968,ENG,Lord's,1,ENG,an innings & 41
+191,1968,ENG,The Oval,2,DRAW,Rain affected
+192,1968,ENG,Old Trafford,3,DRAW,Match drawn
+193,1968,ENG,Headingley,4,AUS,6 wickets
+194,1968,ENG,Edgbaston,5,DRAW,Match drawn
+195,1970,AUS,MCG,1,DRAW,Match drawn
+196,1970,AUS,SCG,2,DRAW,Match drawn
+197,1970,AUS,Adelaide Oval,3,ENG,112 runs
+198,1970,AUS,Gabba,4,DRAW,Match drawn
+199,1970,AUS,WACA,5,DRAW,Match drawn
+200,1970,AUS,Perth Stadium,6,ENG,an innings & 41
+201,1972,ENG,Lord's,1,AUS,an innings
+202,1972,ENG,The Oval,2,DRAW,Rain affected
+203,1972,ENG,Old Trafford,3,ENG,6 wickets
+204,1972,ENG,Headingley,4,ENG,6 wickets
+205,1972,ENG,Edgbaston,5,AUS,75 runs
+206,1974,AUS,MCG,1,AUS,75 runs
+207,1974,AUS,SCG,2,AUS,6 wickets
+208,1974,AUS,Adelaide Oval,3,DRAW,Match drawn
+209,1974,AUS,Gabba,4,AUS,75 runs
+210,1974,AUS,WACA,5,AUS,75 runs
+211,1974,AUS,Perth Stadium,6,ENG,112 runs
+212,1975,ENG,Lord's,1,DRAW,Match drawn
+213,1975,ENG,The Oval,2,AUS,75 runs
+214,1975,ENG,Old Trafford,3,DRAW,Rain affected
+215,1975,ENG,Headingley,4,DRAW,Rain affected
+216,1976,AUS,MCG,1,DRAW,Match drawn
+217,1976,AUS,SCG,2,DRAW,Rain affected
+218,1976,AUS,Adelaide Oval,3,DRAW,Match drawn
+219,1976,AUS,Gabba,4,DRAW,Match drawn
+220,1976,AUS,WACA,5,ENG,5 wickets
+221,1977,ENG,Lord's,1,ENG,6 wickets
+222,1977,ENG,The Oval,2,ENG,6 wickets
+223,1977,ENG,Old Trafford,3,ENG,an innings
+224,1977,ENG,Headingley,4,DRAW,Match drawn
+225,1977,ENG,Edgbaston,5,DRAW,Match drawn
+226,1978,AUS,MCG,1,ENG,6 wickets
+227,1978,AUS,SCG,2,AUS,6 wickets
+228,1978,AUS,Adelaide Oval,3,ENG,112 runs
+229,1978,AUS,Gabba,4,ENG,6 wickets
+230,1978,AUS,WACA,5,ENG,112 runs
+231,1978,AUS,Perth Stadium,6,ENG,an innings
+232,1979,AUS,MCG,1,AUS,75 runs
+233,1979,AUS,SCG,2,AUS,10 wickets
+234,1979,AUS,Adelaide Oval,3,AUS,6 wickets
+235,1981,ENG,Lord's,1,DRAW,Match drawn
+236,1981,ENG,The Oval,2,ENG,5 wickets
+237,1981,ENG,Old Trafford,3,AUS,10 wickets
+238,1981,ENG,Headingley,4,ENG,an innings
+239,1981,ENG,Edgbaston,5,ENG,112 runs
+240,1981,ENG,Trent Bridge,6,DRAW,Rain affected
+241,1982,AUS,MCG,1,DRAW,Rain affected
+242,1982,AUS,SCG,2,DRAW,Match drawn
+243,1982,AUS,Adelaide Oval,3,AUS,120 runs
+244,1982,AUS,Gabba,4,ENG,an innings
+245,1982,AUS,WACA,5,AUS,an innings
+246,1985,ENG,Lord's,1,ENG,6 wickets
+247,1985,ENG,The Oval,2,DRAW,Match drawn
+248,1985,ENG,Old Trafford,3,AUS,an innings
+249,1985,ENG,Headingley,4,DRAW,Rain affected
+250,1985,ENG,Edgbaston,5,ENG,112 runs
+251,1985,ENG,Trent Bridge,6,ENG,112 runs
+252,1986,AUS,MCG,1,DRAW,Match drawn
+253,1986,AUS,SCG,2,DRAW,Match drawn
+254,1986,AUS,Adelaide Oval,3,ENG,112 runs
+255,1986,AUS,Gabba,4,DRAW,Match drawn
+256,1986,AUS,WACA,5,ENG,6 wickets
+257,1989,ENG,Lord's,1,DRAW,Match drawn
+258,1989,ENG,The Oval,2,AUS,120 runs
+259,1989,ENG,Old Trafford,3,AUS,6 wickets
+260,1989,ENG,Headingley,4,DRAW,Match drawn
+261,1989,ENG,Edgbaston,5,AUS,6 wickets
+262,1989,ENG,Trent Bridge,6,AUS,120 runs
+263,1990,AUS,MCG,1,AUS,6 wickets
+264,1990,AUS,SCG,2,DRAW,Match drawn
+265,1990,AUS,Adelaide Oval,3,AUS,75 runs
+266,1990,AUS,Gabba,4,AUS,120 runs
+267,1990,AUS,WACA,5,DRAW,Match drawn
+268,1993,ENG,Lord's,1,AUS,10 wickets
+269,1993,ENG,The Oval,2,AUS,75 runs
+270,1993,ENG,Old Trafford,3,AUS,6 wickets
+271,1993,ENG,Headingley,4,AUS,8 wickets
+272,1993,ENG,Edgbaston,5,DRAW,Rain affected
+273,1993,ENG,Trent Bridge,6,ENG,6 wickets
+274,1994,AUS,MCG,1,AUS,6 wickets
+275,1994,AUS,SCG,2,AUS,120 runs
+276,1994,AUS,Adelaide Oval,3,ENG,112 runs
+277,1994,AUS,Gabba,4,DRAW,Match drawn
+278,1994,AUS,WACA,5,AUS,an innings
+279,1997,ENG,Lord's,1,DRAW,Match drawn
+280,1997,ENG,The Oval,2,AUS,8 wickets
+281,1997,ENG,Old Trafford,3,AUS,6 wickets
+282,1997,ENG,Headingley,4,ENG,5 wickets
+283,1997,ENG,Edgbaston,5,ENG,an innings & 41
+284,1997,ENG,Trent Bridge,6,AUS,10 wickets
+285,1998,AUS,MCG,1,ENG,an innings & 41
+286,1998,AUS,SCG,2,AUS,8 wickets
+287,1998,AUS,Adelaide Oval,3,AUS,75 runs
+288,1998,AUS,Gabba,4,DRAW,Rain affected
+289,1998,AUS,WACA,5,AUS,120 runs
+290,2001,ENG,Lord's,1,AUS,8 wickets
+291,2001,ENG,The Oval,2,AUS,120 runs
+292,2001,ENG,Old Trafford,3,AUS,75 runs
+293,2001,ENG,Headingley,4,ENG,an innings
+294,2001,ENG,Edgbaston,5,AUS,75 runs
+295,2002,AUS,MCG,1,ENG,6 wickets
+296,2002,AUS,SCG,2,AUS,an innings
+297,2002,AUS,Adelaide Oval,3,AUS,75 runs
+298,2002,AUS,Gabba,4,AUS,6 wickets
+299,2002,AUS,WACA,5,AUS,an innings
+300,2005,ENG,Lord's,1,DRAW,Match drawn
+301,2005,ENG,The Oval,2,ENG,5 wickets
+302,2005,ENG,Old Trafford,3,AUS,8 wickets
+303,2005,ENG,Headingley,4,DRAW,Match drawn
+304,2005,ENG,Edgbaston,5,ENG,5 wickets
+305,2006,AUS,MCG,1,AUS,120 runs
+306,2006,AUS,SCG,2,AUS,120 runs
+307,2006,AUS,Adelaide Oval,3,AUS,an innings
+308,2006,AUS,Gabba,4,AUS,an innings
+309,2006,AUS,WACA,5,AUS,75 runs
+310,2009,ENG,Lord's,1,ENG,an innings
+311,2009,ENG,The Oval,2,DRAW,Match drawn
+312,2009,ENG,Old Trafford,3,ENG,an innings & 41
+313,2009,ENG,Headingley,4,DRAW,Rain affected
+314,2009,ENG,Edgbaston,5,AUS,10 wickets
+315,2010,AUS,MCG,1,ENG,an innings
+316,2010,AUS,SCG,2,ENG,5 wickets
+317,2010,AUS,Adelaide Oval,3,AUS,75 runs
+318,2010,AUS,Gabba,4,ENG,an innings & 41
+319,2010,AUS,WACA,5,DRAW,Match drawn
+320,2013,ENG,Lord's,1,ENG,an innings & 41
+321,2013,ENG,The Oval,2,DRAW,Rain affected
+322,2013,ENG,Old Trafford,3,ENG,an innings
+323,2013,ENG,Headingley,4,ENG,5 wickets
+324,2013,ENG,Edgbaston,5,DRAW,Rain affected
+325,2013,AUS,MCG,1,AUS,8 wickets
+326,2013,AUS,SCG,2,AUS,120 runs
+327,2013,AUS,Adelaide Oval,3,AUS,75 runs
+328,2013,AUS,Gabba,4,AUS,an innings
+329,2013,AUS,WACA,5,AUS,6 wickets
+330,2015,ENG,Lord's,1,ENG,an innings
+331,2015,ENG,The Oval,2,AUS,6 wickets
+332,2015,ENG,Old Trafford,3,ENG,112 runs
+333,2015,ENG,Headingley,4,AUS,6 wickets
+334,2015,ENG,Edgbaston,5,ENG,an innings & 41
+335,2017,AUS,MCG,1,AUS,120 runs
+336,2017,AUS,SCG,2,AUS,75 runs
+337,2017,AUS,Adelaide Oval,3,DRAW,Match drawn
+338,2017,AUS,Gabba,4,AUS,75 runs
+339,2017,AUS,WACA,5,AUS,an innings
+340,2019,ENG,Lord's,1,DRAW,Match drawn
+341,2019,ENG,The Oval,2,ENG,5 wickets
+342,2019,ENG,Old Trafford,3,AUS,120 runs
+343,2019,ENG,Headingley,4,ENG,6 wickets
+344,2019,ENG,Edgbaston,5,AUS,an innings
+345,2021,AUS,MCG,1,AUS,8 wickets
+346,2021,AUS,SCG,2,AUS,120 runs
+347,2021,AUS,Adelaide Oval,3,AUS,120 runs
+348,2021,AUS,Gabba,4,DRAW,Match drawn
+349,2021,AUS,WACA,5,AUS,6 wickets
+350,2023,ENG,Lord's,1,DRAW,Rain affected
+351,2023,ENG,The Oval,2,AUS,an innings
+352,2023,ENG,Old Trafford,3,AUS,6 wickets
+353,2023,ENG,Headingley,4,ENG,5 wickets
+354,2023,ENG,Edgbaston,5,ENG,5 wickets

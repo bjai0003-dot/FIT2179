@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Small sparkline for the KPI strip: Australia wins per year, 1990-2025.",
+  "width": 200,
+  "height": 36,
+  "background": "transparent",
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"disable": true}
+  },
+  "data": {"url": "data/kpi_wins_trend.csv"},
+  "layer": [
+    {
+      "mark": {"type": "area", "opacity": 0.18, "color": "#0e5e3a"},
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative", "axis": null},
+        "y": {"field": "wins", "type": "quantitative", "axis": null}
+      }
+    },
+    {
+      "mark": {"type": "line", "strokeWidth": 1.6, "color": "#0e5e3a"},
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative", "axis": null},
+        "y": {"field": "wins", "type": "quantitative", "axis": null}
+      }
+    },
+    {
+      "transform": [{"window": [{"op": "row_number", "as": "rn"}], "sort": [{"field": "year", "order": "descending"}]}, {"filter": "datum.rn == 1"}],
+      "mark": {"type": "circle", "size": 50, "color": "#c8a23d", "stroke": "#0b1f33", "strokeWidth": 1},
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative", "axis": null},
+        "y": {"field": "wins", "type": "quantitative", "axis": null},
+        "tooltip": [
+          {"field": "year", "type": "quantitative", "title": "Year"},
+          {"field": "wins", "type": "quantitative", "title": "Wins"}
+        ]
+      }
+    }
+  ]
+}

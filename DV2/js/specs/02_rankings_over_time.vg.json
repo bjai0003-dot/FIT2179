@@ -1,0 +1,83 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "ICC Test ranking points over time, 2003-2025, top teams. Line chart with hover highlight and a #1-rank annotation band for Australia.",
+  "width": 980,
+  "height": 380,
+  "background": "transparent",
+  "config": {
+    "font": "DM Sans",
+    "view": {"stroke": null},
+    "axis": {"labelColor": "#2b3340", "titleColor": "#2b3340", "labelFont": "DM Sans", "titleFont": "DM Sans", "domainColor": "#2b3340", "gridColor": "rgba(11,31,51,0.08)", "tickColor": "#2b3340"},
+    "legend": {"labelFont": "DM Sans", "titleFont": "DM Sans", "labelColor": "#2b3340", "titleColor": "#2b3340"}
+  },
+  "data": {"url": "data/rankings_over_time.csv"},
+  "params": [
+    {
+      "name": "hoverTeam",
+      "select": {"type": "point", "fields": ["team"], "on": "mouseover", "clear": "mouseout"}
+    },
+    {
+      "name": "legendSel",
+      "select": {"type": "point", "fields": ["team"]},
+      "bind": "legend"
+    }
+  ],
+  "layer": [
+    {
+      "description": "Background lines for context",
+      "mark": {"type": "line", "strokeWidth": 1.4, "interpolate": "monotone"},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal", "axis": {"title": null, "labelAngle": 0, "labelFontSize": 11}},
+        "y": {"field": "rating", "type": "quantitative", "title": "ICC rating points", "scale": {"domain": [90, 145]}},
+        "color": {
+          "field": "team",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Australia", "India", "England", "South Africa", "New Zealand", "Pakistan"],
+            "range":  ["#0e5e3a", "#1d3f6e", "#9b2a2a", "#c8a23d", "#2b3340", "#6a6f78"]
+          },
+          "legend": {"title": "Team", "orient": "top", "direction": "horizontal", "symbolStrokeWidth": 3, "labelFontSize": 12}
+        },
+        "opacity": {
+          "condition": [
+            {"param": "legendSel", "value": 0.92}
+          ],
+          "value": 0.15
+        },
+        "strokeWidth": {
+          "condition": {"param": "hoverTeam", "value": 3.2, "empty": false},
+          "value": 1.8
+        }
+      }
+    },
+    {
+      "description": "Points on each year for crisper tooltips",
+      "mark": {"type": "point", "filled": true, "size": 40, "opacity": 0.9},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "rating", "type": "quantitative"},
+        "color": {"field": "team", "type": "nominal"},
+        "opacity": {
+          "condition": [{"param": "legendSel", "value": 0.9}],
+          "value": 0.1
+        },
+        "tooltip": [
+          {"field": "year",   "type": "ordinal", "title": "Year"},
+          {"field": "team",   "type": "nominal", "title": "Team"},
+          {"field": "rank",   "type": "quantitative", "title": "Rank"},
+          {"field": "rating", "type": "quantitative", "title": "Rating"}
+        ]
+      }
+    },
+    {
+      "description": "Annotation: Australia's dominant 2000s era",
+      "data": {"values": [{"year": "2007", "y": 142, "label": "Peak: 141 pts (2007)"}, {"year": "2022", "y": 130, "label": "Renaissance: WTC, ODI WC, Ashes"}]},
+      "mark": {"type": "text", "align": "left", "dx": 6, "dy": -4, "font": "Fraunces", "fontStyle": "italic", "fontSize": 12, "color": "#0e5e3a"},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label"}
+      }
+    }
+  ]
+}

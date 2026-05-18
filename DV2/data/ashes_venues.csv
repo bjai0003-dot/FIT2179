@@ -1,0 +1,13 @@
+venue,city,country,lat,lon,matches,capacity
+MCG,Melbourne,AUS,-37.82,144.9834,58,100024
+SCG,Sydney,AUS,-33.8917,151.2247,57,48000
+Adelaide Oval,Adelaide,AUS,-34.9156,138.5961,35,53583
+Gabba,Brisbane,AUS,-27.4858,153.0381,22,42000
+WACA,Perth,AUS,-31.9598,115.8801,14,24500
+Perth Stadium,Perth,AUS,-31.951,115.889,3,61266
+Lord's,London,ENG,51.5294,-0.1727,39,31100
+The Oval,London,ENG,51.4836,-0.1149,39,27500
+Old Trafford,Manchester,ENG,53.4566,-2.29,31,26000
+Headingley,Leeds,ENG,53.8175,-1.5825,26,18350
+Edgbaston,Birmingham,ENG,52.4558,-1.9026,16,25000
+Trent Bridge,Nottingham,ENG,52.9359,-1.132,23,17500

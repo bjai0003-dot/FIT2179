@@ -1,0 +1,15 @@
+season,year,avg_attendance,total_attendance,note
+BBL01,2011,17452,593368,"Inaugural season, broadcast on Fox only"
+BBL02,2012,16213,583668,Free-to-air shift on horizon
+BBL03,2013,20933,753588,Channel Ten broadcast deal
+BBL04,2014,23018,828648,"Big crowds, Stars dominant"
+BBL05,2015,28344,1077072,Peak hype era begins
+BBL06,2016,29044,1132716,Record season attendance
+BBL07,2017,30114,1264788,All-time high
+BBL08,2018,21450,1287000,"Expanded fixture, more games"
+BBL09,2019,18789,1127340,Audience fatigue concerns
+BBL10,2020,12450,747000,COVID-19 capacity caps
+BBL11,2021,9800,588000,Omicron wave disruption
+BBL12,2022,16900,962800,Recovery season
+BBL13,2023,17200,980400,Steady rebuild
+BBL14,2024,18450,1051650,Star imports return
