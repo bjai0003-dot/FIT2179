@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Top 16 Ashes run scorers, Australia vs England. Connected dot plot: each player is a dot, x-position = runs, color = country, with name labels directly on the chart.",
+  "description": "Top Ashes run scorers, AUS vs ENG. Connected dot plot.",
   "width": 460,
   "height": 460,
   "background": "transparent",
@@ -12,38 +12,34 @@
   "data": {"url": "data/ashes_top_performers.csv"},
   "layer": [
     {
-      "description": "Connector lines from y-axis to dot",
       "mark": {"type": "rule", "stroke": "rgba(11,31,51,0.18)", "strokeWidth": 1},
       "encoding": {
         "y": {"field": "player", "type": "nominal", "sort": {"field": "runs", "order": "descending"}, "axis": {"title": null, "labelFontSize": 11, "labelLimit": 200}},
-        "x": {"value": 0},
-        "x2": {"field": "runs"}
+        "x": {"datum": 0, "type": "quantitative"},
+        "x2": {"field": "runs", "type": "quantitative"}
       }
     },
     {
-      "description": "Player dots",
       "mark": {"type": "circle", "size": 240, "stroke": "#0b1f33", "strokeWidth": 1.2, "opacity": 0.95},
       "encoding": {
         "x": {"field": "runs", "type": "quantitative", "title": "Runs scored in Ashes Tests", "scale": {"domain": [0, 5400]}},
         "y": {"field": "player", "type": "nominal", "sort": {"field": "runs", "order": "descending"}},
         "color": {
-          "field": "country",
-          "type": "nominal",
+          "field": "country", "type": "nominal",
           "scale": {"domain": ["AUS", "ENG"], "range": ["#0e5e3a", "#1d3f6e"]},
           "legend": {"orient": "top", "title": null, "labelFontSize": 12, "symbolType": "circle", "symbolSize": 200}
         },
         "tooltip": [
-          {"field": "player",   "type": "nominal", "title": "Player"},
-          {"field": "country",  "type": "nominal", "title": "Country"},
-          {"field": "runs",     "type": "quantitative", "title": "Runs", "format": ","},
-          {"field": "innings",  "type": "quantitative", "title": "Innings"},
-          {"field": "average",  "type": "quantitative", "title": "Average", "format": ".2f"},
+          {"field": "player", "type": "nominal", "title": "Player"},
+          {"field": "country", "type": "nominal", "title": "Country"},
+          {"field": "runs", "type": "quantitative", "title": "Runs", "format": ","},
+          {"field": "innings", "type": "quantitative", "title": "Innings"},
+          {"field": "average", "type": "quantitative", "title": "Average", "format": ".2f"},
           {"field": "hundreds", "type": "quantitative", "title": "Hundreds"}
         ]
       }
     },
     {
-      "description": "Runs label to right of each dot",
       "mark": {"type": "text", "font": "DM Sans", "fontSize": 10, "fontWeight": 500, "color": "#0b1f33", "align": "left", "dx": 12},
       "encoding": {
         "x": {"field": "runs", "type": "quantitative"},
@@ -52,7 +48,6 @@
       }
     },
     {
-      "description": "Bradman annotation",
       "data": {"values": [{"x": 5028, "y": "Don Bradman", "label": "Avg 89.78 — still the gold standard"}]},
       "mark": {"type": "text", "font": "Fraunces", "fontStyle": "italic", "fontSize": 11, "color": "#c8a23d", "fontWeight": 600, "align": "right", "dx": -12, "dy": -14},
       "encoding": {
