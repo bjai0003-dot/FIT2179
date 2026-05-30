@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "BBL per-game average attendance, BBL01-BBL14 (2011-2024). Annotated smooth area chart with COVID dip and peak season labelled.",
-  "width": 980,
+  "description": "BBL average attendance per game, BBL01-BBL14.",
+  "width": 900,
   "height": 300,
   "background": "transparent",
   "config": {
@@ -12,39 +12,37 @@
   "data": {"url": "data/bbl_attendance.csv"},
   "layer": [
     {
-      "description": "COVID shading band",
-      "data": {"values": [{"x1": "BBL10", "x2": "BBL11"}]},
-      "mark": {"type": "rect", "color": "rgba(155,42,42,0.10)"},
+      "description": "COVID highlight bars behind BBL10 and BBL11",
+      "transform": [{"filter": "datum.season == 'BBL10' || datum.season == 'BBL11'"}],
+      "mark": {"type": "bar", "color": "rgba(155,42,42,0.12)", "width": {"band": 1}},
       "encoding": {
-        "x": {"field": "x1", "type": "ordinal"},
-        "x2": {"field": "x2", "type": "ordinal"}
+        "x": {"field": "season", "type": "ordinal"},
+        "y": {"datum": 35000},
+        "y2": {"datum": 0}
       }
     },
     {
-      "description": "Filled area",
-      "mark": {"type": "area", "interpolate": "monotone", "opacity": 0.15, "color": "#0e5e3a"},
+      "mark": {"type": "area", "interpolate": "monotone", "opacity": 0.14, "color": "#0e5e3a"},
       "encoding": {
         "x": {"field": "season", "type": "ordinal", "axis": {"title": null, "labelAngle": 0, "labelFontSize": 11}},
-        "y": {"field": "avg_attendance", "type": "quantitative", "title": "Avg attendance per game", "axis": {"format": ","}},
+        "y": {"field": "avg_attendance", "type": "quantitative", "title": "Avg attendance per game", "axis": {"format": ","}}
+      }
+    },
+    {
+      "mark": {"type": "line", "interpolate": "monotone", "color": "#0e5e3a", "strokeWidth": 2.5},
+      "encoding": {
+        "x": {"field": "season", "type": "ordinal"},
+        "y": {"field": "avg_attendance", "type": "quantitative"},
         "tooltip": [
-          {"field": "season",          "type": "nominal", "title": "Season"},
-          {"field": "year",            "type": "quantitative", "title": "Year"},
-          {"field": "avg_attendance",  "type": "quantitative", "title": "Avg attendance", "format": ","},
-          {"field": "total_attendance","type": "quantitative", "title": "Total attendance", "format": ","},
-          {"field": "note",            "type": "nominal", "title": "Note"}
+          {"field": "season", "type": "nominal", "title": "Season"},
+          {"field": "year", "type": "quantitative", "title": "Year"},
+          {"field": "avg_attendance", "type": "quantitative", "title": "Avg attendance", "format": ","},
+          {"field": "total_attendance", "type": "quantitative", "title": "Total", "format": ","},
+          {"field": "note", "type": "nominal", "title": "Note"}
         ]
       }
     },
     {
-      "description": "Line",
-      "mark": {"type": "line", "interpolate": "monotone", "color": "#0e5e3a", "strokeWidth": 2.5},
-      "encoding": {
-        "x": {"field": "season", "type": "ordinal"},
-        "y": {"field": "avg_attendance", "type": "quantitative"}
-      }
-    },
-    {
-      "description": "Data points",
       "mark": {"type": "circle", "size": 80, "color": "#0e5e3a", "stroke": "#0b1f33", "strokeWidth": 1},
       "encoding": {
         "x": {"field": "season", "type": "ordinal"},
@@ -52,14 +50,11 @@
       }
     },
     {
-      "description": "Annotations: peak + COVID",
-      "data": {
-        "values": [
-          {"season": "BBL07", "avg_attendance": 30114, "label": "Peak: 30,114 avg (2017)"},
-          {"season": "BBL11", "avg_attendance": 9800,  "label": "← COVID floor: 9,800"},
-          {"season": "BBL01", "avg_attendance": 17452, "label": "Launch: 17,452"}
-        ]
-      },
+      "data": {"values": [
+        {"season": "BBL07", "avg_attendance": 30114, "label": "Peak: 30,114 avg (2017)"},
+        {"season": "BBL11", "avg_attendance": 9800, "label": "← COVID floor: 9,800"},
+        {"season": "BBL01", "avg_attendance": 17452, "label": "Launch: 17,452"}
+      ]},
       "mark": {"type": "text", "font": "Fraunces", "fontStyle": "italic", "fontSize": 12, "color": "#0b1f33", "dy": -18, "fontWeight": 500},
       "encoding": {
         "x": {"field": "season", "type": "ordinal"},
@@ -68,7 +63,6 @@
       }
     },
     {
-      "description": "COVID text label in shaded band",
       "data": {"values": [{"season": "BBL10", "y": 3000, "label": "COVID-19"}]},
       "mark": {"type": "text", "font": "DM Sans", "fontWeight": 700, "fontSize": 10, "color": "#9b2a2a", "angle": 90},
       "encoding": {
