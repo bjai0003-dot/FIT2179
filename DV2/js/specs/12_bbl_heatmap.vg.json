@@ -1,77 +1,165 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "BBL team performance heatmap. Rows = teams, columns = seasons (BBL01–BBL14). Cell colour = wins that season. Perth Scorchers' dominance visible as the consistently darker band.",
+  "description": "BBL team performance heatmap. Rows = teams, columns = seasons (BBL01-BBL14). Cell colour = wins that season.",
   "width": 980,
   "height": 260,
   "background": "transparent",
   "config": {
     "font": "DM Sans",
-    "view": {"stroke": "#e8e1d4"},
-    "axis": {
-      "labelColor": "#2b3340", "titleColor": "#2b3340",
-      "labelFont": "DM Sans", "titleFont": "DM Sans",
-      "domainColor": "transparent", "gridColor": "transparent",
-      "tickColor": "transparent", "labelFontSize": 11
+    "view": {
+      "stroke": "#e8e1d4"
     },
-    "legend": {"labelFont": "DM Sans", "titleFont": "DM Sans", "titleColor": "#2b3340", "labelColor": "#2b3340"}
-  },
-  "data": {"url": "data/bbl_wins.csv"},
-  "params": [
-    {
-      "name": "hoverCell",
-      "select": {"type": "point", "on": "mouseover", "clear": "mouseout"}
+    "axis": {
+      "labelColor": "#2b3340",
+      "titleColor": "#2b3340",
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "domainColor": "transparent",
+      "gridColor": "transparent",
+      "tickColor": "transparent",
+      "labelFontSize": 11
+    },
+    "legend": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "titleColor": "#2b3340",
+      "labelColor": "#2b3340"
     }
-  ],
+  },
+  "data": {
+    "url": "data/bbl_wins.csv"
+  },
   "layer": [
     {
-      "description": "Heatmap rectangles",
-      "mark": {"type": "rect", "stroke": "#f4efe6", "strokeWidth": 1.5},
+      "mark": {
+        "type": "rect",
+        "stroke": "#f4efe6",
+        "strokeWidth": 1.5
+      },
       "encoding": {
         "x": {
           "field": "season",
           "type": "ordinal",
-          "sort": ["BBL01","BBL02","BBL03","BBL04","BBL05","BBL06","BBL07","BBL08","BBL09","BBL10","BBL11","BBL12","BBL13","BBL14"],
-          "axis": {"title": null, "labelAngle": 0}
+          "sort": [
+            "BBL01",
+            "BBL02",
+            "BBL03",
+            "BBL04",
+            "BBL05",
+            "BBL06",
+            "BBL07",
+            "BBL08",
+            "BBL09",
+            "BBL10",
+            "BBL11",
+            "BBL12",
+            "BBL13",
+            "BBL14"
+          ],
+          "axis": {
+            "title": null,
+            "labelAngle": 0
+          }
         },
         "y": {
           "field": "team",
           "type": "nominal",
-          "sort": {"field": "wins", "op": "sum", "order": "descending"},
-          "axis": {"title": null, "labelLimit": 200}
+          "sort": {
+            "field": "wins",
+            "op": "sum",
+            "order": "descending"
+          },
+          "axis": {
+            "title": null,
+            "labelLimit": 200
+          }
         },
         "color": {
           "field": "wins",
           "type": "quantitative",
           "scale": {
-            "domain": [0, 10],
-            "range": ["#ece5d4", "#a3c08a", "#2d8a5e", "#074026"]
+            "domain": [
+              0,
+              10
+            ],
+            "range": [
+              "#ece5d4",
+              "#a3c08a",
+              "#2d8a5e",
+              "#074026"
+            ]
           },
-          "legend": {"title": "Season wins", "orient": "right", "gradientLength": 120}
+          "legend": {
+            "title": "Season wins",
+            "orient": "right",
+            "gradientLength": 120
+          }
         },
         "tooltip": [
-          {"field": "team",   "type": "nominal", "title": "Team"},
-          {"field": "season", "type": "nominal", "title": "Season"},
-          {"field": "wins",   "type": "quantitative", "title": "Wins"}
+          {
+            "field": "team",
+            "type": "nominal",
+            "title": "Team"
+          },
+          {
+            "field": "season",
+            "type": "nominal",
+            "title": "Season"
+          },
+          {
+            "field": "wins",
+            "type": "quantitative",
+            "title": "Wins"
+          }
         ]
       }
     },
     {
-      "description": "Win count text inside each cell",
-      "mark": {"type": "text", "font": "DM Sans", "fontSize": 11, "fontWeight": 600},
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 11,
+        "fontWeight": 600
+      },
       "encoding": {
         "x": {
           "field": "season",
           "type": "ordinal",
-          "sort": ["BBL01","BBL02","BBL03","BBL04","BBL05","BBL06","BBL07","BBL08","BBL09","BBL10","BBL11","BBL12","BBL13","BBL14"]
+          "sort": [
+            "BBL01",
+            "BBL02",
+            "BBL03",
+            "BBL04",
+            "BBL05",
+            "BBL06",
+            "BBL07",
+            "BBL08",
+            "BBL09",
+            "BBL10",
+            "BBL11",
+            "BBL12",
+            "BBL13",
+            "BBL14"
+          ]
         },
         "y": {
           "field": "team",
           "type": "nominal",
-          "sort": {"field": "wins", "op": "sum", "order": "descending"}
+          "sort": {
+            "field": "wins",
+            "op": "sum",
+            "order": "descending"
+          }
         },
-        "text": {"field": "wins", "type": "quantitative"},
+        "text": {
+          "field": "wins",
+          "type": "quantitative"
+        },
         "color": {
-          "condition": {"test": "datum.wins >= 7", "value": "#f4efe6"},
+          "condition": {
+            "test": "datum.wins >= 7",
+            "value": "#f4efe6"
+          },
           "value": "#0b1f33"
         }
       }
