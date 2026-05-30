@@ -1,0 +1,118 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Australia head-to-head record vs every cricket-playing nation. Choropleth (win%) layered with proportional symbol (matches played).",
+  "width": 980,
+  "height": 480,
+  "background": "transparent",
+  "config": {
+    "view": {"stroke": null},
+    "font": "DM Sans",
+    "title": {"font": "Fraunces", "fontSize": 18, "color": "#0b1f33", "anchor": "start", "offset": 8},
+    "legend": {"titleFont": "DM Sans", "labelFont": "DM Sans", "titleFontSize": 12, "labelFontSize": 11, "titleColor": "#2b3340", "labelColor": "#2b3340"}
+  },
+  "projection": {"type": "naturalEarth1", "scale": 175, "translate": [490, 260]},
+  "layer": [
+    {
+      "description": "Ocean / world background",
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "mark": {"type": "geoshape", "fill": "#ece5d4", "stroke": "#d6c69a", "strokeWidth": 0.4}
+    },
+    {
+      "description": "Choropleth: country fill = Australia's win % against them",
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "transform": [
+        {
+          "lookup": "id",
+          "from": {
+            "data": {"url": "data/head_to_head.csv"},
+            "key": "iso_num",
+            "fields": ["country", "matches", "wins", "losses", "draws_nr", "win_pct"]
+          }
+        },
+        {"filter": "datum.matches != null"}
+      ],
+      "mark": {"type": "geoshape", "stroke": "#0b1f33", "strokeWidth": 0.6},
+      "encoding": {
+        "color": {
+          "field": "win_pct",
+          "type": "quantitative",
+          "scale": {
+            "domain": [40, 60, 80, 100],
+            "range": ["#d6c69a", "#a3c08a", "#2d8a5e", "#074026"]
+          },
+          "legend": {"title": "AUS win %", "orient": "bottom-right", "gradientLength": 140, "format": ".0f"}
+        },
+        "tooltip": [
+          {"field": "country",   "type": "nominal", "title": "Opponent"},
+          {"field": "matches",   "type": "quantitative", "title": "Matches played"},
+          {"field": "wins",      "type": "quantitative", "title": "AUS wins"},
+          {"field": "losses",    "type": "quantitative", "title": "AUS losses"},
+          {"field": "draws_nr",  "type": "quantitative", "title": "Draws / NR"},
+          {"field": "win_pct",   "type": "quantitative", "title": "AUS win %", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "description": "Highlight Australia itself in gold",
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "transform": [{"filter": "datum.id == 36"}],
+      "mark": {"type": "geoshape", "fill": "#c8a23d", "stroke": "#0b1f33", "strokeWidth": 0.8}
+    },
+    {
+      "description": "Proportional symbols sized by total matches played",
+      "data": {
+        "values": [
+          {"country": "England",       "lat": 52.5,  "lon":  -1.5},
+          {"country": "India",         "lat": 22.0,  "lon":  79.0},
+          {"country": "Pakistan",      "lat": 30.0,  "lon":  70.0},
+          {"country": "New Zealand",   "lat": -41.0, "lon": 174.0},
+          {"country": "South Africa",  "lat": -29.0, "lon":  24.0},
+          {"country": "West Indies",   "lat": 18.0,  "lon": -77.0},
+          {"country": "Sri Lanka",     "lat":  7.5,  "lon":  80.7},
+          {"country": "Bangladesh",    "lat": 23.7,  "lon":  90.4},
+          {"country": "Zimbabwe",      "lat": -19.0, "lon":  29.8},
+          {"country": "Ireland",       "lat": 53.4,  "lon":  -8.0},
+          {"country": "Afghanistan",   "lat": 33.9,  "lon":  67.7},
+          {"country": "Netherlands",   "lat": 52.1,  "lon":   5.3}
+        ]
+      },
+      "transform": [
+        {
+          "lookup": "country",
+          "from": {
+            "data": {"url": "data/head_to_head.csv"},
+            "key": "country",
+            "fields": ["matches", "wins", "losses", "win_pct"]
+          }
+        }
+      ],
+      "mark": {"type": "circle", "opacity": 0.55, "stroke": "#0b1f33", "strokeWidth": 1},
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "size": {
+          "field": "matches",
+          "type": "quantitative",
+          "scale": {"range": [40, 1400]},
+          "legend": {"title": "Matches played", "orient": "bottom-left", "symbolFillColor": "#0b1f33", "symbolStrokeColor": "#0b1f33"}
+        },
+        "color": {"value": "#0b1f33"},
+        "tooltip": [
+          {"field": "country", "type": "nominal", "title": "Opponent"},
+          {"field": "matches", "type": "quantitative", "title": "Matches"},
+          {"field": "wins",    "type": "quantitative", "title": "Wins"},
+          {"field": "win_pct", "type": "quantitative", "title": "Win %", "format": ".1f"}
+        ]
+      }
+    }
+  ]
+}

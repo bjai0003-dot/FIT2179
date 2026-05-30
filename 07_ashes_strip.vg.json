@@ -1,0 +1,72 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Ashes Test result strip. Every Test ever played for the Ashes (1882-2023), one rectangle per match, arranged in a long ribbon. Green = Australia win, navy = England win, sand = draw.",
+  "width": 980,
+  "height": 220,
+  "background": "transparent",
+  "config": {
+    "font": "DM Sans",
+    "view": {"stroke": null},
+    "axis": {"labelColor": "#2b3340", "titleColor": "#2b3340", "labelFont": "DM Sans", "titleFont": "DM Sans", "domainColor": "#2b3340", "gridColor": "transparent", "tickColor": "#2b3340"}
+  },
+  "data": {"url": "data/ashes_matches.csv"},
+  "transform": [
+    {"window": [{"op": "row_number", "as": "n"}], "sort": [{"field": "match_id", "order": "ascending"}]},
+    {"calculate": "floor((datum.n - 1) / 60)", "as": "row"},
+    {"calculate": "(datum.n - 1) % 60",       "as": "col"}
+  ],
+  "params": [
+    {"name": "highlightResult", "select": {"type": "point", "fields": ["result"]}, "bind": "legend"}
+  ],
+  "layer": [
+    {
+      "description": "The squares",
+      "mark": {"type": "rect", "stroke": "#f4efe6", "strokeWidth": 1.2, "cornerRadius": 1},
+      "encoding": {
+        "x": {"field": "col", "type": "ordinal", "axis": null, "scale": {"paddingInner": 0.08, "paddingOuter": 0}},
+        "y": {"field": "row", "type": "ordinal", "axis": null, "scale": {"paddingInner": 0.18, "paddingOuter": 0}, "sort": "ascending"},
+        "color": {
+          "field": "result",
+          "type": "nominal",
+          "scale": {
+            "domain": ["AUS", "ENG", "DRAW"],
+            "range":  ["#0e5e3a", "#1d3f6e", "#d6c69a"]
+          },
+          "legend": {"title": "Result", "orient": "top", "labelFontSize": 12, "symbolType": "square", "symbolSize": 240}
+        },
+        "opacity": {
+          "condition": {"param": "highlightResult", "value": 1.0},
+          "value": 0.18
+        },
+        "tooltip": [
+          {"field": "year",    "type": "quantitative", "title": "Year"},
+          {"field": "venue",   "type": "nominal", "title": "Venue"},
+          {"field": "host",    "type": "nominal", "title": "Host country"},
+          {"field": "test_no", "type": "quantitative", "title": "Test # of series"},
+          {"field": "result",  "type": "nominal", "title": "Result"},
+          {"field": "margin",  "type": "nominal", "title": "Margin"}
+        ]
+      }
+    },
+    {
+      "description": "Era annotations along the strip",
+      "data": {
+        "values": [
+          {"col":  4, "row": 0, "label": "1880s — first contests"},
+          {"col": 22, "row": 0, "label": "Bradman era →"},
+          {"col": 44, "row": 0, "label": "Test-cricket boom"},
+          {"col":  0, "row": 1, "label": "← English revival"},
+          {"col": 16, "row": 1, "label": "1989–2007: Australia's decade-and-a-half"},
+          {"col": 38, "row": 1, "label": "2005: Eng. wins after 16 yrs"},
+          {"col": 50, "row": 2, "label": "2013–2023: Modern era"}
+        ]
+      },
+      "mark": {"type": "text", "font": "Fraunces", "fontStyle": "italic", "fontSize": 11, "color": "#0b1f33", "align": "left", "dx": 2, "dy": -8},
+      "encoding": {
+        "x": {"field": "col", "type": "ordinal"},
+        "y": {"field": "row", "type": "ordinal"},
+        "text": {"field": "label"}
+      }
+    }
+  ]
+}

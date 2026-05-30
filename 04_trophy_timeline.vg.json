@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "ICC tournament timeline, 1975-2025. Lollipop layout with one row per tournament type, gold = Australia win.",
+  "width": 980,
+  "height": 280,
+  "background": "transparent",
+  "config": {
+    "font": "DM Sans",
+    "view": {"stroke": null},
+    "axis": {"labelColor": "#2b3340", "titleColor": "#2b3340", "labelFont": "DM Sans", "titleFont": "DM Sans", "domainColor": "#2b3340", "gridColor": "transparent", "tickColor": "#2b3340"}
+  },
+  "data": {"url": "data/icc_trophies.csv"},
+  "transform": [
+    {"calculate": "datum.winner == 'Australia' ? 'Australia' : 'Other nation'", "as": "is_aus"}
+  ],
+  "layer": [
+    {
+      "description": "Stems",
+      "mark": {"type": "rule", "color": "#2b3340", "strokeWidth": 1, "opacity": 0.35},
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative", "scale": {"domain": [1973, 2027]}, "axis": {"title": null, "format": "d", "labelFontSize": 11, "tickCount": 11}},
+        "y": {"field": "tournament", "type": "nominal", "sort": ["ODI World Cup", "Champions Trophy", "T20 World Cup", "WTC Final"], "title": null, "axis": {"labelFontSize": 12, "labelFontWeight": 500, "labelPadding": 8}},
+        "y2": {"datum": 0}
+      }
+    },
+    {
+      "description": "Trophy dots",
+      "mark": {"type": "point", "filled": true, "size": 280, "stroke": "#0b1f33", "strokeWidth": 1.2},
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "tournament", "type": "nominal"},
+        "color": {
+          "field": "is_aus",
+          "type": "nominal",
+          "scale": {"domain": ["Australia", "Other nation"], "range": ["#c8a23d", "#d6c69a"]},
+          "legend": {"title": "Trophy winner", "orient": "top", "labelFontSize": 12}
+        },
+        "tooltip": [
+          {"field": "year",       "type": "quantitative", "title": "Year"},
+          {"field": "tournament", "type": "nominal", "title": "Tournament"},
+          {"field": "winner",     "type": "nominal", "title": "Winner"},
+          {"field": "host",       "type": "nominal", "title": "Host"},
+          {"field": "result",     "type": "nominal", "title": "Result"}
+        ]
+      }
+    },
+    {
+      "description": "AUS-win year labels",
+      "transform": [{"filter": "datum.winner == 'Australia'"}],
+      "mark": {"type": "text", "dy": -18, "font": "Fraunces", "fontSize": 11, "fontWeight": 500, "color": "#0b1f33"},
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "tournament", "type": "nominal"},
+        "text": {"field": "year", "format": "d"}
+      }
+    }
+  ]
+}
