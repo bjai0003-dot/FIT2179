@@ -13,7 +13,10 @@
   "transform": [
     {"window": [{"op": "row_number", "as": "n"}], "sort": [{"field": "match_id", "order": "ascending"}]},
     {"calculate": "floor((datum.n - 1) / 60)", "as": "row"},
-    {"calculate": "(datum.n - 1) % 60", "as": "col"}
+    {"calculate": "(datum.n - 1) % 60",       "as": "col"}
+  ],
+  "params": [
+    {"name": "highlightResult", "select": {"type": "point", "fields": ["result"]}, "bind": "legend"}
   ],
   "layer": [
     {
@@ -27,17 +30,21 @@
           "type": "nominal",
           "scale": {
             "domain": ["AUS", "ENG", "DRAW"],
-            "range": ["#0e5e3a", "#1d3f6e", "#d6c69a"]
+            "range":  ["#0e5e3a", "#1d3f6e", "#d6c69a"]
           },
           "legend": {"title": "Result", "orient": "top", "labelFontSize": 12, "symbolType": "square", "symbolSize": 240}
         },
+        "opacity": {
+          "condition": {"param": "highlightResult", "value": 1.0},
+          "value": 0.18
+        },
         "tooltip": [
-          {"field": "year", "type": "quantitative", "title": "Year"},
-          {"field": "venue", "type": "nominal", "title": "Venue"},
-          {"field": "host", "type": "nominal", "title": "Host country"},
+          {"field": "year",    "type": "quantitative", "title": "Year"},
+          {"field": "venue",   "type": "nominal", "title": "Venue"},
+          {"field": "host",    "type": "nominal", "title": "Host country"},
           {"field": "test_no", "type": "quantitative", "title": "Test # of series"},
-          {"field": "result", "type": "nominal", "title": "Result"},
-          {"field": "margin", "type": "nominal", "title": "Margin"}
+          {"field": "result",  "type": "nominal", "title": "Result"},
+          {"field": "margin",  "type": "nominal", "title": "Margin"}
         ]
       }
     },
@@ -45,10 +52,10 @@
       "description": "Era annotations along the strip",
       "data": {
         "values": [
-          {"col": 4, "row": 0, "label": "1880s — first contests"},
+          {"col":  4, "row": 0, "label": "1880s — first contests"},
           {"col": 22, "row": 0, "label": "Bradman era →"},
           {"col": 44, "row": 0, "label": "Test-cricket boom"},
-          {"col": 0, "row": 1, "label": "← English revival"},
+          {"col":  0, "row": 1, "label": "← English revival"},
           {"col": 16, "row": 1, "label": "1989–2007: Australia's decade-and-a-half"},
           {"col": 38, "row": 1, "label": "2005: Eng. wins after 16 yrs"},
           {"col": 50, "row": 2, "label": "2013–2023: Modern era"}

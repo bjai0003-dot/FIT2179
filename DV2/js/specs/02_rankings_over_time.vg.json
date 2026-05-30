@@ -1,708 +1,82 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 700,
-  "height": 350,
-  "background": "#f4efe6",
+  "description": "ICC Test ranking points over time, 2003-2025, top teams. Line chart with hover highlight and a #1-rank annotation band for Australia.",
+  "width": 980,
+  "height": 380,
+  "background": "transparent",
   "config": {
-    "view": {
-      "stroke": null
+    "font": "DM Sans",
+    "view": {"stroke": null},
+    "axis": {"labelColor": "#2b3340", "titleColor": "#2b3340", "labelFont": "DM Sans", "titleFont": "DM Sans", "domainColor": "#2b3340", "gridColor": "rgba(11,31,51,0.08)", "tickColor": "#2b3340"},
+    "legend": {"labelFont": "DM Sans", "titleFont": "DM Sans", "labelColor": "#2b3340", "titleColor": "#2b3340"}
+  },
+  "data": {"url": "data/rankings_over_time.csv"},
+  "params": [
+    {
+      "name": "hoverTeam",
+      "select": {"type": "point", "fields": ["team"], "on": "mouseover", "clear": "mouseout"}
     },
-    "axis": {
-      "labelColor": "#2b3340",
-      "titleColor": "#2b3340",
-      "domainColor": "#2b3340",
-      "gridColor": "rgba(11,31,51,0.08)",
-      "tickColor": "#2b3340"
-    },
-    "legend": {
-      "labelColor": "#2b3340",
-      "titleColor": "#2b3340"
+    {
+      "name": "legendSel",
+      "select": {"type": "point", "fields": ["team"]},
+      "bind": "legend"
     }
-  },
-  "data": {
-    "values": [
-      {
-        "year": 2003,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 134
-      },
-      {
-        "year": 2003,
-        "team": "South Africa",
-        "rank": 2,
-        "rating": 113
-      },
-      {
-        "year": 2003,
-        "team": "India",
-        "rank": 3,
-        "rating": 105
-      },
-      {
-        "year": 2003,
-        "team": "England",
-        "rank": 4,
-        "rating": 100
-      },
-      {
-        "year": 2004,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 140
-      },
-      {
-        "year": 2004,
-        "team": "India",
-        "rank": 2,
-        "rating": 114
-      },
-      {
-        "year": 2004,
-        "team": "South Africa",
-        "rank": 3,
-        "rating": 108
-      },
-      {
-        "year": 2004,
-        "team": "England",
-        "rank": 4,
-        "rating": 103
-      },
-      {
-        "year": 2005,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 135
-      },
-      {
-        "year": 2005,
-        "team": "England",
-        "rank": 2,
-        "rating": 116
-      },
-      {
-        "year": 2005,
-        "team": "India",
-        "rank": 3,
-        "rating": 110
-      },
-      {
-        "year": 2005,
-        "team": "South Africa",
-        "rank": 4,
-        "rating": 105
-      },
-      {
-        "year": 2006,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 140
-      },
-      {
-        "year": 2006,
-        "team": "South Africa",
-        "rank": 2,
-        "rating": 118
-      },
-      {
-        "year": 2006,
-        "team": "England",
-        "rank": 3,
-        "rating": 108
-      },
-      {
-        "year": 2006,
-        "team": "India",
-        "rank": 4,
-        "rating": 106
-      },
-      {
-        "year": 2007,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 141
-      },
-      {
-        "year": 2007,
-        "team": "India",
-        "rank": 2,
-        "rating": 118
-      },
-      {
-        "year": 2007,
-        "team": "South Africa",
-        "rank": 3,
-        "rating": 114
-      },
-      {
-        "year": 2007,
-        "team": "England",
-        "rank": 4,
-        "rating": 106
-      },
-      {
-        "year": 2008,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 127
-      },
-      {
-        "year": 2008,
-        "team": "South Africa",
-        "rank": 2,
-        "rating": 123
-      },
-      {
-        "year": 2008,
-        "team": "India",
-        "rank": 3,
-        "rating": 118
-      },
-      {
-        "year": 2008,
-        "team": "England",
-        "rank": 4,
-        "rating": 108
-      },
-      {
-        "year": 2009,
-        "team": "South Africa",
-        "rank": 1,
-        "rating": 122
-      },
-      {
-        "year": 2009,
-        "team": "Australia",
-        "rank": 2,
-        "rating": 118
-      },
-      {
-        "year": 2009,
-        "team": "India",
-        "rank": 3,
-        "rating": 117
-      },
-      {
-        "year": 2009,
-        "team": "England",
-        "rank": 4,
-        "rating": 109
-      },
-      {
-        "year": 2010,
-        "team": "India",
-        "rank": 1,
-        "rating": 125
-      },
-      {
-        "year": 2010,
-        "team": "South Africa",
-        "rank": 2,
-        "rating": 118
-      },
-      {
-        "year": 2010,
-        "team": "Australia",
-        "rank": 3,
-        "rating": 113
-      },
-      {
-        "year": 2010,
-        "team": "England",
-        "rank": 4,
-        "rating": 112
-      },
-      {
-        "year": 2011,
-        "team": "England",
-        "rank": 1,
-        "rating": 125
-      },
-      {
-        "year": 2011,
-        "team": "India",
-        "rank": 2,
-        "rating": 120
-      },
-      {
-        "year": 2011,
-        "team": "South Africa",
-        "rank": 3,
-        "rating": 118
-      },
-      {
-        "year": 2011,
-        "team": "Australia",
-        "rank": 4,
-        "rating": 108
-      },
-      {
-        "year": 2012,
-        "team": "South Africa",
-        "rank": 1,
-        "rating": 127
-      },
-      {
-        "year": 2012,
-        "team": "England",
-        "rank": 2,
-        "rating": 117
-      },
-      {
-        "year": 2012,
-        "team": "Australia",
-        "rank": 3,
-        "rating": 113
-      },
-      {
-        "year": 2012,
-        "team": "India",
-        "rank": 4,
-        "rating": 109
-      },
-      {
-        "year": 2013,
-        "team": "South Africa",
-        "rank": 1,
-        "rating": 131
-      },
-      {
-        "year": 2013,
-        "team": "Australia",
-        "rank": 2,
-        "rating": 114
-      },
-      {
-        "year": 2013,
-        "team": "England",
-        "rank": 3,
-        "rating": 113
-      },
-      {
-        "year": 2013,
-        "team": "India",
-        "rank": 4,
-        "rating": 107
-      },
-      {
-        "year": 2014,
-        "team": "South Africa",
-        "rank": 1,
-        "rating": 124
-      },
-      {
-        "year": 2014,
-        "team": "Australia",
-        "rank": 2,
-        "rating": 118
-      },
-      {
-        "year": 2014,
-        "team": "Pakistan",
-        "rank": 3,
-        "rating": 108
-      },
-      {
-        "year": 2014,
-        "team": "India",
-        "rank": 4,
-        "rating": 105
-      },
-      {
-        "year": 2015,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 118
-      },
-      {
-        "year": 2015,
-        "team": "India",
-        "rank": 2,
-        "rating": 115
-      },
-      {
-        "year": 2015,
-        "team": "South Africa",
-        "rank": 3,
-        "rating": 113
-      },
-      {
-        "year": 2015,
-        "team": "Pakistan",
-        "rank": 4,
-        "rating": 108
-      },
-      {
-        "year": 2016,
-        "team": "India",
-        "rank": 1,
-        "rating": 120
-      },
-      {
-        "year": 2016,
-        "team": "Australia",
-        "rank": 2,
-        "rating": 108
-      },
-      {
-        "year": 2016,
-        "team": "Pakistan",
-        "rank": 3,
-        "rating": 107
-      },
-      {
-        "year": 2016,
-        "team": "England",
-        "rank": 4,
-        "rating": 105
-      },
-      {
-        "year": 2017,
-        "team": "India",
-        "rank": 1,
-        "rating": 124
-      },
-      {
-        "year": 2017,
-        "team": "South Africa",
-        "rank": 2,
-        "rating": 109
-      },
-      {
-        "year": 2017,
-        "team": "Australia",
-        "rank": 3,
-        "rating": 103
-      },
-      {
-        "year": 2017,
-        "team": "England",
-        "rank": 4,
-        "rating": 98
-      },
-      {
-        "year": 2018,
-        "team": "India",
-        "rank": 1,
-        "rating": 116
-      },
-      {
-        "year": 2018,
-        "team": "South Africa",
-        "rank": 2,
-        "rating": 113
-      },
-      {
-        "year": 2018,
-        "team": "New Zealand",
-        "rank": 3,
-        "rating": 108
-      },
-      {
-        "year": 2018,
-        "team": "Australia",
-        "rank": 4,
-        "rating": 106
-      },
-      {
-        "year": 2019,
-        "team": "India",
-        "rank": 1,
-        "rating": 120
-      },
-      {
-        "year": 2019,
-        "team": "New Zealand",
-        "rank": 2,
-        "rating": 111
-      },
-      {
-        "year": 2019,
-        "team": "Australia",
-        "rank": 3,
-        "rating": 108
-      },
-      {
-        "year": 2019,
-        "team": "England",
-        "rank": 4,
-        "rating": 105
-      },
-      {
-        "year": 2020,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 116
-      },
-      {
-        "year": 2020,
-        "team": "New Zealand",
-        "rank": 2,
-        "rating": 114
-      },
-      {
-        "year": 2020,
-        "team": "India",
-        "rank": 3,
-        "rating": 114
-      },
-      {
-        "year": 2020,
-        "team": "England",
-        "rank": 4,
-        "rating": 106
-      },
-      {
-        "year": 2021,
-        "team": "New Zealand",
-        "rank": 1,
-        "rating": 123
-      },
-      {
-        "year": 2021,
-        "team": "India",
-        "rank": 2,
-        "rating": 121
-      },
-      {
-        "year": 2021,
-        "team": "Australia",
-        "rank": 3,
-        "rating": 108
-      },
-      {
-        "year": 2021,
-        "team": "England",
-        "rank": 4,
-        "rating": 106
-      },
-      {
-        "year": 2022,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 128
-      },
-      {
-        "year": 2022,
-        "team": "South Africa",
-        "rank": 2,
-        "rating": 116
-      },
-      {
-        "year": 2022,
-        "team": "India",
-        "rank": 3,
-        "rating": 115
-      },
-      {
-        "year": 2022,
-        "team": "England",
-        "rank": 4,
-        "rating": 108
-      },
-      {
-        "year": 2023,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 124
-      },
-      {
-        "year": 2023,
-        "team": "India",
-        "rank": 2,
-        "rating": 121
-      },
-      {
-        "year": 2023,
-        "team": "South Africa",
-        "rank": 3,
-        "rating": 107
-      },
-      {
-        "year": 2023,
-        "team": "England",
-        "rank": 4,
-        "rating": 105
-      },
-      {
-        "year": 2024,
-        "team": "India",
-        "rank": 1,
-        "rating": 120
-      },
-      {
-        "year": 2024,
-        "team": "Australia",
-        "rank": 2,
-        "rating": 118
-      },
-      {
-        "year": 2024,
-        "team": "New Zealand",
-        "rank": 3,
-        "rating": 108
-      },
-      {
-        "year": 2024,
-        "team": "England",
-        "rank": 4,
-        "rating": 105
-      },
-      {
-        "year": 2025,
-        "team": "Australia",
-        "rank": 1,
-        "rating": 126
-      },
-      {
-        "year": 2025,
-        "team": "India",
-        "rank": 2,
-        "rating": 121
-      },
-      {
-        "year": 2025,
-        "team": "England",
-        "rank": 3,
-        "rating": 107
-      },
-      {
-        "year": 2025,
-        "team": "South Africa",
-        "rank": 4,
-        "rating": 106
-      }
-    ]
-  },
+  ],
   "layer": [
     {
-      "mark": {
-        "type": "line",
-        "strokeWidth": 2,
-        "interpolate": "monotone",
-        "point": {
-          "filled": true,
-          "size": 30
-        }
-      },
+      "description": "Background lines for context",
+      "mark": {"type": "line", "strokeWidth": 1.4, "interpolate": "monotone"},
       "encoding": {
-        "x": {
-          "field": "year",
-          "type": "quantitative",
-          "axis": {
-            "title": null,
-            "format": "d",
-            "labelAngle": 0,
-            "tickCount": 12,
-            "grid": false
-          }
-        },
-        "y": {
-          "field": "rating",
-          "type": "quantitative",
-          "title": "ICC rating points",
-          "scale": {
-            "domain": [
-              90,
-              145
-            ]
-          }
-        },
+        "x": {"field": "year", "type": "ordinal", "axis": {"title": null, "labelAngle": 0, "labelFontSize": 11}},
+        "y": {"field": "rating", "type": "quantitative", "title": "ICC rating points", "scale": {"domain": [90, 145]}},
         "color": {
           "field": "team",
           "type": "nominal",
           "scale": {
-            "domain": [
-              "Australia",
-              "India",
-              "England",
-              "South Africa",
-              "New Zealand",
-              "Pakistan"
-            ],
-            "range": [
-              "#0e5e3a",
-              "#1d3f6e",
-              "#9b2a2a",
-              "#c8a23d",
-              "#2b3340",
-              "#6a6f78"
-            ]
+            "domain": ["Australia", "India", "England", "South Africa", "New Zealand", "Pakistan"],
+            "range":  ["#0e5e3a", "#1d3f6e", "#9b2a2a", "#c8a23d", "#2b3340", "#6a6f78"]
           },
-          "legend": {
-            "title": "Team",
-            "orient": "top",
-            "direction": "horizontal",
-            "symbolStrokeWidth": 3,
-            "labelFontSize": 12
-          }
+          "legend": {"title": "Team", "orient": "top", "direction": "horizontal", "symbolStrokeWidth": 3, "labelFontSize": 12}
+        },
+        "opacity": {
+          "condition": [
+            {"param": "legendSel", "value": 0.92}
+          ],
+          "value": 0.15
+        },
+        "strokeWidth": {
+          "condition": {"param": "hoverTeam", "value": 3.2, "empty": false},
+          "value": 1.8
+        }
+      }
+    },
+    {
+      "description": "Points on each year for crisper tooltips",
+      "mark": {"type": "point", "filled": true, "size": 40, "opacity": 0.9},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "rating", "type": "quantitative"},
+        "color": {"field": "team", "type": "nominal"},
+        "opacity": {
+          "condition": [{"param": "legendSel", "value": 0.9}],
+          "value": 0.1
         },
         "tooltip": [
-          {
-            "field": "year",
-            "type": "quantitative",
-            "title": "Year",
-            "format": "d"
-          },
-          {
-            "field": "team",
-            "type": "nominal",
-            "title": "Team"
-          },
-          {
-            "field": "rank",
-            "type": "quantitative",
-            "title": "Rank"
-          },
-          {
-            "field": "rating",
-            "type": "quantitative",
-            "title": "Rating"
-          }
+          {"field": "year",   "type": "ordinal", "title": "Year"},
+          {"field": "team",   "type": "nominal", "title": "Team"},
+          {"field": "rank",   "type": "quantitative", "title": "Rank"},
+          {"field": "rating", "type": "quantitative", "title": "Rating"}
         ]
       }
     },
     {
-      "data": {
-        "values": [
-          {
-            "year": 2007,
-            "y": 143,
-            "label": "AUS peak: 141 pts"
-          },
-          {
-            "year": 2022,
-            "y": 131,
-            "label": "Renaissance: WTC + ODI WC"
-          },
-          {
-            "year": 2010,
-            "y": 127,
-            "label": "India takes #1"
-          }
-        ]
-      },
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": 6,
-        "fontStyle": "italic",
-        "fontSize": 11,
-        "color": "#0b1f33"
-      },
+      "description": "Annotation: Australia's dominant 2000s era",
+      "data": {"values": [{"year": "2007", "y": 142, "label": "Peak: 141 pts (2007)"}, {"year": "2022", "y": 130, "label": "Renaissance: WTC, ODI WC, Ashes"}]},
+      "mark": {"type": "text", "align": "left", "dx": 6, "dy": -4, "font": "Fraunces", "fontStyle": "italic", "fontSize": 12, "color": "#0e5e3a"},
       "encoding": {
-        "x": {
-          "field": "year",
-          "type": "quantitative"
-        },
-        "y": {
-          "field": "y",
-          "type": "quantitative"
-        },
-        "text": {
-          "field": "label"
-        }
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label"}
       }
     }
   ]
