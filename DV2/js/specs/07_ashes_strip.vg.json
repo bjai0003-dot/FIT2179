@@ -40,26 +40,6 @@
           {"field": "margin", "type": "nominal", "title": "Margin"}
         ]
       }
-    },
-    {
-      "description": "Era annotations along the strip",
-      "data": {
-        "values": [
-          {"col": 4, "row": 0, "label": "1880s — first contests"},
-          {"col": 22, "row": 0, "label": "Bradman era →"},
-          {"col": 44, "row": 0, "label": "Test-cricket boom"},
-          {"col": 0, "row": 1, "label": "← English revival"},
-          {"col": 16, "row": 1, "label": "1989–2007: Australia's decade-and-a-half"},
-          {"col": 38, "row": 1, "label": "2005: Eng. wins after 16 yrs"},
-          {"col": 50, "row": 2, "label": "2013–2023: Modern era"}
-        ]
-      },
-      "mark": {"type": "text", "font": "Fraunces", "fontStyle": "italic", "fontSize": 11, "color": "#0b1f33", "align": "left", "dx": 2, "dy": -8},
-      "encoding": {
-        "x": {"field": "col", "type": "ordinal"},
-        "y": {"field": "row", "type": "ordinal"},
-        "text": {"field": "label"}
-      }
     }
   ]
 }

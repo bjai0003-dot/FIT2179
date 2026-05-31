@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Top Ashes run scorers, AUS vs ENG. Connected dot plot.",
-  "width": 460,
+  "width": 270,
   "height": 460,
   "background": "transparent",
   "config": {
@@ -48,7 +48,7 @@
       }
     },
     {
-      "data": {"values": [{"x": 5028, "y": "Don Bradman", "label": "Avg 89.78 — still the gold standard"}]},
+      "data": {"values": [{"x": 5020, "y": "Don Bradman", "label": "Avg 89.78 — still the gold standard"}]},
       "mark": {"type": "text", "font": "Fraunces", "fontStyle": "italic", "fontSize": 11, "color": "#c8a23d", "fontWeight": 600, "align": "right", "dx": -12, "dy": -14},
       "encoding": {
         "x": {"field": "x", "type": "quantitative"},

@@ -1,64 +1,145 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Ashes Test venues across Australia and England on a single world map.",
-  "width": 900,
-  "height": 400,
+  "description": "Ashes Test venues — Australia and England side by side (no overlapping labels).",
   "background": "transparent",
   "config": {
-    "font": "DM Sans",
-    "view": {"stroke": null},
-    "legend": {"titleFont": "DM Sans", "labelFont": "DM Sans", "titleFontSize": 12, "labelFontSize": 11, "titleColor": "#2b3340", "labelColor": "#2b3340"}
-  },
-  "projection": {"type": "equalEarth", "rotate": [-10, 0, 0], "scale": 200, "translate": [450, 220]},
-  "layer": [
-    {
-      "data": {
-        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
-        "format": {"type": "topojson", "feature": "countries"}
-      },
-      "mark": {"type": "geoshape", "fill": "#f4efe6", "stroke": "#d6c69a", "strokeWidth": 0.3}
-    },
-    {
-      "data": {
-        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
-        "format": {"type": "topojson", "feature": "countries"}
-      },
-      "transform": [{"filter": "datum.id == 36 || datum.id == 826"}],
-      "mark": {"type": "geoshape", "fill": "#ece5d4", "stroke": "#2b3340", "strokeWidth": 0.8}
-    },
-    {
-      "data": {"url": "data/ashes_venues.csv"},
-      "mark": {"type": "circle", "opacity": 0.9, "stroke": "#0b1f33", "strokeWidth": 1.5},
-      "encoding": {
-        "longitude": {"field": "lon", "type": "quantitative"},
-        "latitude": {"field": "lat", "type": "quantitative"},
-        "color": {
-          "field": "country", "type": "nominal",
-          "scale": {"domain": ["AUS", "ENG"], "range": ["#0e5e3a", "#1d3f6e"]},
-          "legend": {"title": "Country", "orient": "top", "direction": "horizontal", "labelFontSize": 12}
-        },
-        "size": {
-          "field": "matches", "type": "quantitative",
-          "scale": {"range": [100, 1600]},
-          "legend": {"title": "Matches hosted", "orient": "bottom-right"}
-        },
-        "tooltip": [
-          {"field": "venue", "title": "Venue"},
-          {"field": "city", "title": "City"},
-          {"field": "country", "title": "Country"},
-          {"field": "matches", "title": "Matches", "type": "quantitative"},
-          {"field": "capacity", "title": "Capacity", "type": "quantitative", "format": ",d"}
-        ]
-      }
-    },
-    {
-      "data": {"url": "data/ashes_venues.csv"},
-      "mark": {"type": "text", "font": "DM Sans", "fontSize": 10, "fontWeight": 600, "dy": -18, "color": "#0b1f33"},
-      "encoding": {
-        "longitude": {"field": "lon", "type": "quantitative"},
-        "latitude": {"field": "lat", "type": "quantitative"},
-        "text": {"field": "venue"}
-      }
+    "font": "DM Sans", "view": {"stroke": null},
+    "legend": {
+      "labelFont": "DM Sans", "titleFont": "DM Sans",
+      "labelColor": "#2b3340", "titleColor": "#2b3340"
     }
-  ]
+  },
+  "hconcat": [
+    {
+      "title": {
+        "text": "Australia", "font": "DM Sans", "fontSize": 13, "fontWeight": 700,
+        "color": "#0b1f33", "anchor": "start", "offset": 8,
+        "subtitle": "6 Ashes venues", "subtitleFont": "Newsreader",
+        "subtitleFontStyle": "italic", "subtitleFontSize": 11, "subtitleColor": "#6a6f78"
+      },
+      "width": 260, "height": 420,
+      "projection": {"type": "mercator", "center": [109, 10], "scale": 300},
+      "layer": [
+        {
+          "data": {
+            "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+            "format": {"type": "topojson", "feature": "countries"}
+          },
+          "transform": [{"filter": "datum.id == 36"}],
+          "mark": {"type": "geoshape", "fill": "#ece5d4", "stroke": "#2b3340", "strokeWidth": 0.7}
+        },
+        {
+          "data": {"values": [
+            {"venue":"The Gabba", "city":"Brisbane", "country":"AUS", "lat":-27.485, "lon":153.038, "matches":67, "capacity":42000},
+            {"venue":"Adelaide Oval", "city":"Adelaide", "country":"AUS", "lat":-34.915, "lon":138.596, "matches":80, "capacity":53500},
+            {"venue":"Perth Stadium", "city":"Perth", "country":"AUS", "lat":-31.951, "lon":115.860, "matches":45, "capacity":60000},
+            {"venue":"MCG", "city":"Melbourne", "country":"AUS", "lat":-37.820, "lon":144.983, "matches":115, "capacity":100024},
+            {"venue":"SCG", "city":"Sydney", "country":"AUS", "lat":-33.891, "lon":151.224, "matches":111, "capacity":48000},
+            {"venue":"Bellerive Oval", "city":"Hobart", "country":"AUS", "lat":-42.877, "lon":147.373, "matches":14, "capacity":20000}
+          ]},
+          "transform": [{"filter": "datum.country == 'AUS'"}],
+          "mark": {"type": "circle", "color": "#0e5e3a", "opacity": 0.88, "stroke": "#0b1f33", "strokeWidth": 1.2},
+          "encoding": {
+            "longitude": {"field": "lon", "type": "quantitative"},
+            "latitude": {"field": "lat", "type": "quantitative"},
+            "size": {
+              "field": "matches", "type": "quantitative",
+              "scale": {"range": [80, 1200]},
+              "legend": {"title": "Matches hosted", "orient": "bottom", "direction": "horizontal"}
+            },
+            "tooltip": [
+              {"field": "venue", "title": "Venue"},
+              {"field": "city", "title": "City"},
+              {"field": "matches", "title": "Matches hosted", "type": "quantitative"},
+              {"field": "capacity", "title": "Capacity", "type": "quantitative", "format": ",d"}
+            ]
+          }
+        },
+        {
+          "data": {"values": [
+            {"venue":"The Gabba", "city":"Brisbane", "country":"AUS", "lat":-27.485, "lon":153.038, "dx":0, "dy":-16},
+            {"venue":"Adelaide Oval", "city":"Adelaide", "country":"AUS", "lat":-34.915, "lon":138.596, "dx":0, "dy":-16},
+            {"venue":"Perth Stadium", "city":"Perth", "country":"AUS", "lat":-31.951, "lon":115.860, "dx":0, "dy":-16},
+            {"venue":"MCG", "city":"Melbourne", "country":"AUS", "lat":-37.820, "lon":144.983, "dx":0, "dy":-16},
+            {"venue":"SCG", "city":"Sydney", "country":"AUS", "lat":-33.891, "lon":151.224, "dx":0, "dy":-16},
+            {"venue":"Bellerive Oval", "city":"Hobart", "country":"AUS", "lat":-42.877, "lon":147.373, "dx":0, "dy":-16}
+          ]},
+          "transform": [{"filter": "datum.country == 'AUS'"}],
+          "mark": {"type": "text", "font": "DM Sans", "fontSize": 10, "fontWeight": 600, "color": "#0b1f33"},
+          "encoding": {
+            "longitude": {"field": "lon", "type": "quantitative"},
+            "latitude": {"field": "lat", "type": "quantitative"},
+            "text": {"field": "venue"},
+            "dx": {"field": "dx", "type": "quantitative"},
+            "dy": {"field": "dy", "type": "quantitative"}
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "text": "England", "font": "DM Sans", "fontSize": 13, "fontWeight": 700,
+        "color": "#0b1f33", "anchor": "start", "offset": 8,
+        "subtitle": "6 Ashes venues", "subtitleFont": "Newsreader",
+        "subtitleFontStyle": "italic", "subtitleFontSize": 11, "subtitleColor": "#6a6f78"
+      },
+      "width": 220, "height": 370,
+      "projection": {"type": "mercator", "center": [-8.5, 59.5], "scale": 1200},
+      "layer": [
+        {
+          "data": {
+            "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+            "format": {"type": "topojson", "feature": "countries"}
+          },
+          "transform": [{"filter": "datum.id == 826"}],
+          "mark": {"type": "geoshape", "fill": "#ece5d4", "stroke": "#2b3340", "strokeWidth": 0.7}
+        },
+        {
+          "data": {"values": [
+            {"venue":"Lord's", "city":"London", "country":"ENG", "lat":51.529, "lon":-0.173, "matches":144, "capacity":30000},
+            {"venue":"Old Trafford", "city":"Manchester", "country":"ENG", "lat":53.456, "lon":-2.286, "matches":84, "capacity":26000},
+            {"venue":"Headingley", "city":"Leeds", "country":"ENG", "lat":53.817, "lon":-1.582, "matches":80, "capacity":18350},
+            {"venue":"Edgbaston", "city":"Birmingham", "country":"ENG", "lat":52.456, "lon":-1.904, "matches":55, "capacity":25000},
+            {"venue":"Trent Bridge", "city":"Nottingham", "country":"ENG", "lat":52.937, "lon":-1.132, "matches":64, "capacity":17500}
+          ]},
+          "transform": [{"filter": "datum.country == 'ENG'"}],
+          "mark": {"type": "circle", "color": "#1d3f6e", "opacity": 0.88, "stroke": "#0b1f33", "strokeWidth": 1.2},
+          "encoding": {
+            "longitude": {"field": "lon", "type": "quantitative"},
+            "latitude": {"field": "lat", "type": "quantitative"},
+            "size": {
+              "field": "matches", "type": "quantitative",
+              "scale": {"range": [80, 1200]},
+              "legend": null
+            },
+            "tooltip": [
+              {"field": "venue", "title": "Venue"},
+              {"field": "city", "title": "City"},
+              {"field": "matches", "title": "Matches hosted", "type": "quantitative"},
+              {"field": "capacity", "title": "Capacity", "type": "quantitative", "format": ",d"}
+            ]
+          }
+        },
+        {
+          "data": {"values": [
+            {"venue":"Lord's", "city":"London", "country":"ENG", "lat":51.529, "lon":-0.173, "dx":-40, "dy":12},
+            {"venue":"Old Trafford", "city":"Manchester", "country":"ENG", "lat":53.456, "lon":-2.286, "dx":-28, "dy":-16},
+            {"venue":"Headingley", "city":"Leeds", "country":"ENG", "lat":53.817, "lon":-1.582, "dx":30, "dy":-14},
+            {"venue":"Edgbaston", "city":"Birmingham", "country":"ENG", "lat":52.456, "lon":-1.904, "dx":-34, "dy":16},
+            {"venue":"Trent Bridge", "city":"Nottingham", "country":"ENG", "lat":52.937, "lon":-1.132, "dx":36, "dy":-10}
+          ]},
+          "transform": [{"filter": "datum.country == 'ENG'"}],
+          "mark": {"type": "text", "font": "DM Sans", "fontSize": 10, "fontWeight": 600, "color": "#0b1f33"},
+          "encoding": {
+            "longitude": {"field": "lon", "type": "quantitative"},
+            "latitude": {"field": "lat", "type": "quantitative"},
+            "text": {"field": "venue"},
+            "dx": {"field": "dx", "type": "quantitative"},
+            "dy": {"field": "dy", "type": "quantitative"}
+          }
+        }
+      ]
+    }
+  ],
+  "resolve": {"scale": {"size": "shared"}}
 }
