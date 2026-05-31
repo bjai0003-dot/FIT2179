@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "ICC tournament timeline 1975-2025, with annotations highlighting Australia's golden era and key moments.",
+  "description": "ICC tournament timeline 1975-2025 with annotations highlighting Australia's golden era and key moments.",
   "width": 900,
   "height": 320,
   "background": "transparent",
@@ -19,20 +19,22 @@
   ],
   "layer": [
     {
-      "description": "Golden era highlight band (1999-2009)",
-      "data": {"values": [{"x1": 1998, "x2": 2010}]},
-      "mark": {"type": "rect", "color": "#c8a23d", "opacity": 0.08},
-      "encoding": {
-        "x": {"field": "x1", "type": "quantitative"},
-        "x2": {"field": "x2"}
-      }
-    },
-    {
       "description": "Stems (rules)",
       "mark": {"type": "rule", "color": "#2b3340", "strokeWidth": 1, "opacity": 0.3},
       "encoding": {
-        "x": {"field": "year", "type": "quantitative", "scale": {"domain": [1973, 2027]}, "axis": {"title": null, "format": "d", "labelFontSize": 11, "tickCount": 11}},
-        "y": {"field": "tournament", "type": "nominal", "sort": ["ODI World Cup", "Champions Trophy", "T20 World Cup", "WTC Final"], "title": null, "axis": {"labelFontSize": 12, "labelFontWeight": 500, "labelPadding": 8}},
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "scale": {"domain": [1973, 2027]},
+          "axis": {"title": null, "format": "d", "labelFontSize": 11, "tickCount": 11}
+        },
+        "y": {
+          "field": "tournament",
+          "type": "nominal",
+          "sort": ["ODI World Cup", "Champions Trophy", "T20 World Cup", "WTC Final"],
+          "title": null,
+          "axis": {"labelFontSize": 12, "labelFontWeight": 500, "labelPadding": 8}
+        },
         "y2": {"datum": 0}
       }
     },
@@ -58,7 +60,7 @@
       }
     },
     {
-      "description": "Year labels on AUS wins",
+      "description": "Year labels above AUS wins",
       "transform": [{"filter": "datum.winner == 'Australia'"}],
       "mark": {"type": "text", "dy": -18, "font": "Fraunces", "fontSize": 11, "fontWeight": 500, "color": "#0b1f33"},
       "encoding": {
@@ -69,41 +71,41 @@
     },
     {
       "description": "Golden era label",
-      "data": {"values": [{"x": 2004, "y": "ODI World Cup", "label": "AUSTRALIA'S GOLDEN ERA"}]},
-      "mark": {"type": "text", "dy": -60, "font": "DM Sans", "fontSize": 11, "fontWeight": 700, "color": "#c8a23d", "letterSpacing": 1.5},
+      "data": {"values": [{"year": 2004, "tournament": "ODI World Cup", "label": "AUSTRALIA'S GOLDEN ERA"}]},
+      "mark": {"type": "text", "dy": -75, "font": "DM Sans", "fontSize": 11, "fontWeight": 700, "color": "#c8a23d"},
       "encoding": {
-        "x": {"field": "x", "type": "quantitative"},
-        "y": {"field": "y", "type": "nominal"},
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "tournament", "type": "nominal"},
         "text": {"field": "label"}
       }
     },
     {
       "description": "Golden era subtitle",
-      "data": {"values": [{"x": 2004, "y": "ODI World Cup", "label": "5 trophies in 10 years — unmatched by any nation"}]},
-      "mark": {"type": "text", "dy": -45, "font": "Fraunces", "fontSize": 11, "fontStyle": "italic", "color": "#0b1f33"},
+      "data": {"values": [{"year": 2004, "tournament": "ODI World Cup", "label": "5 trophies in 10 years — unmatched"}]},
+      "mark": {"type": "text", "dy": -60, "font": "Fraunces", "fontSize": 11, "fontStyle": "italic", "color": "#0b1f33"},
       "encoding": {
-        "x": {"field": "x", "type": "quantitative"},
-        "y": {"field": "y", "type": "nominal"},
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "tournament", "type": "nominal"},
         "text": {"field": "label"}
       }
     },
     {
       "description": "2023 renaissance annotation",
-      "data": {"values": [{"x": 2023, "y": "T20 World Cup", "label": "↑ 2023: WTC + ODI WC"}]},
-      "mark": {"type": "text", "dy": 30, "font": "Fraunces", "fontSize": 11, "fontStyle": "italic", "color": "#0e5e3a", "fontWeight": 600, "align": "center"},
+      "data": {"values": [{"year": 2023, "tournament": "WTC Final", "label": "↑ 2023: 2 ICC titles in one year"}]},
+      "mark": {"type": "text", "dy": 28, "font": "Fraunces", "fontSize": 11, "fontStyle": "italic", "color": "#0e5e3a", "fontWeight": 600},
       "encoding": {
-        "x": {"field": "x", "type": "quantitative"},
-        "y": {"field": "y", "type": "nominal"},
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "tournament", "type": "nominal"},
         "text": {"field": "label"}
       }
     },
     {
       "description": "2021 T20 first win annotation",
-      "data": {"values": [{"x": 2021, "y": "T20 World Cup", "label": "First T20 WC →"}]},
-      "mark": {"type": "text", "dy": -28, "dx": -55, "font": "Fraunces", "fontSize": 11, "fontStyle": "italic", "color": "#0e5e3a", "fontWeight": 600},
+      "data": {"values": [{"year": 2021, "tournament": "T20 World Cup", "label": "First T20 WC won →"}]},
+      "mark": {"type": "text", "dy": -32, "dx": -65, "font": "Fraunces", "fontSize": 11, "fontStyle": "italic", "color": "#0e5e3a", "fontWeight": 600},
       "encoding": {
-        "x": {"field": "x", "type": "quantitative"},
-        "y": {"field": "y", "type": "nominal"},
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "tournament", "type": "nominal"},
         "text": {"field": "label"}
       }
     }
