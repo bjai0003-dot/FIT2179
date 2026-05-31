@@ -1,14 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Big Bash League franchise map. All 8 BBL teams on an Australian map, coloured by team primary colour. Circle size encodes BBL titles won.",
-  "width": 780,
-  "height": 520,
+  "width": 900,
+  "height": 560,
   "background": "transparent",
   "config": {
     "font": "DM Sans",
     "view": {"stroke": null}
   },
-  "projection": {"type": "mercator", "center": [134, -26], "scale": 920},
+  "projection": {"type": "mercator", "center": [130, -28.5], "scale": 810},
   "layer": [
     {
       "description": "Australia base map",
@@ -19,19 +19,42 @@
       "transform": [{"filter": "datum.id == 36"}],
       "mark": {"type": "geoshape", "fill": "#ece5d4", "stroke": "#2b3340", "strokeWidth": 0.7}
     },
+
     {
-      "description": "Team circles — colour matches each team kit",
-      "data": {"url": "data/bbl_franchises.csv"},
-      "params": [{"name": "hoverTeam", "select": {"type": "point", "on": "mouseover", "clear": "mouseout"}}],
+      "description": "Team circles — colour matches each team kit. Sydney/Melbourne teams offset so they don't overlap.",
+      "data": {
+        "values": [
+          {"team": "Perth Scorchers",     "short": "SCO", "city": "Perth",     "lon": 115.86, "lat": -31.95, "colour": "#f15a22", "titles": 5, "lon_offset": 0,    "lat_offset": 0},
+          {"team": "Adelaide Strikers",   "short": "STR", "city": "Adelaide",  "lon": 138.60, "lat": -34.93, "colour": "#1d4fa0", "titles": 1, "lon_offset": 0,    "lat_offset": 0},
+          {"team": "Brisbane Heat",       "short": "HEA", "city": "Brisbane",  "lon": 153.02, "lat": -27.47, "colour": "#e4003b", "titles": 0, "lon_offset": 0,    "lat_offset": 0},
+          {"team": "Sydney Thunder",      "short": "THU", "city": "Sydney",    "lon": 151.16, "lat": -33.87, "colour": "#006837", "titles": 1, "lon_offset": -0.9, "lat_offset": 0},
+          {"team": "Sydney Sixers",       "short": "SIX", "city": "Sydney",    "lon": 151.16, "lat": -33.87, "colour": "#ff007f", "titles": 3, "lon_offset":  0.9, "lat_offset": 0},
+          {"team": "Melbourne Renegades", "short": "REN", "city": "Melbourne", "lon": 144.96, "lat": -37.82, "colour": "#e4003b", "titles": 1, "lon_offset": -0.9, "lat_offset": 0},
+          {"team": "Melbourne Stars",     "short": "STA", "city": "Melbourne", "lon": 144.96, "lat": -37.82, "colour": "#00a650", "titles": 0, "lon_offset":  0.9, "lat_offset": 0},
+          {"team": "Hobart Hurricanes",   "short": "HUR", "city": "Hobart",    "lon": 147.33, "lat": -42.88, "colour": "#7b2d8b", "titles": 0, "lon_offset": 0,    "lat_offset": 0}
+        ]
+      },
+      "transform": [
+        {"calculate": "datum.lon + datum.lon_offset", "as": "plot_lon"},
+        {"calculate": "datum.lat + datum.lat_offset", "as": "plot_lat"}
+      ],
       "mark": {"type": "circle", "stroke": "#0b1f33", "strokeWidth": 1.4, "opacity": 0.88},
       "encoding": {
-        "longitude": {"field": "lon", "type": "quantitative"},
-        "latitude": {"field": "lat", "type": "quantitative"},
+        "longitude": {"field": "plot_lon", "type": "quantitative"},
+        "latitude":  {"field": "plot_lat", "type": "quantitative"},
         "size": {
           "field": "titles",
           "type": "quantitative",
-          "scale": {"domain": [0, 5], "range": [180, 2200]},
-          "legend": {"title": "BBL titles won", "orient": "bottom-right", "symbolFillColor": "#0b1f33"}
+          "scale": {"domain": [0, 5], "range": [200, 2000]},
+          "legend": {
+            "title": "BBL titles won",
+            "orient": "none",
+            "legendX": 20,
+            "legendY": 340,
+            "symbolFillColor": "#0b1f33",
+            "labelFontSize": 11,
+            "titleFontSize": 12
+          }
         },
         "color": {
           "field": "colour",
@@ -40,32 +63,83 @@
           "legend": null
         },
         "tooltip": [
-          {"field": "team",     "type": "nominal", "title": "Franchise"},
-          {"field": "city",     "type": "nominal", "title": "City"},
-          {"field": "stadium",  "type": "nominal", "title": "Home ground"},
-          {"field": "capacity", "type": "quantitative", "title": "Capacity", "format": ","},
-          {"field": "titles",   "type": "quantitative", "title": "Titles won"}
+          {"field": "team",   "type": "nominal",      "title": "Franchise"},
+          {"field": "city",   "type": "nominal",      "title": "City"},
+          {"field": "titles", "type": "quantitative", "title": "Titles won"}
         ]
       }
     },
+
     {
       "description": "Team short code labels above each circle",
-      "data": {"url": "data/bbl_franchises.csv"},
-      "mark": {"type": "text", "font": "DM Sans", "fontWeight": 700, "fontSize": 12, "color": "#0b1f33", "dy": -28},
+      "data": {
+        "values": [
+          {"short": "SCO", "lon": 115.86, "lat": -31.95, "lon_offset": 0},
+          {"short": "STR", "lon": 138.60, "lat": -34.93, "lon_offset": 0},
+          {"short": "HEA", "lon": 153.02, "lat": -27.47, "lon_offset": 0},
+          {"short": "THU", "lon": 151.16, "lat": -33.87, "lon_offset": -0.9},
+          {"short": "SIX", "lon": 151.16, "lat": -33.87, "lon_offset":  0.9},
+          {"short": "REN", "lon": 144.96, "lat": -37.82, "lon_offset": -0.9},
+          {"short": "STA", "lon": 144.96, "lat": -37.82, "lon_offset":  0.9},
+          {"short": "HUR", "lon": 147.33, "lat": -42.88, "lon_offset": 0}
+        ]
+      },
+      "transform": [
+        {"calculate": "datum.lon + datum.lon_offset", "as": "plot_lon"}
+      ],
+      "mark": {"type": "text", "font": "DM Sans", "fontWeight": 700, "fontSize": 12, "color": "#0b1f33", "dy": -24},
       "encoding": {
-        "longitude": {"field": "lon", "type": "quantitative"},
-        "latitude": {"field": "lat", "type": "quantitative"},
-        "text": {"field": "short"}
+        "longitude": {"field": "plot_lon", "type": "quantitative"},
+        "latitude":  {"field": "lat",      "type": "quantitative"},
+        "text":      {"field": "short"}
       }
     },
+
     {
-      "description": "City name below each marker",
-      "data": {"url": "data/bbl_franchises.csv"},
-      "mark": {"type": "text", "font": "DM Sans", "fontWeight": 400, "fontSize": 10, "color": "#6a6f78", "dy": 28},
+      "description": "City name — one centred label per city, sitting below the dot cluster",
+      "data": {
+        "values": [
+          {"city": "Perth",     "lon": 115.86, "lat": -31.95},
+          {"city": "Adelaide",  "lon": 138.60, "lat": -34.93},
+          {"city": "Brisbane",  "lon": 153.02, "lat": -27.47},
+          {"city": "Sydney",    "lon": 151.16, "lat": -33.87},
+          {"city": "Melbourne", "lon": 144.96, "lat": -37.82},
+          {"city": "Hobart",    "lon": 147.33, "lat": -42.88}
+        ]
+      },
+      "mark": {"type": "text", "font": "DM Sans", "fontWeight": 500, "fontSize": 10, "color": "#6a6f78", "dy": 34},
       "encoding": {
-        "longitude": {"field": "lon", "type": "quantitative"},
-        "latitude": {"field": "lat", "type": "quantitative"},
-        "text": {"field": "city"}
+        "longitude": {"field": "lon",  "type": "quantitative"},
+        "latitude":  {"field": "lat",  "type": "quantitative"},
+        "text":      {"field": "city"}
+      }
+    },
+
+    {
+      "description": "Title count callout — italic sub-label under city name",
+      "data": {
+        "values": [
+          {"label": "5 titles",        "lon": 115.86, "lat": -31.95},
+          {"label": "1 title",         "lon": 138.60, "lat": -34.93},
+          {"label": "0 titles",        "lon": 153.02, "lat": -27.47},
+          {"label": "THU 1 · SIX 3",   "lon": 151.16, "lat": -33.87},
+          {"label": "REN 1 · STA 0",   "lon": 144.96, "lat": -37.82},
+          {"label": "0 titles",        "lon": 147.33, "lat": -42.88}
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontStyle": "italic",
+        "fontWeight": 400,
+        "fontSize": 9,
+        "color": "#9a8c6a",
+        "dy": 46
+      },
+      "encoding": {
+        "longitude": {"field": "lon",   "type": "quantitative"},
+        "latitude":  {"field": "lat",   "type": "quantitative"},
+        "text":      {"field": "label"}
       }
     }
   ]
