@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "BBL team performance heatmap. Rows = teams, columns = seasons (BBL01-BBL14). Cell colour = wins that season.",
-  "width": 980,
+  "width": 820,
   "height": 260,
   "background": "transparent",
   "config": {
